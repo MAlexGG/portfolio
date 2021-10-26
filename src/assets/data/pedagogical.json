@@ -1,0 +1,58 @@
+{
+    "projects" : [
+        {
+            "id": "1",
+            "title": "Hangar Rebelde",
+            "subtitle": "e-commerce for a Comic Store",
+            "description": "lorem ipsum ............",
+            "prototype": "https://www.figma.com/proto/QcXFM3hvVnPWc5zngTmgTp/ComixSix?node-id=0%3A1",
+            "website": "",
+            "repository": "https://github.com/MAlexGG/HangarRebelde"
+        },
+        {
+            "id": "2",
+            "title": "KlikShare",
+            "subtitle": "everything donation app",
+            "description": "lorem ipsum ............",
+            "prototype": "https://www.figma.com/proto/QcXFM3hvVnPWc5zngTmgTp/ComixSix?node-id=0%3A1",
+            "website": "https://www.google.com",
+            "repository": "https://github.com/MAlexGG/HangarRebelde"
+        },
+        {
+            "id": "3",
+            "title": "Agorax Events",
+            "subtitle": "online events management app",
+            "description": "lorem ipsum ............",
+            "prototype": "",
+            "website": "https://www.google.com",
+            "repository": "https://github.com/MAlexGG/HangarRebelde"
+        },
+        {
+            "id": "4",
+            "title": "Weel of Doom",
+            "subtitle": "randomly system of selecting sacrifices app",
+            "description": "lorem ipsum ............",
+            "prototype": "https://www.figma.com/proto/QcXFM3hvVnPWc5zngTmgTp/ComixSix?node-id=0%3A1",
+            "website": "https://www.google.com",
+            "repository": ""
+        },
+        {
+            "id": "5",
+            "title": "Sombrerería Mil",
+            "subtitle": "online catalog for a hat store",
+            "description": "lorem ipsum ............",
+            "prototype": "https://www.figma.com/proto/QcXFM3hvVnPWc5zngTmgTp/ComixSix?node-id=0%3A1",
+            "website": "",
+            "repository": "https://github.com/MAlexGG/HangarRebelde"
+        },
+        {
+            "id": "6",
+            "title": "Klik",
+            "subtitle": "klik group landing page",
+            "description": "lorem ipsum ............",
+            "prototype": "",
+            "website": "https://www.google.com",
+            "repository": "https://github.com/MAlexGG/HangarRebelde"
+        }
+    ]
+}

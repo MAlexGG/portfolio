@@ -1,0 +1,16 @@
+.ct-tools{
+    @include displayFlex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin: 1%;
+}
+
+.img-logo{
+    height: 5vh;
+}
+
+.a-tool{
+    @include displayFlex;
+    margin: 1%;
+}

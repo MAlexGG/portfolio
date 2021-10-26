@@ -1,0 +1,174 @@
+{
+    "tools" : [
+        {
+            "id": "1",
+            "name": "Figma",
+            "website": "https://www.figma.com",
+            "src": "figmaLogo.png"
+        },
+        {
+            "id": "2",
+            "name": "Balsamiq",
+            "website": "https://balsamiq.com/",
+            "src": "balsamiqLogo.png"
+        },
+        {
+            "id": "3",
+            "name": "Adobe Illustrator",
+            "website": "https://www.adobe.com/es/products/illustrator.html",
+            "src": "illustratorLogo.png"
+        },
+        {
+            "id": "4",
+            "name": "Adobe Photoshop",
+            "website": "https://www.adobe.com/es/products/photoshop.html",
+            "src": "photoshopLogo.png"
+        },
+        {
+            "id": "5",
+            "name": "Atlassian",
+            "website": "https://www.atlassian.com/es",
+            "src": "atlassianLogo.png"
+        },
+        {
+            "id": "6",
+            "name": "HTML5",
+            "website": "https://html.spec.whatwg.org/multipage/",
+            "src": "htmlLogo.png"
+        },
+        {
+            "id": "7",
+            "name": "CSS3",
+            "website": "https://www.w3.org/Style/CSS/",
+            "src": "cssLogo.png"
+        },
+        {
+            "id": "8",
+            "name": "Javascript",
+            "website": "https://developer.mozilla.org/es/docs/Web/JavaScript",
+            "src": "javascriptLogo.png"
+        },
+        {
+            "id": "9",
+            "name": "Miro",
+            "website": "https://miro.com/es/",
+            "src": "miroLogo.png"
+        },
+        {
+            "id": "10",
+            "name": "Sass",
+            "website": "https://sass-lang.com/",
+            "src": "sassLogo.png"
+        },
+        {
+            "id": "11",
+            "name": "Bootstrap",
+            "website": "https://getbootstrap.com/",
+            "src": "bootstrapLogo.png"
+        },
+        {
+            "id": "12",
+            "name": "Tailwind",
+            "website": "https://tailwindcss.com/",
+            "src": "tailwindLogo.png"
+        },
+        {
+            "id": "13",
+            "name": "Github",
+            "website": "https://github.com/",
+            "src": "githubLogo.png"
+        },
+        {
+            "id": "14",
+            "name": "Vue",
+            "website": "https://vuejs.org/",
+            "src": "vueLogo.png"
+        },
+        {
+            "id": "15",
+            "name": "React",
+            "website": "https://es.reactjs.org/",
+            "src": "reactLogo.png"
+        },
+        {
+            "id": "16",
+            "name": "Node",
+            "website": "https://nodejs.org/es/",
+            "src": "nodeLogo.png"
+        },
+        {
+            "id": "17",
+            "name": "Puppeteer",
+            "website": "https://pptr.dev/",
+            "src": "puppeteerLogo.png"
+        },
+        {
+            "id": "18",
+            "name": "Qgis",
+            "website": "https://www.qgis.org/es/site/",
+            "src": "qgisLogo.png"
+        },
+        {
+            "id": "19",
+            "name": "Postgresql",
+            "website": "https://www.postgresql.org/",
+            "src": "postgresqlLogo.png"
+        },
+        {
+            "id": "20",
+            "name": "Postgis",
+            "website": "https://postgis.net/",
+            "src": "postgisLogo.png"
+        },
+        {
+            "id": "21",
+            "name": "Xampp",
+            "website": "https://www.apachefriends.org/es/index.html",
+            "src": "xamppLogo.png"
+        },
+        {
+            "id": "22",
+            "name": "Php",
+            "website": "https://www.php.net/manual/es/intro-whatis.php",
+            "src": "phpLogo.png"
+        },
+        {
+            "id": "23",
+            "name": "Laravel",
+            "website": "https://laravel.com/",
+            "src": "laravelLogo.png"
+        },
+        {
+            "id": "24",
+            "name": "Mysql",
+            "website": "https://www.mysql.com/",
+            "src": "mysqlLogo.png"
+        },
+        {
+            "id": "25",
+            "name": "PHPUnit",
+            "website": "https://phpunit.de/",
+            "src": "phpunitLogo.png"
+        },
+        {
+            "id": "26",
+            "name": "Jest",
+            "website": "https://jestjs.io/es-ES/",
+            "src": "jestLogo.png"
+        },
+        {
+            "id": "27",
+            "name": "Composer",
+            "website": "https://getcomposer.org/",
+            "src": "composerLogo.png"
+        },
+        {
+            "id": "28",
+            "name": "Visual Studio Code",
+            "website": "https://code.visualstudio.com/",
+            "src": "visualLogo.png"
+        }           
+
+    ]
+}
+

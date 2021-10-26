@@ -1,0 +1,23 @@
+.ct-emptyCard{
+    @include displayFlex;
+    flex-direction: column;
+    width: 343px;
+    height: 343px;
+    background-color: transparent;
+    border: 2px dashed $colorPrincipal;
+    margin: 1%;
+}
+
+.txt-titleEmptyCard{
+    color: $colorPrincipal;
+    font-family: $fontPrincipal;
+    font-size: 3rem;
+}
+
+.txt-emptyCard{
+    color: $colorPrincipal;
+    font-family: $fontSecondary;
+    font-size: 1.5rem;
+    padding: 3%;
+    text-align: center;
+}

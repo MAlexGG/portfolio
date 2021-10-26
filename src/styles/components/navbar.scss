@@ -1,0 +1,31 @@
+.ct-navbar{
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5%;
+    position: absolute;
+    top: 0px;
+}
+
+.ct-navbuttons{
+    @include displayFlex;
+    justify-content: start;
+}
+
+.bt-ico{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.img-ico{
+    width: 80%;
+}
+
+.img-icoInvert{
+    width: 80%;
+    filter: $filterPrincipal;
+}
