@@ -12,7 +12,7 @@ class Pedagogical extends Component{
         this.redirect();
         return(
             <div className="ct-home">
-                <div>
+                <div className="ct-pedagogical">
                     <span>P</span>
                     <span>E</span>
                     <span>D</span>

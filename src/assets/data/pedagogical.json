@@ -4,8 +4,9 @@
             "id": "1",
             "title": "Hangar Rebelde",
             "subtitle": "e-commerce for a Comic Store",
-            "description": "lorem ipsum ............",
-            "prototype": "https://www.figma.com/proto/QcXFM3hvVnPWc5zngTmgTp/ComixSix?node-id=0%3A1",
+            "description": "Application created to meet the growing sales demand of a store located in Oviedo - Spain, which saw its sales increase significantly during the pandemic. Thus arose the need to create a solid and scalable application, initially to cover its online store functionality and in the future to complement the other online services that Hangar Rebelde offers. MVC architecture and technologies used were PHP 7.4, Laravel 8.0, Auth, Blade, Bootstrap, Sass, Stripe (API), MySql, PHPUnit for TDD and unit test.",
+            "team": "Gabriela Baquerizo, María Alexandra Galarza, Cris Mouta, Jose Miguel Quesada, David Sánchez, Snezhanna Stefanova.",
+            "prototype": "https://www.figma.com/proto/xvwk16vqDaWrIrgtkWhHly/FactoriaF5-850h-HangarRebelde?node-id=1%3A527&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A527",
             "website": "",
             "repository": "https://github.com/MAlexGG/HangarRebelde"
         },
@@ -13,46 +14,51 @@
             "id": "2",
             "title": "KlikShare",
             "subtitle": "everything donation app",
-            "description": "lorem ipsum ............",
-            "prototype": "https://www.figma.com/proto/QcXFM3hvVnPWc5zngTmgTp/ComixSix?node-id=0%3A1",
-            "website": "https://www.google.com",
-            "repository": "https://github.com/MAlexGG/HangarRebelde"
+            "description": "This is an app for donation, it works like an e-commerce but with the difference that it doesn't have a payment gateway. People can donate any kind of articles but at the same time can reserve articles that wants to receive. The user wins klikcoins for the donations they make, and can be accumulative, and they can exchange for rewards. This app has two repositories, the front-end repository that it's this one and the second one that it's the back-end repository that it's in this link https://github.com/MAlexGG/KLikShareBACK. It´s not deployed and the front consumes the back by API's using token to be able to validate users. MVC architecture and technologies used were PHP 7.4, Laravel 8.0, MySql, Bootstrap, Vue.js",
+            "team": "Solomon Chukwuka, María Alexandra Galarza, Armando Mago, Jose Miguel Quesada, David Sánchez, Andrea Súarez.",
+            "prototype": "https://www.figma.com/proto/plVX4LqUsr6yJjotCYBhJn/FactoriaF5-850h-KlikShare?node-id=3%3A683&scaling=contain&page-id=0%3A1&starting-point-node-id=3%3A683",
+            "website": "",
+            "repository": "https://github.com/MAlexGG/KlikShareFront"
         },
         {
             "id": "3",
             "title": "Agorax Events",
             "subtitle": "online events management app",
-            "description": "lorem ipsum ............",
-            "prototype": "",
-            "website": "https://www.google.com",
-            "repository": "https://github.com/MAlexGG/HangarRebelde"
+            "description": "This app has been created to manage online events such as workshops, masterclasses or webinars. Users can view the description of an event, sign up and unsubscribe. They can also see the list of events they have signed up for. The administrator has the tools to manage the events, he/she can create, edit and delete them as well as being saved in a history page. MVC architecture and technologies used were PHP 7.4, Laravel 8.0, Auth, Blade, Bootstrap, MySql.",
+            "team": "Leah Calafell, María Alexandra Galarza, Martín Madridejos, Armando Mago, Snezhanna Stefanova",
+            "prototype": "https://www.figma.com/proto/pmLKbqGzobp7nxh1Ni4nQf/FactoriaF5-850h-AgoraxDev?node-id=1%3A483&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A483&show-proto-sidebar=1",
+            "website": "http://agoraxmeets.herokuapp.com/",
+            "repository": "https://github.com/MAlexGG/AgoraxDEV"
         },
         {
             "id": "4",
-            "title": "Weel of Doom",
+            "title": "Wheel of Doom",
             "subtitle": "randomly system of selecting sacrifices app",
-            "description": "lorem ipsum ............",
-            "prototype": "https://www.figma.com/proto/QcXFM3hvVnPWc5zngTmgTp/ComixSix?node-id=0%3A1",
-            "website": "https://www.google.com",
-            "repository": ""
+            "description": "The goal of the Wheel of Doom is to create a fair and random sacrifice selection system for coders, like a videogame, it's intented to kill players. It's responsive and made with html5, css3 and with a minimum of 4 functions of javascript including audio and animation.",
+            "team": "Sergio Corcuera, María Alexandra Galarza, Berta López, Gabriela Piñeiro, Joan Recordà",
+            "prototype": "https://www.figma.com/proto/k3C6QkmAHgly4No7TyEkQL/FactoriaF5-850H-WheelOfDoom?node-id=2%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A2&show-proto-sidebar=1",
+            "website": "",
+            "repository": "https://github.com/MAlexGG/Wheel-of-Doom"
         },
         {
             "id": "5",
             "title": "Sombrerería Mil",
             "subtitle": "online catalog for a hat store",
-            "description": "lorem ipsum ............",
-            "prototype": "https://www.figma.com/proto/QcXFM3hvVnPWc5zngTmgTp/ComixSix?node-id=0%3A1",
-            "website": "",
-            "repository": "https://github.com/MAlexGG/HangarRebelde"
+            "description": "This is an static web page, a catalogue that sells hats for both women and men, it's for a traditional and antique store in Barcelona, it's responsive and made with html5, css3 and javascript. The page it's not finished and the responsive is missing, only works well in devices of 375 x 812 pixels.",
+            "team": "Sergio Corcuera, María Alexandra Galarza, Berta López, Gabriela Piñeiro, Joan Recordà",
+            "prototype": "https://www.figma.com/proto/HbhS51FFagdoIjPCwCjjxj/FactoriaF5-850h-SombrereriaMil?node-id=1%3A187&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A187&show-proto-sidebar=1",
+            "website": "https://malexgg.github.io/sombrereriamil/",
+            "repository": "https://github.com/MAlexGG/sombrereriamil"
         },
         {
             "id": "6",
             "title": "Klik",
             "subtitle": "klik group landing page",
-            "description": "lorem ipsum ............",
-            "prototype": "",
-            "website": "https://www.google.com",
-            "repository": "https://github.com/MAlexGG/HangarRebelde"
+            "description": "This is an static website design only for desktop, it's not responsive, as an introduction to our team and our state of mind, the goal is to learn how to use html5 and css3 without any javascript function. We look for a simple and elegant design made in figma based on a template.",
+            "team": "Sergio Corcuera, María Alexandra Galarza, Berta López, Gabriela Piñeiro, Joan Recordà",
+            "prototype": "https://www.figma.com/proto/oF58S3ZaMh4VMisPHXeyW7/FactoriaF5-850h-LandingPageKlik?node-id=2%3A3&scaling=scale-down-width&page-id=0%3A1",
+            "website": "https://malexgg.github.io/Practica-KLIK/",
+            "repository": "https://github.com/MAlexGG/Practica-KLIK.git"
         }
     ]
 }

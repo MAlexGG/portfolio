@@ -12,7 +12,7 @@ class Professional extends Component{
         this.redirect();
         return(
             <div className="ct-home">
-                <div>
+                <div className="ct-pedagogical">
                     <span>P</span>
                     <span>R</span>
                     <span>O</span>
