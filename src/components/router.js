@@ -8,7 +8,6 @@ import Pedagogical from "./pedagogical";
 import Professional from "./professional";
 import PedagogicalProjects from "./pedagogicalProjects";
 import ProfessionalProjects from "./professionalProjects";
-/* import ProjectInfo from "./projectInfo"; */
 
 
 const Router = () => (
@@ -19,7 +18,6 @@ const Router = () => (
             <Route path="/projects" component={Projects} />
             <Route path="/pedagogical" component={Pedagogical} />
             <Route path="/pedagogical-projects" component={PedagogicalProjects} />
-            {/* <Route path="/pedagogical-projects/pedagogical-projects:title" component={ProjectInfo} /> */}
             <Route path="/professional" component={Professional} />
             <Route path="/professional-projects" component={ProfessionalProjects} />
             <Route path="/tools" component={Tools} />

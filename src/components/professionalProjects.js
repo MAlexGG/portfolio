@@ -7,7 +7,7 @@ class ProfessionalProjects extends Component{
 
     state = {
         projects: data
-      }
+    }
 
     render(){
         return(
