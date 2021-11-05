@@ -4,11 +4,21 @@
     flex-direction: column;
 }
 
+.img-refresh{
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  width: 30px;
+  @media (min-width: $breakpointMedium) {
+    width: auto;
+  }
+}
+
 .txt-title{
     text-align: center;
     font-family: $fontPrincipal;
-    font-size: 3rem;
-    margin: 0% 0% 5% 0%;
+    font-size: 2rem;
+    margin: 0% 0% 3% 0%;
     @media (min-width: $breakpointMedium) {
       font-size: 6rem;
     }
@@ -17,7 +27,7 @@
 .txt-paragraph{
     text-align: center;
     font-family: $fontSecondary;
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin: 0% 10% 0% 10%;
     @media (min-width: $breakpointSmall) {
       font-size: 1.5rem;
@@ -28,7 +38,7 @@
     background-color: transparent;
     border: none;
     border-bottom: 3px solid $colorSecondary;
-    font-size: 1rem;
+    font-size: 0.8rem;
     cursor: pointer;
     @media (min-width: $breakpointSmall) {
       font-size: 1.2rem;

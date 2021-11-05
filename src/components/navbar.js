@@ -9,7 +9,7 @@ class Navbar extends Component{
 
     goHome = e => {
         e.preventDefault();
-        this.props.history.push("/");
+        this.props.history.push("/aboutme");
     }
 
     goTools = e => {
