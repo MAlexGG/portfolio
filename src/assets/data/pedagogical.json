@@ -55,7 +55,7 @@
             "id": "6",
             "title": "Hangar Rebelde",
             "subtitle": "e-commerce for a Comic Store",
-            "description": "Application created to meet the growing sales demand of a store located in Oviedo - Spain, which saw its sales increase significantly during the pandemic. Thus arose the need to create a solid and scalable application, initially to cover its online store functionality and in the future to complement the other online services that Hangar Rebelde offers. MVC architecture and technologies used were PHP 7.4, Laravel 8.0, Auth, Blade, Bootstrap, Sass, Stripe (API), MySql, PHPUnit for TDD and unit test.",
+            "description": "Application created to meet the growing sales demand of a comics store located in Oviedo - Spain, which saw its sales increase significantly during the pandemic. It needs to create a solid and scalable application, initially to cover its online store functionality and in the future to complement the other online services that Hangar Rebelde offers. MVC architecture and technologies used were PHP 7.4, Laravel 8.0, Auth, Blade, Bootstrap, Sass, Stripe (API), MySql, PHPUnit for TDD and unit test.",
             "team": "Gabriela Baquerizo, María Alexandra Galarza, Cris Mouta, Jose Miguel Quesada, David Sánchez, Snezhanna Stefanova.",
             "img": "hangar.png",
             "prototype": "https://www.figma.com/proto/xvwk16vqDaWrIrgtkWhHly/FactoriaF5-850h-HangarRebelde?node-id=1%3A527&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A527",
