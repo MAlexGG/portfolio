@@ -7,7 +7,7 @@ class Cards extends Component{
         return(
             <div className="ct-cards">
                 {this.props.data.projects.map((card, index) => (
-                    <Card key={index} title={card.title} subtitle={card.subtitle} description={card.description} prototype={card.prototype}   website={card.website} repository={card.repository} index={index}></Card>
+                    <Card to={`/project/${index}`} key={index} title={card.title} subtitle={card.subtitle} description={card.description} prototype={card.prototype} website={card.website} repository={card.repository} index={index}></Card>
                 )).reverse()}
                 <EmptyCard/>
             </div>

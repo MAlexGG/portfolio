@@ -22,7 +22,7 @@ const Router = () => (
             <Route path="/pedagogical-projects" component={PedagogicalProjects} />
             <Route path="/professional" component={Professional} />
             <Route path="/professional-projects" component={ProfessionalProjects} />
-            <Route path="/pedagogical-projects/:id" component={ProjectInfo}/>
+            <Route exact path="/project/:index" component={ProjectInfo}/>
             <Route path="/tools" component={Tools} />
             <Route component={NotFound}/>
         </Switch>

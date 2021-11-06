@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-/* import ProjectInfo from "./projectInfo"; */
+import { Link } from "react-router-dom";
 
 class Card extends Component{
 
@@ -7,7 +7,6 @@ class Card extends Component{
         super(props);
         this.state = {
             close: true,
-            /* seen: false, */
         };
     }
 
@@ -17,15 +16,9 @@ class Card extends Component{
         });
     };
 
-    /* togglePop = () => {
-        this.setState({
-         seen: !this.state.seen
-        });
-    }; */
-
     render(){
-        const {params} = this.props.match;
         const {close} = this.state;
+        let data = this.props;
         return(
             <div className={close ? "flip-container" : "flip-container clicked"} onClick={this.flip}>
                 <div className="flipper">
@@ -34,11 +27,10 @@ class Card extends Component{
                         <p className="txt-card">{this.props.subtitle}</p>
                     </div>
                     <div className="back">
-                        <h3>{params.id}</h3>
-                        <button className="bt-info">i</button>
-                        {/* <button className="bt-info" onClick={this.togglePop}>i</button>
-                        {this.state.seen ? <ProjectInfo toggle={this.togglePop} /> : null} */}
-        
+                        <Link to={{pathname: this.props.to, data: data}}>
+                            <button className="bt-info">i</button>
+                        </Link>
+
                         {this.props.prototype ? <a className="a-card" href={this.props.prototype} rel="noreferrer" target="_blank">
                         <button className="bt-cardStroke">PROTOTYPE</button></a> : <button className="bt-cardStrokeOops">PROTOTYPE NOT READY</button>}
 
