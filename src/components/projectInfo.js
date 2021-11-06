@@ -18,15 +18,3 @@ class ProjectInfo extends Component{
 }
 
 export default ProjectInfo;
-
-
-{/* <div className="ct-info">
-                <div className="ct-imgInfo">
-                    <img src="" alt=""></img>
-                </div>
-                <div className="ct-txtInfo">
-                    <h3>Hola</h3>
-                    <p>Hola hola</p>
-                </div>
-                <img src="" alt="close"></img>
-            </div> */}

@@ -8,6 +8,8 @@ import Pedagogical from "./pedagogical";
 import Professional from "./professional";
 import PedagogicalProjects from "./pedagogicalProjects";
 import ProfessionalProjects from "./professionalProjects";
+import ProjectInfo from "./projectInfo";
+import NotFound from "./notFound";
 
 
 const Router = () => (
@@ -20,7 +22,9 @@ const Router = () => (
             <Route path="/pedagogical-projects" component={PedagogicalProjects} />
             <Route path="/professional" component={Professional} />
             <Route path="/professional-projects" component={ProfessionalProjects} />
+            <Route path="/pedagogical-projects/:id" component={ProjectInfo}/>
             <Route path="/tools" component={Tools} />
+            <Route component={NotFound}/>
         </Switch>
     </BrowserRouter>
 );

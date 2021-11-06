@@ -1,0 +1,21 @@
+.txt-notFound{
+    color: $colorPrincipal;
+}
+
+.txt-error {
+    color: $colorPrincipal;
+    font-family: $fontSecondary;
+    font-size: 2rem;
+    position: absolute;
+    bottom: 30vh;
+    @media (min-width: $breakpointSmall) {
+        font-size: 3rem;
+      }
+}
+
+.bt-notFoundBack{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 1%;
+}

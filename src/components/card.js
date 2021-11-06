@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ProjectInfo from "./projectInfo";
+/* import ProjectInfo from "./projectInfo"; */
 
 class Card extends Component{
 
@@ -7,7 +7,7 @@ class Card extends Component{
         super(props);
         this.state = {
             close: true,
-            seen: false,
+            /* seen: false, */
         };
     }
 
@@ -17,13 +17,14 @@ class Card extends Component{
         });
     };
 
-    togglePop = () => {
+    /* togglePop = () => {
         this.setState({
          seen: !this.state.seen
         });
-    };
+    }; */
 
     render(){
+        const {params} = this.props.match;
         const {close} = this.state;
         return(
             <div className={close ? "flip-container" : "flip-container clicked"} onClick={this.flip}>
@@ -33,8 +34,10 @@ class Card extends Component{
                         <p className="txt-card">{this.props.subtitle}</p>
                     </div>
                     <div className="back">
-                        <button className="bt-info" onClick={this.togglePop}>i</button>
-                        {this.state.seen ? <ProjectInfo toggle={this.togglePop} /> : null}
+                        <h3>{params.id}</h3>
+                        <button className="bt-info">i</button>
+                        {/* <button className="bt-info" onClick={this.togglePop}>i</button>
+                        {this.state.seen ? <ProjectInfo toggle={this.togglePop} /> : null} */}
         
                         {this.props.prototype ? <a className="a-card" href={this.props.prototype} rel="noreferrer" target="_blank">
                         <button className="bt-cardStroke">PROTOTYPE</button></a> : <button className="bt-cardStrokeOops">PROTOTYPE NOT READY</button>}
