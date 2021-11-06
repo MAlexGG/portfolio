@@ -46,6 +46,7 @@
             "subtitle": "everything donation app",
             "description": "This is an app for donation, it works like an e-commerce but with the difference that it doesn't have a payment gateway. People can donate any kind of articles but at the same time can reserve articles that wants to receive. The user wins klikcoins for the donations they make, and can be accumulative, and they can exchange for rewards. This app has two repositories, the front-end repository that it's this one and the second one that it's the back-end repository that it's in this link https://github.com/MAlexGG/KLikShareBACK. It´s not deployed and the front consumes the back by API's using token to be able to validate users. MVC architecture and technologies used were PHP 7.4, Laravel 8.0, MySql, Bootstrap, Vue.js",
             "team": "Solomon Chukwuka, María Alexandra Galarza, Armando Mago, Jose Miguel Quesada, David Sánchez, Andrea Súarez.",
+            "img": "klikshare.png",
             "prototype": "https://www.figma.com/proto/plVX4LqUsr6yJjotCYBhJn/FactoriaF5-850h-KlikShare?node-id=3%3A683&scaling=contain&page-id=0%3A1&starting-point-node-id=3%3A683",
             "website": "",
             "repository": "https://github.com/MAlexGG/KlikShareFront"
@@ -56,6 +57,7 @@
             "subtitle": "e-commerce for a Comic Store",
             "description": "Application created to meet the growing sales demand of a store located in Oviedo - Spain, which saw its sales increase significantly during the pandemic. Thus arose the need to create a solid and scalable application, initially to cover its online store functionality and in the future to complement the other online services that Hangar Rebelde offers. MVC architecture and technologies used were PHP 7.4, Laravel 8.0, Auth, Blade, Bootstrap, Sass, Stripe (API), MySql, PHPUnit for TDD and unit test.",
             "team": "Gabriela Baquerizo, María Alexandra Galarza, Cris Mouta, Jose Miguel Quesada, David Sánchez, Snezhanna Stefanova.",
+            "img": "hangar.png",
             "prototype": "https://www.figma.com/proto/xvwk16vqDaWrIrgtkWhHly/FactoriaF5-850h-HangarRebelde?node-id=1%3A527&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A527",
             "website": "",
             "repository": "https://github.com/MAlexGG/HangarRebelde"

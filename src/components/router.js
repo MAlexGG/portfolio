@@ -8,7 +8,7 @@ import Pedagogical from "./pedagogical";
 import Professional from "./professional";
 import PedagogicalProjects from "./pedagogicalProjects";
 import ProfessionalProjects from "./professionalProjects";
-import ProjectInfo from "./projectInfo";
+import Project from "./project";
 import NotFound from "./notFound";
 
 
@@ -22,7 +22,7 @@ const Router = () => (
             <Route path="/pedagogical-projects" component={PedagogicalProjects} />
             <Route path="/professional" component={Professional} />
             <Route path="/professional-projects" component={ProfessionalProjects} />
-            <Route exact path="/project/:index" component={ProjectInfo}/>
+            <Route exact path="/project/:index" component={Project}/>
             <Route path="/tools" component={Tools} />
             <Route component={NotFound}/>
         </Switch>
