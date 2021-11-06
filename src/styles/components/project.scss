@@ -4,6 +4,8 @@
     height: 100vh;
     background-color: $colorSecondary;
     flex-direction: column;
+    justify-content: flex-start;
+    overflow: scroll;
     @media (min-width: $breakpointLarge) {
         flex-direction: row;
       }
@@ -14,13 +16,15 @@
     width: 95vw;
     height: 37vh;
     background-color: $colorPrincipal;
-    margin: 2%;
+    margin: 10% 2% 2% 2%;
     @media (min-width: $breakpointMedium) {
         height: 60vh;
+        margin: 5% 2% 2% 2%;
       }
     @media (min-width: $breakpointLarge) {
         width: 60vw;
         height: 80vh;
+        margin: 2% 2% 2% 2%;
       }
 }
 
@@ -55,7 +59,7 @@
     font-size: 1rem;
     color: $colorPrincipal;
     font-family: $fontSecondary;
-    @media (min-width: $breakpointLarge) {
+    @media (min-width: $breakpointMedium) {
         font-size: 1.5rem;
       }
 }

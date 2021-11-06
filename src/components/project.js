@@ -20,6 +20,7 @@ class Project extends Component{
                 <div className="ct-projectTxt">
                     <h2 className="txt-projectTitle">{data.title}</h2>
                     <p className="txt-projectDesc">{data.description}</p>
+                    <p className="txt-projectDesc"><strong>Team:</strong> {data.team}</p>
                 </div>
             </div>
         );

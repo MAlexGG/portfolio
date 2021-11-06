@@ -5,7 +5,8 @@
             "title": "Klik",
             "subtitle": "klik group landing page",
             "description": "This is an static website design only for desktop, it's not responsive, as an introduction to our team and our state of mind, the goal is to learn how to use html5 and css3 without any javascript function. We look for a simple and elegant design made in figma based on a template.",
-            "team": "Sergio Corcuera, María Alexandra Galarza, Berta López, Gabriela Piñeiro, Joan Recordà",
+            "team": "Sergio Corcuera, María Alexandra Galarza, Berta López, Gabriela Piñeiro, Joan Recordà.",
+            "img": "klik.png",
             "prototype": "https://www.figma.com/proto/oF58S3ZaMh4VMisPHXeyW7/FactoriaF5-850h-LandingPageKlik?node-id=2%3A3&scaling=scale-down-width&page-id=0%3A1",
             "website": "https://malexgg.github.io/Practica-KLIK/",
             "repository": "https://github.com/MAlexGG/Practica-KLIK.git"
@@ -15,7 +16,8 @@
             "title": "Sombrerería Mil",
             "subtitle": "online catalog for a hat store",
             "description": "This is an static web page, a catalogue that sells hats for both women and men, it's for a traditional and antique store in Barcelona, it's responsive and made with html5, css3 and javascript. The page it's not finished and the responsive is missing, only works well in devices of 375 x 812 pixels.",
-            "team": "Sergio Corcuera, María Alexandra Galarza, Berta López, Gabriela Piñeiro, Joan Recordà",
+            "team": "Sergio Corcuera, María Alexandra Galarza, Berta López, Gabriela Piñeiro, Joan Recordà.",
+            "img": "sombrereria.png",
             "prototype": "https://www.figma.com/proto/HbhS51FFagdoIjPCwCjjxj/FactoriaF5-850h-SombrereriaMil?node-id=1%3A187&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A187&show-proto-sidebar=1",
             "website": "https://malexgg.github.io/sombrereriamil/",
             "repository": "https://github.com/MAlexGG/sombrereriamil"
@@ -25,7 +27,8 @@
             "title": "Wheel of Doom",
             "subtitle": "randomly system of selecting sacrifices app",
             "description": "The goal of the Wheel of Doom is to create a fair and random sacrifice selection system for coders, like a videogame, it's intented to kill players. It's responsive and made with html5, css3 and with a minimum of 4 functions of javascript including audio and animation.",
-            "team": "Sergio Corcuera, María Alexandra Galarza, Berta López, Gabriela Piñeiro, Joan Recordà",
+            "team": "Sergio Corcuera, María Alexandra Galarza, Berta López, Gabriela Piñeiro, Joan Recordà.",
+            "img": "wheel.png",
             "prototype": "https://www.figma.com/proto/k3C6QkmAHgly4No7TyEkQL/FactoriaF5-850H-WheelOfDoom?node-id=2%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A2&show-proto-sidebar=1",
             "website": "",
             "repository": "https://github.com/MAlexGG/Wheel-of-Doom"
@@ -35,7 +38,8 @@
             "title": "Agorax Events",
             "subtitle": "online events management app",
             "description": "This app has been created to manage online events such as workshops, masterclasses or webinars. Users can view the description of an event, sign up and unsubscribe. They can also see the list of events they have signed up for. The administrator has the tools to manage the events, he/she can create, edit and delete them as well as being saved in a history page. MVC architecture and technologies used were PHP 7.4, Laravel 8.0, Auth, Blade, Bootstrap, MySql.",
-            "team": "Leah Calafell, María Alexandra Galarza, Martín Madridejos, Armando Mago, Snezhanna Stefanova",
+            "team": "Leah Calafell, María Alexandra Galarza, Martín Madridejos, Armando Mago, Snezhanna Stefanova.",
+            "img": "agorax.png",
             "prototype": "https://www.figma.com/proto/pmLKbqGzobp7nxh1Ni4nQf/FactoriaF5-850h-AgoraxDev?node-id=1%3A483&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A483&show-proto-sidebar=1",
             "website": "http://agoraxmeets.herokuapp.com/",
             "repository": "https://github.com/MAlexGG/AgoraxDEV"

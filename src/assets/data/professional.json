@@ -5,7 +5,8 @@
             "title": "Resume",
             "subtitle": "my personal resume website",
             "description": "This is my resume made with HTML5, CSS3 and javascript vanilla, it's a flirtatious design where I show diferent information distributed in a lateral nav bar. I added some css animations for a more dynamic experience. I made de UX/UI design in Figma both desktop and mobile. It's responsive.",
-            "team": "María Alexandra Galarza",
+            "team": "María Alexandra Galarza.",
+            "img": "resume.png",
             "prototype": "https://www.figma.com/proto/Ahxnon0AC8WMguKBj20xoo/CV?node-id=9%3A97&scaling=scale-down&page-id=0%3A1&starting-point-node-id=9%3A97&show-proto-sidebar=1",
             "website": "https://malexgg.github.io/CV/",
             "repository": "https://github.com/MAlexGG/CV.git"
@@ -14,8 +15,9 @@
             "id": "2",
             "title": "Enfiladissa Macramé",
             "subtitle": "online catalog for a macrame store",
-            "description": "This is a product catalogue with payment gateway (stripe consume with API) and chat (whatsapp consume with API) made with HTML5, CSS3 and javascript vanilla. I made the UX/UI design in Figma both desktop and mobile. It's responsive.",
-            "team": "María Alexandra Galarza",
+            "description": "This is a product catalogue with payment gateway (stripe consume with API) and chat (whatsapp consume with API) made with HTML5, CSS3 and javascript vanilla. I made the UX/UI design in Figma both desktop and mobile and the development was in team. It's responsive.",
+            "team": "Andrea Cevallos, Sergio Corcuera, María Alexandra Galarza, Andrés Patiño.",
+            "img": "enfiladissa.png",
             "prototype": "https://www.figma.com/proto/zH4T8vm8vfkbgKxkWNMNGz/Enfiladissa?node-id=1%3A2&scaling=contain&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1",
             "website": "https://malexgg.github.io/Enfiladissa/",
             "repository": "https://github.com/MAlexGG/Enfiladissa.git"
@@ -25,7 +27,8 @@
             "title": "Lego Architect",
             "subtitle": "website for an architecture company",
             "description": "Website for an architecture company that wants to show their projects and publications, it was developed with wordpress using the elementor plugin, it doesn't have a UI design, since the elements of the software were used. It also doesn't have a repository on github.",
-            "team": "María Alexandra Galarza",
+            "team": "María Alexandra Galarza.",
+            "img": "lego.png",
             "prototype": "",
             "website": "https://legoarquitectura.com/",
             "repository": ""
@@ -35,7 +38,8 @@
             "title": "Tikibike",
             "subtitle": "website for a bike route business",
             "description": "This is the website for a local bike rental business located in the french north-apline region. All the development was made by Sergio Corcuera and I collaborate with the UI design.",
-            "team": "Sergio Corcuera, María Alexandra Galarza",
+            "team": "Sergio Corcuera, María Alexandra Galarza.",
+            "img": "tikibike.png",
             "prototype": "https://www.figma.com/proto/0R7ZtVwIK3RXgkM6JDU6EJ/Tikibike?node-id=43%3A48&scaling=contain&page-id=43%3A45&starting-point-node-id=43%3A48&show-proto-sidebar=1",
             "website": "https://blaucomfuig.github.io/tikibike/",
             "repository": "https://github.com/blaucomfuig/tikibike.git"
@@ -45,7 +49,8 @@
             "title": "PhotoTrips",
             "subtitle": "trips photo album website",
             "description": "This is an online trips album photos, with categories by continent, countries and cities, it's designed in Figma and developed with Laravel - PHP, has a database in Mysql and the front it's developed with vue.js. It's under construction.",
-            "team": "María Alexandra Galarza",
+            "team": "María Alexandra Galarza.",
+            "img": "phototrips.png",
             "prototype": "https://www.figma.com/proto/WIcpZrkpTNgWNQn79HXExA/Phototrips?node-id=1%3A3&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A3",
             "website": "",
             "repository": ""
@@ -55,7 +60,8 @@
             "title": "Portfolio",
             "subtitle": "my personal portfolio website",
             "description": "This is my personal portfolio website for showing my pedagogical, professional and personal projects I made alone and in teams, it's developed with react.js and consumes data from json files.",
-            "team": "María Alexandra Galarza",
+            "team": "María Alexandra Galarza.",
+            "img": "portfolio.png",
             "prototype": "https://www.figma.com/proto/TGZFE24cAcxAaDk33VYn0M/Untitled?node-id=5%3A9&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1",
             "website": "",
             "repository": "https://github.com/MAlexGG/portfolio.git"
