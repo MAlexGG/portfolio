@@ -3,39 +3,61 @@
     width: 100vw;   
     height: 100vh;
     background-color: $colorSecondary;
-    flex-direction: row;
+    flex-direction: column;
+    @media (min-width: $breakpointLarge) {
+        flex-direction: row;
+      }
 }
 
 .ct-projectImg{
     @include displayFlex;
-    width: 60vw;
-    height: 80vh;
+    width: 95vw;
+    height: 37vh;
     background-color: $colorPrincipal;
     margin: 2%;
-
+    @media (min-width: $breakpointMedium) {
+        height: 60vh;
+      }
+    @media (min-width: $breakpointLarge) {
+        width: 60vw;
+        height: 80vh;
+      }
 }
 
 .img-projectImg{
-    width: 85%;
+    width: 90%;
     object-fit: cover;
     filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.56));
+    @media (min-width: $breakpointLarge) {
+        width: 85%
+    }
 }
 
 .ct-projectTxt{
-    width: 35vw;
-    padding: 3%;
+    width: 95vw;
+    padding: 0%;
     text-align: center;
+    @media (min-width: $breakpointLarge) {
+        padding: 3%;
+        width: 35vw;
+      }
 }
 
 .txt-projectTitle{
-    font-size: 3rem;
+    font-size: 2rem;
     color: $colorPrincipal;
+    @media (min-width: $breakpointLarge) {
+        font-size: 3rem;
+      }
 }
 
 .txt-projectDesc{
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: $colorPrincipal;
     font-family: $fontSecondary;
+    @media (min-width: $breakpointLarge) {
+        font-size: 1.5rem;
+      }
 }
 
 .bt-projectClose{
