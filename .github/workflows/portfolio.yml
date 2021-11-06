@@ -24,4 +24,4 @@ jobs:
       - name: deploy the app
         run: npm run deploy
         env: 
-            PORTFOLIO: ${{ secrets.PORTFOLIO }}
+            GH_TOKEN: ${{ secrets.PORTFOLIO }}
