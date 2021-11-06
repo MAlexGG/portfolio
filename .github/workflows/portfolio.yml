@@ -20,7 +20,7 @@ jobs:
       - name: registry github user
         run: |
           git config --global user.email "alexandragalarzag@gmail.com"
-          git config --global user.name "malexgg"
+          git config --global user.name "MAlexGG"
       - name: deploy the app
         run: npm run deploy
         env: 
