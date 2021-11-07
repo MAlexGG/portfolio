@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.35a6b495.chunk.css",
-    "main.js": "/portfolio/static/js/main.1e3f1bf9.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.1e3f1bf9.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.db68387c.chunk.css",
+    "main.js": "/portfolio/static/js/main.26151bff.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.26151bff.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.8e542ce0.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.8e542ce0.js.map",
     "static/js/2.2493b78e.chunk.js": "/portfolio/static/js/2.2493b78e.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.0910c126.chunk.js": "/portfolio/static/js/3.0910c126.chunk.js",
     "static/js/3.0910c126.chunk.js.map": "/portfolio/static/js/3.0910c126.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.35a6b495.chunk.css.map": "/portfolio/static/css/main.35a6b495.chunk.css.map",
+    "static/css/main.db68387c.chunk.css.map": "/portfolio/static/css/main.db68387c.chunk.css.map",
     "static/js/2.2493b78e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.2493b78e.chunk.js.LICENSE.txt",
     "static/media/agorax.png": "/portfolio/static/media/agorax.8b8470d6.png",
     "static/media/atlassianLogo.png": "/portfolio/static/media/atlassianLogo.6d5025d5.png",
@@ -44,7 +44,7 @@
     "static/media/puppeteerLogo.png": "/portfolio/static/media/puppeteerLogo.46b596a0.png",
     "static/media/qgisLogo.png": "/portfolio/static/media/qgisLogo.34774680.png",
     "static/media/reactLogo.png": "/portfolio/static/media/reactLogo.4eebc79b.png",
-    "static/media/refresh.a4e0c23d.svg": "/portfolio/static/media/refresh.a4e0c23d.svg",
+    "static/media/refresh.04e147f7.svg": "/portfolio/static/media/refresh.04e147f7.svg",
     "static/media/resume.png": "/portfolio/static/media/resume.48dc52c9.png",
     "static/media/sass.png": "/portfolio/static/media/sass.b9d101c2.png",
     "static/media/sassLogo.png": "/portfolio/static/media/sassLogo.ef52d600.png",
@@ -60,7 +60,7 @@
   "entrypoints": [
     "static/js/runtime-main.8e542ce0.js",
     "static/js/2.2493b78e.chunk.js",
-    "static/css/main.35a6b495.chunk.css",
-    "static/js/main.1e3f1bf9.chunk.js"
+    "static/css/main.db68387c.chunk.css",
+    "static/js/main.26151bff.chunk.js"
   ]
 }
