@@ -1,110 +1,123 @@
-body{
-  @include displayFlex;
-  width: 100vw;
-  height: 100vh;
-  background-color: $colorSecondary;
-  overflow: hidden;
-  font-size: 3rem;
-  font-family: $fontPrincipal;
-  color: transparent;
-  @media (min-width: $breakpointSmall) {
-    font-size: 10rem;
-  }
+body {
+    @include displayFlex;
+    width: 100vw;
+    height: 100vh;
+    background-color: $colorSecondary;
+    overflow: hidden;
+    font-size: 3rem;
+    font-family: $fontPrincipal;
+    color: transparent;
+    @media (min-width: $breakpointSmall) {
+        font-size: 10rem;
+    }
 }
 
 .ct-home {
-  @include displayFlex;
-  flex-direction: column;
+    @include displayFlex;
+    flex-direction: column;
+}
+
+.ct-home::-webkit-scrollbar {
+    display: none;
 }
 
 //smoke effect
-
 span {
-  display: inline-block;
-  text-shadow: 0 0 0 #F1C232;
-  animation: smoky 5s 3s both;
+    display: inline-block;
+    text-shadow: 0 0 0 #F1C232;
+    animation: smoky 5s 3s both;
 }
 
-span:nth-child(even){
-  animation-name: smoky-mirror;
+span:nth-child(even) {
+    animation-name: smoky-mirror;
 }
 
 @keyframes smoky {
-  60% {
-    text-shadow: 0 0 40px #F1C232;
-  }
-  to {
-    transform:
-      translate3d(15rem,-8rem,0)
-      rotate(-40deg)
-      skewX(70deg)
-      scale(1.5);
-    text-shadow: 0 0 20px #F1C232;
-    opacity: 0;
-  }
+    60% {
+        text-shadow: 0 0 40px #F1C232;
+    }
+    to {
+        transform: translate3d(15rem, -8rem, 0) rotate(-40deg) skewX(70deg) scale(1.5);
+        text-shadow: 0 0 20px #F1C232;
+        opacity: 0;
+    }
 }
 
 @keyframes smoky-mirror {
-  60% {
-    text-shadow: 0 0 40px #F1C232; }
-  to {
-    transform:
-      translate3d(18rem,-8rem,0)
-      rotate(-40deg) 
-      skewX(-70deg)
-      scale(2);
-     text-shadow: 0 0 20px #F1C232;
-    opacity: 0;
-  }
+    60% {
+        text-shadow: 0 0 40px #F1C232;
+    }
+    to {
+        transform: translate3d(18rem, -8rem, 0) rotate(-40deg) skewX(-70deg) scale(2);
+        text-shadow: 0 0 20px #F1C232;
+        opacity: 0;
+    }
 }
 
 @for $item from 1 through 21 {
-  span:nth-of-type(#{$item}){ 
-    animation-delay: #{(3 + ($item/10))}s; 
-  }
-} 
+    span:nth-of-type(#{$item}) {
+        animation-delay: #{(3 + ($item/10))}s;
+    }
+}
 
 //fade out
-
 .txt-name {
-  color: $colorPrincipal;
-  font-family: $fontSecondary;
-  font-size: 1rem;
-  position: absolute;
-  bottom: 30vh;
-  animation: fadeOut 10s;
-  -webkit-animation: fadeOut 10s;
-  -moz-animation: fadeOut 10s;
-  -o-animation: fadeOut 10s;
-  -ms-animation: fadeOut 10s;
-  @media (min-width: $breakpointSmall) {
-    font-size: 2rem;
-  }
+    color: $colorPrincipal;
+    font-family: $fontSecondary;
+    font-size: 1rem;
+    position: absolute;
+    bottom: 30vh;
+    animation: fadeOut 10s;
+    -webkit-animation: fadeOut 10s;
+    -moz-animation: fadeOut 10s;
+    -o-animation: fadeOut 10s;
+    -ms-animation: fadeOut 10s;
+    @media (min-width: $breakpointSmall) {
+        font-size: 2rem;
+    }
 }
+
 @keyframes fadeOut {
-  0% {opacity:1;}
-  100% {opacity:0;}
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 @-moz-keyframes fadeOut {
-  0% {opacity:1;}
-  100% {opacity:0;}
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 @-webkit-keyframes fadeOut {
-  0% {opacity:1;}
-  100% {opacity:0;}
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 @-o-keyframes fadeOut {
-  0% {opacity:1;}
-  100% {opacity:0;}
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 @-ms-keyframes fadeOut {
-  0% {opacity:1;}
-  100% {opacity:0;}
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
-
-
-

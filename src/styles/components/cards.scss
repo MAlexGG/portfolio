@@ -1,4 +1,4 @@
-.ct-cards{
+.ct-cards {
     @include displayFlex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -9,15 +9,17 @@
     scrollbar-width: none
 }
 
+.ct-cards::-webkit-scrollbar {
+    display: none;
+}
+
 .ct-pedagogical::-webkit-scrollbar {
     display: none;
 }
 
-.txt-titleProject{
+.txt-titleProject {
     color: $colorPrincipal;
     font-family: $fontPrincipal;
     font-size: 2.5rem;
     margin: 0px;
 }
-
-
