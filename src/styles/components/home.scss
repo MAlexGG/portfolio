@@ -12,6 +12,10 @@ body {
     }
 }
 
+.ct-home::-webkit-scrollbar {
+    display: none;
+}
+
 .ct-home {
     @include displayFlex;
     flex-direction: column;
