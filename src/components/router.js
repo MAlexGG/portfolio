@@ -13,7 +13,7 @@ import NotFound from "./notFound";
 
 
 const Router = () => (
-    <BrowserRouter basename = "/portfolio/">
+    <BrowserRouter basename="/portfolio/">
         <Switch>
             <Route exact path="/" component={App} />
             <Route path="/aboutme" component={Aboutme} />
