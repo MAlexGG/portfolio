@@ -1,100 +1,107 @@
 .flip-container {
     perspective: 1000px;
     margin: 1%;
-  }
-  .flip-container.clicked .flipper {
+}
+
+.flip-container.clicked .flipper {
     transform: rotateY(180deg);
-  }
-  .flip-container,
-  .front,
-  .back {
-        width: 343px;
-        height: 343px;
-  }
-  .flipper {
+}
+
+.flip-container,
+.front,
+.back {
+    width: 343px;
+    height: 343px;
+}
+
+.flipper {
     transition: 0.6s;
     transform-style: preserve-3d;
     position: relative;
-  }
-  .front,
-  .back {
+}
+
+.front,
+.back {
     backface-visibility: hidden;
     position: absolute;
     top: 0;
     left: 0;
-  }
-  .front {
+}
+
+.front {
     z-index: 2;
     transform: rotateY(0deg);
     background-color: $colorPrincipal;
     cursor: pointer;
     @include displayFlex;
     flex-direction: column;
-  }
-  .back {
+}
+
+.back {
     transform: rotateY(180deg);
     background-color: $colorPrincipal;
     @include displayFlex;
     flex-direction: column;
-  }
+}
 
-  .txt-titleCard{
+.txt-titleCard {
     color: $colorSecondary;
     font-family: $fontPrincipal;
     font-size: 3rem;
     text-align: center;
-  }
+    margin: 1rem;
+}
 
-  .txt-card{
+.txt-card {
     color: $colorSecondary;
     font-family: $fontSecondary;
     font-size: 1.5rem;
     padding: 3%;
     text-align: center;
-  }
+}
 
-.bt-cardStroke{
+.bt-cardStroke {
     @include btStroke;
     border: 3px solid $colorSecondary;
     cursor: pointer;
     @media (min-width: $breakpointSmall) {
-      border: 5px solid $colorSecondary;
+        border: 5px solid $colorSecondary;
     }
 }
 
-.bt-cardStrokeOops{
+.bt-cardStrokeOops {
     @include btStroke;
     border: 3px dashed $colorSecondary;
     cursor: default;
     font-size: 1rem;
     @media (min-width: $breakpointSmall) {
-      border: 2px dashed $colorSecondary;
-      font-size: 1.5rem;
+        border: 2px dashed $colorSecondary;
+        font-size: 1.5rem;
     }
 }
 
-.bt-cardFill{
+.bt-cardFill {
     @include btFill;
     border: 3px solid $colorSecondary;
     cursor: pointer;
     @media (min-width: $breakpointSmall) {
-      border: 5px solid $colorSecondary;
+        border: 5px solid $colorSecondary;
     }
 }
 
-.bt-cardFillOops{
-  @include btFill;
-  border: 3px solid $colorSecondary;
-  cursor: default;
-  opacity: 0.6;
-  font-size: 1rem;
+.bt-cardFillOops {
+    @include btFill;
+    border: 3px solid $colorSecondary;
+    cursor: default;
+    opacity: 0.6;
+    font-size: 1rem;
     @media (min-width: $breakpointSmall) {
-      border: 2px dashed $colorPrincipal;
-      font-size: 1.5rem;
+        border: 2px dashed $colorPrincipal;
+        font-size: 1.5rem;
     }
 }
 
-.bt-info{
+.bt-info {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -110,8 +117,8 @@
     cursor: pointer;
 }
 
-.a-card{
-  @include displayFlex;
+.a-card {
+    @include displayFlex;
     width: 200px;
     height: 70px;
     text-decoration: none;
