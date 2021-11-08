@@ -14,9 +14,9 @@
         "web-vitals": "^1.1.2"
     },
     "scripts": {
-        "start": "true react-scripts start",
-        "build": "true react-scripts build",
-        "test": "truereact-scripts test",
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
         "eject": "react-scripts eject",
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build -r https://$GH_TOKEN@github.com/MAlexGG/portfolio"
