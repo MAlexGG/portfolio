@@ -4,6 +4,7 @@ Portfolio
 ## Table of Contents
 1. [General Info](#general-info)
 2. [Technologies](#technologies)
+3. [Installation](#installation)
 
 ***
 ## General Info
@@ -19,3 +20,8 @@ This is my personal portfolio website for showing my pedagogical, professional a
 ## Technologies
 It was developed with react.js, the UI was design in Figma, and photos edited with Adobe Photoshop. 
 
+## Installation
+Required React v.17.0.2
+Required node.js
+git clone <repository>
+npm start
