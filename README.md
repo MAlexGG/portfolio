@@ -21,7 +21,7 @@ This is my personal portfolio website for showing my pedagogical, professional a
 It was developed with react.js, the UI was design in Figma, and photos edited with Adobe Photoshop. 
 
 ## Installation
-Required React v.17.0.2
-Required node.js
-git clone <repository>
-npm start
+- Required React v.17.0.2
+- Required node.js
+- git clone <repository>
+- npm start
