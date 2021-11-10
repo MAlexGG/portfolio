@@ -69,8 +69,7 @@ span:nth-child(even) {
     color: $colorPrincipal;
     font-family: $fontSecondary;
     font-size: 2rem;
-    position: absolute;
-    bottom: 30vh;
+    margin: 0px;
     animation: fadeOut 10s;
     -webkit-animation: fadeOut 10s;
     -moz-animation: fadeOut 10s;
@@ -78,7 +77,6 @@ span:nth-child(even) {
     -ms-animation: fadeOut 10s;
     @media (max-width: $breakpointSmall) {
         font-size: 1rem;
-        bottom: 35vh;
     }
 }
 
