@@ -68,7 +68,7 @@ span:nth-child(even) {
 .txt-name {
     color: $colorPrincipal;
     font-family: $fontSecondary;
-    font-size: 1rem;
+    font-size: 2rem;
     position: absolute;
     bottom: 30vh;
     animation: fadeOut 10s;
@@ -76,8 +76,9 @@ span:nth-child(even) {
     -moz-animation: fadeOut 10s;
     -o-animation: fadeOut 10s;
     -ms-animation: fadeOut 10s;
-    @media (min-width: $breakpointSmall) {
-        font-size: 2rem;
+    @media (max-width: $breakpointSmall) {
+        font-size: 1rem;
+        bottom: 40vh;
     }
 }
 

@@ -1,100 +1,123 @@
  .ct-contentAbout {
-    @include displayFlex;
-  /*   @include ctContent; */
-    flex-direction: column;
-}
-
-.img-refresh{
-  position: absolute;
-  top: 1%;
-  right: 1%;
-  width: 30px;
-  @media (min-width: $breakpointMedium) {
-    width: auto;
-  }
-}
-
-.txt-title{
-    text-align: center;
-    font-family: $fontPrincipal;
-    font-size: 2rem;
-    margin: 0% 0% 3% 0%;
-    @media (min-width: $breakpointMedium) {
-      font-size: 6rem;
-    }
-}
-
-.txt-paragraph{
-    text-align: center;
-    font-family: $fontSecondary;
-    font-size: 0.8rem;
-    margin: 0% 10% 0% 10%;
-    @media (min-width: $breakpointSmall) {
-      font-size: 1.5rem;
-    }
-}
-
-.bt-tools{
-    background-color: transparent;
-    border: none;
-    border-bottom: 3px solid $colorSecondary;
-    font-size: 0.8rem;
-    cursor: pointer;
-    @media (min-width: $breakpointSmall) {
-      font-size: 1.2rem;
-  }
-}
-
-.bt-projects {
-    @include btStroke;
-    border: 3px solid $colorSecondary;
-    cursor: pointer;
-    @media (min-width: $breakpointSmall) {
-      border: 5px solid $colorSecondary;
-    }
-}
-
-//fade in
-
-.ct-main {
-    @include displayFlex;
-    flex-direction: column;
-    width: 100vw;
-    height: 100vh;
-    background-color: $colorPrincipal;
-    color: $colorSecondary;
-    letter-spacing: 0px;
-    font-size: 6rem;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    animation: fadeIn 5s;
-    -webkit-animation: fadeIn 5s;
-    -moz-animation: fadeIn 5s;
-    -o-animation: fadeIn 5s;
-    -ms-animation: fadeIn 5s;
-  }
-  @keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
-  
-  @-moz-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
-  
-  @-webkit-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
-  
-  @-o-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
-  
-  @-ms-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
+     @include displayFlex;
+     /*   @include ctContent; */
+     flex-direction: column;
+ }
+ 
+ .img-refresh {
+     position: absolute;
+     top: 1%;
+     right: 1%;
+     width: 30px;
+     @media (min-width: $breakpointMedium) {
+         width: auto;
+     }
+ }
+ 
+ .txt-title {
+     text-align: center;
+     font-family: $fontPrincipal;
+     font-size: 2rem;
+     margin: 0% 0% 3% 0%;
+     @media (min-width: $breakpointMedium) {
+         font-size: 6rem;
+     }
+ }
+ 
+ .txt-paragraph {
+     text-align: center;
+     font-family: $fontSecondary;
+     font-size: 0.8rem;
+     margin: 0% 10% 0% 10%;
+     @media (min-width: $breakpointSmall) {
+         font-size: 1.5rem;
+     }
+ }
+ 
+ .bt-tools {
+     background-color: transparent;
+     border: none;
+     border-bottom: 3px solid $colorSecondary;
+     font-size: 0.8rem;
+     cursor: pointer;
+     @media (min-width: $breakpointSmall) {
+         font-size: 1.2rem;
+     }
+ }
+ 
+ .bt-projects {
+     @include btStroke;
+     border: 3px solid $colorSecondary;
+     cursor: pointer;
+     margin-top: 5%;
+     @media (max-width: $breakpointSmall) {
+         width: 130px;
+         height: 40px;
+         font-size: 1.3rem;
+     }
+ }
+ 
+ //fade in
+ .ct-main {
+     @include displayFlex;
+     flex-direction: column;
+     width: 100vw;
+     height: 100vh;
+     background-color: $colorPrincipal;
+     color: $colorSecondary;
+     letter-spacing: 0px;
+     font-size: 6rem;
+     position: absolute;
+     top: 0px;
+     left: 0px;
+     animation: fadeIn 5s;
+     -webkit-animation: fadeIn 5s;
+     -moz-animation: fadeIn 5s;
+     -o-animation: fadeIn 5s;
+     -ms-animation: fadeIn 5s;
+ }
+ 
+ @keyframes fadeIn {
+     0% {
+         opacity: 0;
+     }
+     100% {
+         opacity: 1;
+     }
+ }
+ 
+ @-moz-keyframes fadeIn {
+     0% {
+         opacity: 0;
+     }
+     100% {
+         opacity: 1;
+     }
+ }
+ 
+ @-webkit-keyframes fadeIn {
+     0% {
+         opacity: 0;
+     }
+     100% {
+         opacity: 1;
+     }
+ }
+ 
+ @-o-keyframes fadeIn {
+     0% {
+         opacity: 0;
+     }
+     100% {
+         opacity: 1;
+     }
+ }
+ 
+ @-ms-keyframes fadeIn {
+     0% {
+         opacity: 0;
+     }
+     100% {
+         opacity: 1;
+     }
+ }

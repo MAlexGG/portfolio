@@ -1,19 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anaheim&display=swap');
-
 $colorPrincipal: #F1C232;
 $colorSecondary: #191919;
-
 $filterPrincipal: invert(90%) sepia(80%) saturate(6969%) hue-rotate(330deg) brightness(99%) contrast(90%);
-
-$fontPrincipal: 'Bebas Neue', cursive;
-$fontSecondary: 'Anaheim', sans-serif;
-
+$fontPrincipal: 'Bebas Neue',
+cursive;
+$fontSecondary: 'Anaheim',
+sans-serif;
 $breakpointSmall: 576px;
 $breakpointMedium: 768px;
 $breakpointLarge: 992px;
 $breakpointExtralarge: 1200px;
-
 @mixin displayFlex {
     display: flex;
     justify-content: center;
@@ -27,35 +24,23 @@ $breakpointExtralarge: 1200px;
 }
 
 @mixin btStroke {
-    width: 130px;
-    height: 40px;
-    font-size: 1.5rem;
+    width: 200px;
+    height: 60px;
+    font-size: 1.8rem;
     background-color: transparent;
     font-family: $fontPrincipal;
     color: $colorSecondary;
-    margin-top: 5%;
-    @media (min-width: $breakpointSmall) {
-        width: 200px;
-        height: 70px;
-        font-size: 2rem;
-    }
 }
 
 @mixin btFill {
-    width: 130px;
-    height: 40px;
+    width: 200px;
+    height: 60px;
     border: none;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     background-color: $colorSecondary;
     font-family: $fontPrincipal;
     color: $colorPrincipal;
     cursor: pointer;
-    margin-top: 5%;
-    @media (min-width: $breakpointSmall) {
-        width: 200px;
-        height: 70px;
-        font-size: 2rem;
-    }
 }
 
 @mixin ctContent {

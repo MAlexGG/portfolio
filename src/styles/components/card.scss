@@ -42,6 +42,7 @@
     background-color: $colorPrincipal;
     @include displayFlex;
     flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .txt-titleCard {
@@ -64,19 +65,15 @@
     @include btStroke;
     border: 3px solid $colorSecondary;
     cursor: pointer;
-    @media (min-width: $breakpointSmall) {
-        border: 5px solid $colorSecondary;
-    }
 }
 
 .bt-cardStrokeOops {
     @include btStroke;
     border: 3px dashed $colorSecondary;
     cursor: default;
-    font-size: 1rem;
-    @media (min-width: $breakpointSmall) {
+    font-size: 1.5rem;
+    @media (max-width: $breakpointSmall) {
         border: 2px dashed $colorSecondary;
-        font-size: 1.5rem;
     }
 }
 
@@ -84,9 +81,6 @@
     @include btFill;
     border: 3px solid $colorSecondary;
     cursor: pointer;
-    @media (min-width: $breakpointSmall) {
-        border: 5px solid $colorSecondary;
-    }
 }
 
 .bt-cardFillOops {
@@ -94,10 +88,9 @@
     border: 3px solid $colorSecondary;
     cursor: default;
     opacity: 0.6;
-    font-size: 1rem;
-    @media (min-width: $breakpointSmall) {
+    font-size: 1.5rem;
+    @media (max-width: $breakpointSmall) {
         border: 2px dashed $colorPrincipal;
-        font-size: 1.5rem;
     }
 }
 
@@ -120,7 +113,6 @@
 .a-card {
     @include displayFlex;
     width: 200px;
-    height: 70px;
+    height: 60px;
     text-decoration: none;
-    margin: 3%;
 }
