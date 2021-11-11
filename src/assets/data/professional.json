@@ -1,6 +1,5 @@
 {
-    "projects" : [
-        {
+    "projects": [{
             "id": "1",
             "title": "Resume",
             "subtitle": "my personal resume website",
@@ -24,7 +23,7 @@
         },
         {
             "id": "3",
-            "title": "Lego Architect",
+            "title": "LEGOArquitect",
             "subtitle": "website for an architecture company",
             "description": "Website for an architecture company that wants to show their projects and publications, it was developed with wordpress using the elementor plugin, it doesn't have a UI design, since the elements of the software were used. It also doesn't have a repository on github.",
             "team": "María Alexandra Galarza.",
