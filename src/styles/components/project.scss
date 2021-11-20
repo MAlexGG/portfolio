@@ -1,17 +1,19 @@
-.ct-project{
+.ct-project {
     @include displayFlex;
-    width: 100vw;   
+    width: 100vw;
     height: 100vh;
     background-color: $colorSecondary;
     flex-direction: column;
     justify-content: flex-start;
     overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
     @media (min-width: $breakpointLarge) {
         flex-direction: row;
-      }
+    }
 }
 
-.ct-projectImg{
+.ct-projectImg {
     @include displayFlex;
     width: 95vw;
     height: 37vh;
@@ -20,15 +22,15 @@
     @media (min-width: $breakpointMedium) {
         height: 60vh;
         margin: 5% 2% 2% 2%;
-      }
+    }
     @media (min-width: $breakpointLarge) {
         width: 60vw;
         height: 80vh;
         margin: 2% 2% 2% 2%;
-      }
+    }
 }
 
-.img-projectImg{
+.img-projectImg {
     width: 90%;
     object-fit: cover;
     filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.56));
@@ -37,36 +39,36 @@
     }
 }
 
-.ct-projectTxt{
+.ct-projectTxt {
     width: 95vw;
     padding: 0%;
     text-align: center;
     @media (min-width: $breakpointLarge) {
         padding: 3%;
         width: 35vw;
-      }
+    }
 }
 
-.txt-projectTitle{
+.txt-projectTitle {
     font-size: 2rem;
     color: $colorPrincipal;
     @media (min-width: $breakpointLarge) {
         font-size: 3rem;
-      }
+    }
 }
 
-.txt-projectDesc{
+.txt-projectDesc {
     font-size: 1rem;
     color: $colorPrincipal;
     font-family: $fontSecondary;
     @media (min-width: $breakpointMedium) {
         font-size: 1.5rem;
-      }
+    }
 }
 
-.bt-projectClose{
+.bt-projectClose {
     position: absolute;
-    top:0px;
+    top: 0px;
     right: 0px;
     margin: 1%;
 }
