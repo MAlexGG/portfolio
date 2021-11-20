@@ -1,4 +1,4 @@
-.ct-navbar{
+.ct-navbar {
     width: 100vw;
     height: 5vh;
     display: flex;
@@ -10,22 +10,22 @@
     top: 0px;
 }
 
-.ct-navbuttons{
+.ct-navbuttons {
     @include displayFlex;
     justify-content: start;
 }
 
-.bt-ico{
+.bt-ico {
     background-color: transparent;
     border: none;
     cursor: pointer;
 }
 
-.img-ico{
+.img-ico {
     width: 80%;
 }
 
-.img-icoInvert{
+.img-icoInvert {
     width: 80%;
     filter: $filterPrincipal;
 }
