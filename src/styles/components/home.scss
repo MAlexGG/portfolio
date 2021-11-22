@@ -60,7 +60,7 @@ span:nth-child(even) {
 
 @for $item from 1 through 21 {
     span:nth-of-type(#{$item}) {
-        animation-delay: #{(3 + ($item/10))}s;
+        animation-delay: #{(1 + ($item/10))}s;
     }
 }
 
@@ -70,11 +70,11 @@ span:nth-child(even) {
     font-family: $fontSecondary;
     font-size: 2rem;
     margin: 0px;
-    animation: fadeOut 10s;
-    -webkit-animation: fadeOut 10s;
-    -moz-animation: fadeOut 10s;
-    -o-animation: fadeOut 10s;
-    -ms-animation: fadeOut 10s;
+    animation: fadeOut 7s;
+    -webkit-animation: fadeOut 7s;
+    -moz-animation: fadeOut 7s;
+    -o-animation: fadeOut 7s;
+    -ms-animation: fadeOut 7s;
     @media (max-width: $breakpointSmall) {
         font-size: 1rem;
     }

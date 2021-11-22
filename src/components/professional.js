@@ -5,7 +5,7 @@ class Professional extends Component{
     redirect = () => {
         setTimeout (() => {
           return this.props.history.push('/professional-projects');
-        }, 9000)
+        }, 7000)
       };
 
     render(){

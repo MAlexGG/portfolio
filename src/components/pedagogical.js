@@ -5,7 +5,7 @@ class Pedagogical extends Component{
     redirect = () => {
         setTimeout (() => {
           return this.props.history.push('/pedagogical-projects');
-        }, 9000)
+        }, 7000)
       };
 
     render(){

@@ -7,7 +7,7 @@ class App extends Component {
   redirect = () => {
     setTimeout (() => {
       return this.props.history.push('/aboutme');
-    }, 9000)
+    }, 7000)
   };
 
   render(){
