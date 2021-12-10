@@ -17,6 +17,20 @@ $breakpointExtralarge: 1200px;
     align-items: center;
 }
 
+@mixin displayGrid {
+    display: grid;
+    grid-template-columns: 343px;
+    gap: 30px;
+    justify-content: center;
+    align-items: flex-start;
+    @media (min-width: $breakpointMedium) {
+        grid-template-columns: 343px 343px;
+    }
+    @media (min-width: $breakpointLarge) {
+        grid-template-columns: 343px 343px 343px;
+    }
+}
+
 @mixin divUpDown {
     position: absolute;
     left: 50%;

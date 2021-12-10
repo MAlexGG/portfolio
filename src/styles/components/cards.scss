@@ -1,13 +1,9 @@
 .ct-cards {
-    @include displayFlex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
+    @include displayGrid;
     width: 100vw;
     height: 83vh;
     overflow: scroll;
     scrollbar-width: none;
-    max-width: 1440px;
 }
 
 .ct-cards::-webkit-scrollbar {
