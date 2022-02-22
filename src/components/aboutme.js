@@ -19,11 +19,6 @@ class Aboutme extends Component {
         this.props.history.push("/");
     }
 
-    goHome = e => {
-        e.preventDefault();
-        this.props.history.push("/");
-    }
-
     render() {
         return (
             <div className = "ct-main" >
