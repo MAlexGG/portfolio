@@ -4,14 +4,25 @@
      flex-direction: column;
  }
  
- .img-refresh {
+ .ct-navAbout {
+     @include displayFlex;
      position: absolute;
      top: 1%;
      right: 1%;
-     width: 30px;
-     @media (min-width: $breakpointMedium) {
-         width: auto;
-     }
+ }
+ 
+ .ct-navAbout a {
+     @include displayFlex;
+ }
+ 
+ .img-refresh {
+     width: 28px;
+     padding: 0px 4px 0px 4px;
+ }
+ 
+ .img-contact {
+     width: 28px;
+     padding: 0px 4px 0px 4px;
  }
  
  .txt-title {
