@@ -34,6 +34,17 @@
         },
         {
             "id": "4",
+            "title": "Handy App",
+            "subtitle": "Appointments from coders to CTO app",
+            "description": "Handy App allows workers from the company to request an appointment with the CTO to solve technical problems of the development team. The CTO can see all the appoitments required from de coders and the coders can manipulate their request information. The user securities are not implemented yet. It was made with HTML5, CSS3, Sass, PHP, Figma, MySql, PHPMyAdmin-PDO.",
+            "team": "Sergio Corcuera, María Alexandra Galarza, Berta López, Gabriela Piñeiro, Joan Recordà.",
+            "img": "handyapp.png",
+            "prototype": "https://www.figma.com/proto/OGBNneuZMAT8FbGyUrNNoi/FactoriaF5-850h-HandyApp?node-id=2%3A3&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A46",
+            "website": "https://crud-f5-app.herokuapp.com/?action=index",
+            "repository": "https://github.com/MAlexGG/Consultorio.git"
+        },
+        {
+            "id": "5",
             "title": "Agorax Events",
             "subtitle": "online events management app",
             "description": "This app has been created to manage online events such as workshops, masterclasses or webinars. Users can view the description of an event, sign up and unsubscribe. They can also see the list of events they have signed up for. The administrator has the tools to manage the events, he/she can create, edit and delete them as well as being saved in a history page. MVC architecture and technologies used were PHP 7.4, Laravel 8.0, Auth, Blade, Bootstrap, MySql.",
@@ -44,7 +55,7 @@
             "repository": "https://github.com/MAlexGG/AgoraxDEV"
         },
         {
-            "id": "5",
+            "id": "6",
             "title": "KlikShare",
             "subtitle": "everything donation app",
             "description": "This is an app for donation, it works like an e-commerce but with the difference that it doesn't have a payment gateway. People can donate any kind of articles but at the same time can reserve articles that wants to receive. The user wins klikcoins for the donations they make, and can be accumulative, and they can exchange for rewards. This app has two repositories, one for front-end and another for back-end. It´s not deployed and the front consumes the back by API's using token to be able to validate users. MVC architecture and technologies used were PHP 7.4, Laravel 8.0, MySql, Bootstrap, Vue.js",
@@ -55,7 +66,7 @@
             "repository": "https://github.com/MAlexGG/KlikShareFront"
         },
         {
-            "id": "6",
+            "id": "7",
             "title": "Hangar Rebelde",
             "subtitle": "e-commerce for a Comic Store",
             "description": "Application created to meet the growing sales demand of a comics store located in Oviedo - Spain, which saw its sales increase significantly during the pandemic. It needs to create a solid and scalable application, initially to cover its online store functionality and in the future to complement the other online services that Hangar Rebelde offers. MVC architecture and technologies used were PHP 7.4, Laravel 8.0, Auth, Blade, Bootstrap, Sass, Stripe (API), MySql, PHPUnit for TDD and unit test.",
