@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import refresh from "../assets/img/refresh.svg";
 import contact from "../assets/img/contact.svg";
+import linkedin from "../assets/img/linkedin.svg";
 
 class Aboutme extends Component {
 
@@ -28,6 +29,7 @@ class Aboutme extends Component {
                 <div className="ct-navAbout">
                    <img className="img-refresh" src={refresh} alt="refresh button" onClick={this.goHome} />
                     <a href="mailto:alexandragalarzag@gmail.com"><img className="img-contact" src={contact} alt="contact button" onClick={this.goMail} /></a> 
+                    <a href="http://www.linkedin.com/in/magalarza" target="_blank" rel='noreferrer'><img className="img-contact" src={linkedin} alt="linkedin profile" /></a>
                 </div>
                 
                 <div className = "ct-contentAbout">

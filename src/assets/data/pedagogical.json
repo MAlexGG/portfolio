@@ -75,6 +75,28 @@
             "prototype": "https://www.figma.com/proto/xvwk16vqDaWrIrgtkWhHly/FactoriaF5-850h-HangarRebelde?node-id=1%3A527&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A527",
             "website": "",
             "repository": "https://github.com/MAlexGG/HangarRebelde"
+        },
+        {
+            "id": "8",
+            "title": "Star Wars App",
+            "subtitle": "star wars ships search website",
+            "description": "This is a website that let you find a list of ships that belongs to the Star Wars saga, it's developed with react.js and it's consuming the Starwars API https://swapi.dev/api/starships with Axios requests and from a service and also gets the list paginated. It has two users, a normal one who can access to the home page and a premium who can access to the the list of ships and the detailed page of each ship including the films in which it has appeared and the pilots who have flown it, the authorization it's using the localStorage, for now.",
+            "team": "María Alexandra Galarza",
+            "img": "starwars.png",
+            "prototype": "",
+            "website": "",
+            "repository": "https://github.com/MAlexGG/ITAcademy-React-React-III.git"
+        },
+        {
+            "id": "9",
+            "title": "Dessert Scrapbook",
+            "subtitle": "recipe search website",
+            "description": "This is a website that let you search for sweet food recipes, it's developed with react.js and it's consuming the Edamam API https://www.edamam.com/ with Axios requests and from a service. It's using react-router-dom v.6 for navigate between pages. It has two users, a normal one who can access to the searcher for recipes and a premium who can access to the specific dessert and can have the link to the entire recipe, the authorization it's using the localStorage, for now. The app is separated by components and using styled components, it's responsive.",
+            "team": "María Alexandra Galarza",
+            "img": "dessertScrapbook.jpg",
+            "prototype": "https://www.figma.com/proto/nEvMl3KWakESDPQ0i69Ykl/DessertApp?node-id=2%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A2",
+            "website": "",
+            "repository": "https://github.com/MAlexGG/ITAcademy-React-DessertsScrapbook.git"
         }
     ]
 }
