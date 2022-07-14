@@ -3,7 +3,7 @@ import refresh from "../assets/img/refresh.svg";
 import contact from "../assets/img/contact.svg";
 import linkedin from "../assets/img/linkedin.svg";
 import cv from "../assets/img/cv.svg";
-import cvPdf from "../assets/pdf/CV_Galarza_Gallardo_EN.pdf";
+import pdf from "../assets/pdf/CV_Galarza_Gallardo_EN.pdf";
 import github from "../assets/img/github.svg";
 
 class Aboutme extends Component {
@@ -37,7 +37,7 @@ class Aboutme extends Component {
                             <a href="http://www.linkedin.com/in/magalarza" target="_blank" rel='noopener noreferrer'><img className="img-contact" src={linkedin} alt="linkedin profile" /></a>
                         </div>
                         <div className="ct-navContactBlock">
-                            <a href={cvPdf} target="_blank" rel="noopener noreferrer" download="CV_Galarza_Gallardo_EN.pdf"><img className="img-contact" src={cv} alt="resume in pdf for download" /></a>
+                            <a href={pdf} target="_blank" rel="noopener noreferrer" download="CV_Galarza_Gallardo_EN.pdf"><img className="img-contact" src={cv} alt="resume in pdf for download" /></a>
                             <a href="https://github.com/MAlexGG" target="_blank" rel='noopener noreferrer'><img className="img-contact" src={github} alt="github link" /></a>
                         </div>
                    </div>
