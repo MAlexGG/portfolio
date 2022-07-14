@@ -1,14 +1,14 @@
  .ct-contentAbout {
      @include displayFlex;
-     /*   @include ctContent; */
      flex-direction: column;
  }
  
  .ct-navAbout {
      @include displayFlex;
+     width: 100vw;
+     justify-content: space-between;
      position: absolute;
      top: 1%;
-     right: 1%;
  }
  
  .ct-navAbout a {
@@ -18,6 +18,21 @@
  .img-refresh {
      width: 28px;
      padding: 0px 4px 0px 4px;
+     cursor: pointer;
+     align-self: flex-start;
+ }
+ 
+ .ct-navContact {
+     @include displayFlex;
+     flex-direction: column;
+     @media (min-width: $breakpointSmall) {
+         flex-direction: row;
+     }
+ }
+ 
+ .ct-navContactBlock {
+     @include displayFlex;
+     margin-bottom: 4px;
  }
  
  .img-contact {

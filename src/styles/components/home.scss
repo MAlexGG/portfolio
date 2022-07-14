@@ -70,11 +70,11 @@ span:nth-child(even) {
     font-family: $fontSecondary;
     font-size: 2rem;
     margin: 0px;
-    animation: fadeOut 7s;
-    -webkit-animation: fadeOut 7s;
-    -moz-animation: fadeOut 7s;
-    -o-animation: fadeOut 7s;
-    -ms-animation: fadeOut 7s;
+    animation: fadeOut 8s;
+    -webkit-animation: fadeOut 8s;
+    -moz-animation: fadeOut 8s;
+    -o-animation: fadeOut 8s;
+    -ms-animation: fadeOut 8s;
     @media (max-width: $breakpointSmall) {
         font-size: 1rem;
     }

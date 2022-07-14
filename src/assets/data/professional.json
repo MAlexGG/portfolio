@@ -69,7 +69,7 @@
             "id": "7",
             "title": "The CRUD project",
             "subtitle": "Pedagogical responsive website",
-            "description": "This is a website for pedagogical purposes for fullstack bootcamp students, it shows how to read a json file, how to make a fake CRUD using the browser memory, how to make a CRUD with json server using fetch Api and another one using Axios Library and hooks, and a last one consumes a PHP API with auth and tokens.",
+            "description": "This is a website for pedagogical purposes for fullstack bootcamp students, developed in React.js and Laravel, it shows how to read a json file, how to make a fake CRUD using the browser memory, how to make a CRUD with json server using fetch Api and another one using Axios Library and hooks, and a last one consumes a PHP API with auth and tokens.",
             "team": "María Alexandra Galarza.",
             "img": "crudProject.jpg",
             "prototype": "https://www.figma.com/proto/DZX9DselgRidAd3aDq54IP/Untitled?node-id=501%3A179&scaling=scale-down&page-id=501%3A178&starting-point-node-id=501%3A179",

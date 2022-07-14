@@ -12,7 +12,7 @@
 
 .ct-navbuttons {
     @include displayFlex;
-    justify-content: start;
+    justify-content: flex-start;
 }
 
 .bt-ico {
