@@ -1,15 +1,15 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import App from "../App";
-import Projects from "./projects";
-import Tools from "./tools";
-import Aboutme from "./aboutme";
-import Pedagogical from "./pedagogical";
-import Professional from "./professional";
-import PedagogicalProjects from "./pedagogicalProjects";
-import ProfessionalProjects from "./professionalProjects";
-import Project from "./project";
-import NotFound from "./notFound";
+import Projects from "../components/projects";
+import Tools from "../components/tools";
+import Aboutme from "../components/aboutme";
+import Pedagogical from "../components/pedagogical";
+import Professional from "../components/professional";
+import PedagogicalProjects from "../components/pedagogicalProjects";
+import ProfessionalProjects from "../components/professionalProjects";
+import Project from "../components/project";
+import NotFound from "../components/notFound";
 
 
 const Router = () => (

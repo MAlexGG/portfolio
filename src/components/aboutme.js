@@ -44,7 +44,7 @@ class Aboutme extends Component {
                 </div>
                 <div className = "ct-contentAbout">
                     <p className="txt-title">About Me</p>
-                    <p className="txt-paragraph">I 'm a Fullstack developer creative and with initiative, interested in the world of programming, I'm passionate about solving problems in an efficient way and with a lot of emphasis on detail, I have more than 10 years of experience as an architect which gives me extensive knowledge in design and user experience, in addition to my studies in sustainability that allow me to understand current problems in a global way.< br />With these knowledge, skills and the <button className="bt-tools" onClick={this.goTools}><strong>tools</strong></button> I handle I feel that I can contribute to the needs of society through programming.</p>
+                    <p className="txt-paragraph">Hi! I'm Alexandra and I'm a Fullstack developer creative and with initiative, interested in the world of programming, I'm passionate about solving problems in an efficient way and with a lot of emphasis on detail, I have more than 10 years of experience as an architect which gives me extensive knowledge in design and user experience, in addition to my studies in sustainability that allow me to understand current problems in a global way.< br />With these knowledge, skills and the <button className="bt-tools" onClick={this.goTools}><strong>tools</strong></button> I handle I feel that I can contribute to the needs of society through programming.</p>
                     <button className="bt-projects" onClick={this.goProjects}>Projects</button>
                 </div >
                 <div className="ct-divDown">

@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/index.css';
 import reportWebVitals from './reportWebVitals';
-import Router from "./components/router";
+import Router from "./application/router";
 
 ReactDOM.render(<Router />, document.getElementById('root'));
 
