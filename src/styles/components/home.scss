@@ -19,6 +19,9 @@ body {
 .ct-home {
     @include displayFlex;
     flex-direction: column;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
 }
 
 .ct-home::-webkit-scrollbar {
