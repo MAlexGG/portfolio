@@ -6,8 +6,6 @@
     flex-direction: column;
     justify-content: flex-start;
     overflow: scroll;
-    overflow-x: hidden;
-    overflow-y: hidden;
     @media (min-width: $breakpointLarge) {
         flex-direction: row;
     }
