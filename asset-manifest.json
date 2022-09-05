@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f764cd04.chunk.css",
-    "main.js": "/portfolio/static/js/main.592569c7.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.592569c7.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.eaf754ec.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.eaf754ec.js.map",
+    "main.js": "/portfolio/static/js/main.28b845f5.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.28b845f5.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.976226fa.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.976226fa.js.map",
     "static/js/2.2493b78e.chunk.js": "/portfolio/static/js/2.2493b78e.chunk.js",
     "static/js/2.2493b78e.chunk.js.map": "/portfolio/static/js/2.2493b78e.chunk.js.map",
-    "static/js/3.2cf4d3bc.chunk.js": "/portfolio/static/js/3.2cf4d3bc.chunk.js",
-    "static/js/3.2cf4d3bc.chunk.js.map": "/portfolio/static/js/3.2cf4d3bc.chunk.js.map",
+    "static/js/3.2f52b84b.chunk.js": "/portfolio/static/js/3.2f52b84b.chunk.js",
+    "static/js/3.2f52b84b.chunk.js.map": "/portfolio/static/js/3.2f52b84b.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/main.f764cd04.chunk.css.map": "/portfolio/static/css/main.f764cd04.chunk.css.map",
     "static/js/2.2493b78e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.2493b78e.chunk.js.LICENSE.txt",
@@ -40,6 +40,7 @@
     "static/media/lego.png": "/portfolio/static/media/lego.01ac2721.png",
     "static/media/linkedin.aac59972.svg": "/portfolio/static/media/linkedin.aac59972.svg",
     "static/media/miroLogo.png": "/portfolio/static/media/miroLogo.7e567231.png",
+    "static/media/movieapp.png": "/portfolio/static/media/movieapp.4bf5626d.png",
     "static/media/mysqlLogo.png": "/portfolio/static/media/mysqlLogo.a0e42970.png",
     "static/media/nodeLogo.png": "/portfolio/static/media/nodeLogo.77a25820.png",
     "static/media/photoshopLogo.png": "/portfolio/static/media/photoshopLogo.9c8f87fb.png",
@@ -68,9 +69,9 @@
     "static/media/xamppLogo.png": "/portfolio/static/media/xamppLogo.c55eb420.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.eaf754ec.js",
+    "static/js/runtime-main.976226fa.js",
     "static/js/2.2493b78e.chunk.js",
     "static/css/main.f764cd04.chunk.css",
-    "static/js/main.592569c7.chunk.js"
+    "static/js/main.28b845f5.chunk.js"
   ]
 }
