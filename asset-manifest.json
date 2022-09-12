@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f764cd04.chunk.css",
-    "main.js": "/portfolio/static/js/main.28b845f5.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.28b845f5.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.976226fa.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.976226fa.js.map",
+    "main.js": "/portfolio/static/js/main.92b19019.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.92b19019.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.0d72ed6a.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.0d72ed6a.js.map",
     "static/js/2.2493b78e.chunk.js": "/portfolio/static/js/2.2493b78e.chunk.js",
     "static/js/2.2493b78e.chunk.js.map": "/portfolio/static/js/2.2493b78e.chunk.js.map",
-    "static/js/3.2f52b84b.chunk.js": "/portfolio/static/js/3.2f52b84b.chunk.js",
-    "static/js/3.2f52b84b.chunk.js.map": "/portfolio/static/js/3.2f52b84b.chunk.js.map",
+    "static/js/3.bdff4f0a.chunk.js": "/portfolio/static/js/3.bdff4f0a.chunk.js",
+    "static/js/3.bdff4f0a.chunk.js.map": "/portfolio/static/js/3.bdff4f0a.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/main.f764cd04.chunk.css.map": "/portfolio/static/css/main.f764cd04.chunk.css.map",
     "static/js/2.2493b78e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.2493b78e.chunk.js.LICENSE.txt",
@@ -63,15 +63,16 @@
     "static/media/tailwindLogo.png": "/portfolio/static/media/tailwindLogo.75ff5099.png",
     "static/media/tikibike.png": "/portfolio/static/media/tikibike.92847741.png",
     "static/media/tools.a3b69e8a.svg": "/portfolio/static/media/tools.a3b69e8a.svg",
+    "static/media/virtualzoo.png": "/portfolio/static/media/virtualzoo.182b72aa.png",
     "static/media/visualLogo.png": "/portfolio/static/media/visualLogo.a944641f.png",
     "static/media/vueLogo.png": "/portfolio/static/media/vueLogo.3ef1d26b.png",
     "static/media/wheel.png": "/portfolio/static/media/wheel.90a16460.png",
     "static/media/xamppLogo.png": "/portfolio/static/media/xamppLogo.c55eb420.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.976226fa.js",
+    "static/js/runtime-main.0d72ed6a.js",
     "static/js/2.2493b78e.chunk.js",
     "static/css/main.f764cd04.chunk.css",
-    "static/js/main.28b845f5.chunk.js"
+    "static/js/main.92b19019.chunk.js"
   ]
 }
