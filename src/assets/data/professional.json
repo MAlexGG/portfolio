@@ -80,7 +80,7 @@
             "id": "8",
             "title": "Virtual Zoo",
             "subtitle": "Mobile animal virtual zoo",
-            "description": "This is a simple mobile app that works as a virtual zoo, it's developed with react.js and it's consuming the Zoo Animal API https://zoo-animal-api.herokuapp.com with Axios requests and from a service. Use styled components library and It's using react-router-dom v.6 for navigate between pages. It's not responsive yet, only It's designed for mobile.",
+            "description": "This is a simple mobile app that works as a virtual zoo, it's developed with react.js and it's consuming Zoo Animal API https://zoo-animal-api.herokuapp.com with Axios requests and from a service. Use styled components library and It's using react-router-dom v.6 for navigate between pages. It's not responsive yet, only It's designed for mobile.",
             "team": "María Alexandra Galarza.",
             "img": "virtualzoo.png",
             "prototype": "https://www.figma.com/proto/C2WufDbWmVbojtcGXFJfcI/Animals?node-id=24%3A4&scaling=scale-down&page-id=23%3A2&starting-point-node-id=24%3A4",
