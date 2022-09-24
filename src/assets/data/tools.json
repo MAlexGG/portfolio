@@ -1,6 +1,5 @@
 {
-    "tools" : [
-        {
+    "tools": [{
             "id": "1",
             "name": "Figma",
             "website": "https://www.figma.com",
@@ -26,149 +25,190 @@
         },
         {
             "id": "5",
+            "name": "Adobe XD",
+            "website": "https://www.adobe.com/es/products/xd.html",
+            "src": "adobeXd.png"
+        },
+        {
+            "id": "6",
             "name": "Atlassian",
             "website": "https://www.atlassian.com/es",
             "src": "atlassianLogo.png"
         },
         {
-            "id": "6",
+            "id": "7",
             "name": "HTML5",
             "website": "https://html.spec.whatwg.org/multipage/",
             "src": "htmlLogo.png"
         },
         {
-            "id": "7",
+            "id": "8",
             "name": "CSS3",
             "website": "https://www.w3.org/Style/CSS/",
             "src": "cssLogo.png"
         },
         {
-            "id": "8",
+            "id": "9",
             "name": "Javascript",
             "website": "https://developer.mozilla.org/es/docs/Web/JavaScript",
             "src": "javascriptLogo.png"
         },
         {
-            "id": "9",
+            "id": "10",
+            "name": "Typescript",
+            "website": "https://www.typescriptlang.org/",
+            "src": "typescript.png"
+        },
+        {
+            "id": "11",
             "name": "Miro",
             "website": "https://miro.com/es/",
             "src": "miroLogo.png"
         },
         {
-            "id": "10",
+            "id": "12",
             "name": "Sass",
             "website": "https://sass-lang.com/",
             "src": "sassLogo.png"
         },
         {
-            "id": "11",
+            "id": "13",
             "name": "Bootstrap",
             "website": "https://getbootstrap.com/",
             "src": "bootstrapLogo.png"
         },
         {
-            "id": "12",
+            "id": "14",
             "name": "Tailwind",
             "website": "https://tailwindcss.com/",
             "src": "tailwindLogo.png"
         },
         {
-            "id": "13",
+            "id": "15",
+            "name": "Styled Components",
+            "website": "https://styled-components.com/",
+            "src": "styledComponents.png"
+        },
+        {
+            "id": "16",
             "name": "Github",
             "website": "https://github.com/",
             "src": "githubLogo.png"
         },
         {
-            "id": "14",
+            "id": "17",
             "name": "Vue",
             "website": "https://vuejs.org/",
             "src": "vueLogo.png"
         },
         {
-            "id": "15",
+            "id": "18",
             "name": "React",
             "website": "https://es.reactjs.org/",
             "src": "reactLogo.png"
         },
         {
-            "id": "16",
+            "id": "19",
             "name": "Node",
             "website": "https://nodejs.org/es/",
             "src": "nodeLogo.png"
         },
         {
-            "id": "17",
+            "id": "20",
             "name": "Puppeteer",
             "website": "https://pptr.dev/",
             "src": "puppeteerLogo.png"
         },
         {
-            "id": "18",
+            "id": "21",
+            "name": "Axios",
+            "website": "https://axios-http.com/es/docs/intro",
+            "src": "axios.png"
+        },
+        {
+            "id": "22",
             "name": "Qgis",
             "website": "https://www.qgis.org/es/site/",
             "src": "qgisLogo.png"
         },
         {
-            "id": "19",
+            "id": "23",
             "name": "Postgresql",
             "website": "https://www.postgresql.org/",
             "src": "postgresqlLogo.png"
         },
         {
-            "id": "20",
+            "id": "24",
             "name": "Postgis",
             "website": "https://postgis.net/",
             "src": "postgisLogo.png"
         },
         {
-            "id": "21",
+            "id": "25",
             "name": "Xampp",
             "website": "https://www.apachefriends.org/es/index.html",
             "src": "xamppLogo.png"
         },
         {
-            "id": "22",
+            "id": "26",
             "name": "Php",
             "website": "https://www.php.net/manual/es/intro-whatis.php",
             "src": "phpLogo.png"
         },
         {
-            "id": "23",
+            "id": "27",
             "name": "Laravel",
             "website": "https://laravel.com/",
             "src": "laravelLogo.png"
         },
         {
-            "id": "24",
+            "id": "28",
             "name": "Mysql",
             "website": "https://www.mysql.com/",
             "src": "mysqlLogo.png"
         },
         {
-            "id": "25",
+            "id": "29",
             "name": "PHPUnit",
             "website": "https://phpunit.de/",
             "src": "phpunitLogo.png"
         },
         {
-            "id": "26",
+            "id": "30",
             "name": "Jest",
             "website": "https://jestjs.io/es-ES/",
             "src": "jestLogo.png"
         },
         {
-            "id": "27",
+            "id": "31",
             "name": "Composer",
             "website": "https://getcomposer.org/",
             "src": "composerLogo.png"
         },
         {
-            "id": "28",
+            "id": "32",
             "name": "Visual Studio Code",
             "website": "https://code.visualstudio.com/",
             "src": "visualLogo.png"
-        }           
+        },
+        {
+            "id": "33",
+            "name": "Java",
+            "website": "https://www.java.com/es/",
+            "src": "java.png"
+        },
+        {
+            "id": "34",
+            "name": "SpringBoot",
+            "website": "https://spring.io/projects/spring-boot",
+            "src": "springboot.png"
+        },
+        {
+            "id": "35",
+            "name": "IntelliJ IDEA",
+            "website": "https://www.jetbrains.com/es-es/idea/",
+            "src": "intelliJ.png"
+        }
 
     ]
 }
-
