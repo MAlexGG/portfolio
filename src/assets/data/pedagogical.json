@@ -100,7 +100,7 @@
         },
         {
             "id": "10",
-            "title": "Google UX Design Certificate",
+            "title": "UX Design for a Movie Theater",
             "subtitle": "mobile ticketing app for a movie theater",
             "description": "Movie theater app is a mobile app that allows you to buy movie tickets for a specific cinema in the city of Barcelona, offers discounts and packs of snacks and drinks to choose from. It's a total design of user experience (UX) including user research and design of wireframes, mockups and prototypes. The 'repository' button contains the case study that shows the entire research and design process. The project was carried out for the course of Google User Experience (UX) Design, Professional Certificate.",
             "team": "María Alexandra Galarza",
@@ -108,6 +108,28 @@
             "prototype": "https://www.figma.com/proto/UKuVD1xhQ4EiD7yxBg9aF4/Movie-App?node-id=61%3A1435&scaling=scale-down&page-id=47%3A440&starting-point-node-id=61%3A1435",
             "website": "",
             "repository": "https://docs.google.com/presentation/d/1GzHR5MK-Za-Co2ngxc_soby7Np9zY0lYa-Age-kxqTQ/edit?usp=sharing"
+        },
+        {
+            "id": "11",
+            "title": "UX Design for a Pet Shelter",
+            "subtitle": "pet adoption app",
+            "description": "Pet Adoption app is a responsive application that allows you to view, choose, adopt or sponsor a pet from a shelter animals. It's a total design of user experience (UX) including user research and design of wireframes, mockups and prototypes. It's design with a graceful degradation philosophy. The 'repository' button contains the case study that shows the entire research and design process. The project was carried out for the course of Google User Experience (UX) Design, Professional Certificate.",
+            "team": "María Alexandra Galarza",
+            "img": "petAdoption.png",
+            "prototype": "https://www.figma.com/proto/98KeYjTuJGpUsct8apzwm8/Pet-Adoption-App?node-id=111%3A1468&scaling=scale-down&page-id=109%3A77&starting-point-node-id=111%3A1468",
+            "website": "",
+            "repository": "https://docs.google.com/presentation/d/1fGQtc-W2v8xYD6SFPo9gUEsoQGF3enzf4Xc4ngZ_Hn4/edit?usp=sharing"
+        },
+        {
+            "id": "13",
+            "title": "UX Design for a City Shelter",
+            "subtitle": "city shelter app",
+            "description": "City Shelter App is a responsive web application that allows you to search for a shelter for people who need it in the city of Barcelona, look at the information on the shelter, its capacity, occupation and vacant spaces, as well as being able to register a person and reserve their space. It's a total design of user experience (UX) including user research and design of wireframes, mockups and prototypes. It's design with a progressive enhancement philosophy (mobile first). The 'repository' button contains the case study that shows the entire research and design process. The project was carried out for the course of Google User Experience (UX) Design, Professional Certificate.",
+            "team": "María Alexandra Galarza",
+            "img": "cityShelter.png",
+            "prototype": "https://www.figma.com/proto/vo4TLp4h0pgdWbK1YS8UrS/City-Shelter-App?node-id=43%3A2033&scaling=scale-down&page-id=43%3A2032&starting-point-node-id=43%3A2033",
+            "website": "",
+            "repository": "https://docs.google.com/presentation/d/1TX0GH4p7DPEmEpFTVSpdP58_pk13y62ojnKOYWtqsIM/edit?usp=sharing"
         }
     ]
 }
