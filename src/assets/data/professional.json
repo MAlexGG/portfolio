@@ -47,12 +47,12 @@
             "id": "5",
             "title": "PhotoTrips",
             "subtitle": "trips photo album website",
-            "description": "This is an online trips album photos, with categories by continent, countries and cities, it's designed in Figma and developed with Laravel - PHP, has a database in Mysql and the front it's developed with vue.js. It's under construction.",
+            "description": "This is an online trips album photos, with categories by continent, countries and cities, it's designed in Figma and developed with Laravel - PHP, has a database in Mysql and the front it's developed with React.js. It's under construction.",
             "team": "María Alexandra Galarza.",
             "img": "phototrips.png",
             "prototype": "https://www.figma.com/proto/WIcpZrkpTNgWNQn79HXExA/Phototrips?node-id=1%3A3&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A3",
             "website": "",
-            "repository": ""
+            "repository": "https://github.com/MAlexGG/phototrips-back.git"
         },
         {
             "id": "6",
