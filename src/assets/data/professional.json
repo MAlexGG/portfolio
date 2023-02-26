@@ -86,6 +86,50 @@
             "prototype": "https://www.figma.com/proto/C2WufDbWmVbojtcGXFJfcI/Animals?node-id=24%3A4&scaling=scale-down&page-id=23%3A2&starting-point-node-id=24%3A4",
             "website": "",
             "repository": "https://github.com/MAlexGG/virtual-zoo.git"
+        },
+        {
+            "id": "9",
+            "title": "Sakura Tarot",
+            "subtitle": "Past, present and future tarot app",
+            "description": "This is a tarot project that use the Sakura Cards from the API https://6388b6e5a4bb27a7f78f96a5.mockapi.io/sakura-cards/, Sakura tarot use the cards obtained from the manga serie called Sakura Card Captor. You can get the past, present and future lecture from cards that you will choose. It's developed with React.js, routes with react-router-dom package and styles with styled components library, the UI was design in Figma.",
+            "team": "María Alexandra Galarza.",
+            "img": "sakuraTarot.png",
+            "prototype": "https://www.figma.com/proto/uFtZpUyS3innhTcpgYsA28/Sakura?node-id=2%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A2",
+            "website": "",
+            "repository": "https://github.com/MAlexGG/sakura.git"
+        },
+        {
+            "id": "10",
+            "title": "Calculator",
+            "subtitle": "TDD of a Basic JS calculator",
+            "description": "This is an application that has the 4 basic functions of a calculator (addition, subtraction, multiplication and division). The calculator has a screen where the operations and results of them are displayed, it starts at 0. Has a button that allows you to reset to 0 (button C) and another button with an equal sign that will show the result of the operation you perform on the screen. It can perform operations with immediate results. It was developed with HTML, CSS and javascript. It was developed with TDD, using Jest v.29.3.1 ESModules was used with babel v.7.20.2 as compiler",
+            "team": "María Alexandra Galarza.",
+            "img": "calculator.png",
+            "prototype": "",
+            "website": "",
+            "repository": "https://github.com/MAlexGG/calculator-js.git"
+        },
+        {
+            "id": "11",
+            "title": "To-do list",
+            "subtitle": "Simple to-do crud app",
+            "description": "This is an educational exercise to understand how to do a simple CRUD with react.js using axios and json-server for data persistence, for css styled components are used. We can create a task that we can read, edit and delete, all of them with UX validations, you can't create empty tasks and you can search a task that it's already created. The UI was made after the functionality and was done directly on development without previous design.",
+            "team": "María Alexandra Galarza.",
+            "img": "todoList.png",
+            "prototype": "",
+            "website": "",
+            "repository": "https://github.com/MAlexGG/todo-list-react.git"
+        },
+        {
+            "id": "12",
+            "title": "Library",
+            "subtitle": "MVC app for books",
+            "description": "This is a simple CRUD project whose objective is to show books, it's developed in vanilla PHP, with an MVC architecture and with object-oriented programming, bootstrap is partially used for the styles and it's responsive. It has a MySQL database. The UI was made after the functionality and was done directly on development without previous design.",
+            "team": "María Alexandra Galarza.",
+            "img": "library.png",
+            "prototype": "",
+            "website": "",
+            "repository": "https://github.com/MAlexGG/library-php-mvc.git"
         }
     ]
 }
