@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f764cd04.chunk.css",
-    "main.js": "/portfolio/static/js/main.c4be3778.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.c4be3778.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.316bfe2c.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.316bfe2c.js.map",
+    "main.js": "/portfolio/static/js/main.22071c77.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.22071c77.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.eca822e2.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.eca822e2.js.map",
     "static/js/2.2493b78e.chunk.js": "/portfolio/static/js/2.2493b78e.chunk.js",
     "static/js/2.2493b78e.chunk.js.map": "/portfolio/static/js/2.2493b78e.chunk.js.map",
-    "static/js/3.84618ce6.chunk.js": "/portfolio/static/js/3.84618ce6.chunk.js",
-    "static/js/3.84618ce6.chunk.js.map": "/portfolio/static/js/3.84618ce6.chunk.js.map",
+    "static/js/3.4e8071e9.chunk.js": "/portfolio/static/js/3.4e8071e9.chunk.js",
+    "static/js/3.4e8071e9.chunk.js.map": "/portfolio/static/js/3.4e8071e9.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/main.f764cd04.chunk.css.map": "/portfolio/static/css/main.f764cd04.chunk.css.map",
     "static/js/2.2493b78e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.2493b78e.chunk.js.LICENSE.txt",
@@ -20,6 +20,7 @@
     "static/media/back.1d749340.svg": "/portfolio/static/media/back.1d749340.svg",
     "static/media/balsamiqLogo.png": "/portfolio/static/media/balsamiqLogo.921fbc57.png",
     "static/media/bootstrapLogo.png": "/portfolio/static/media/bootstrapLogo.3fe1b106.png",
+    "static/media/calculator.png": "/portfolio/static/media/calculator.8214c232.png",
     "static/media/cityShelter.png": "/portfolio/static/media/cityShelter.da7f722c.png",
     "static/media/close.bd36de33.svg": "/portfolio/static/media/close.bd36de33.svg",
     "static/media/composerLogo.png": "/portfolio/static/media/composerLogo.8074ef94.png",
@@ -42,6 +43,7 @@
     "static/media/klikshare.png": "/portfolio/static/media/klikshare.f1e6078a.png",
     "static/media/laravelLogo.png": "/portfolio/static/media/laravelLogo.b07f0e7a.png",
     "static/media/lego.png": "/portfolio/static/media/lego.01ac2721.png",
+    "static/media/library.png": "/portfolio/static/media/library.2f2256ef.png",
     "static/media/linkedin.aac59972.svg": "/portfolio/static/media/linkedin.aac59972.svg",
     "static/media/miroLogo.png": "/portfolio/static/media/miroLogo.7e567231.png",
     "static/media/movieapp.png": "/portfolio/static/media/movieapp.4bf5626d.png",
@@ -61,12 +63,14 @@
     "static/media/reactLogo.png": "/portfolio/static/media/reactLogo.4eebc79b.png",
     "static/media/refresh.04e147f7.svg": "/portfolio/static/media/refresh.04e147f7.svg",
     "static/media/resume.png": "/portfolio/static/media/resume.48dc52c9.png",
+    "static/media/sakuraTarot.png": "/portfolio/static/media/sakuraTarot.7aa8087b.png",
     "static/media/sass.png": "/portfolio/static/media/sass.b9d101c2.png",
     "static/media/sassLogo.png": "/portfolio/static/media/sassLogo.ef52d600.png",
     "static/media/sombrereria.png": "/portfolio/static/media/sombrereria.c315fdaa.png",
     "static/media/starwars.png": "/portfolio/static/media/starwars.ffad903e.png",
     "static/media/tailwindLogo.png": "/portfolio/static/media/tailwindLogo.75ff5099.png",
     "static/media/tikibike.png": "/portfolio/static/media/tikibike.92847741.png",
+    "static/media/todoList.png": "/portfolio/static/media/todoList.fe1329a4.png",
     "static/media/tools.a3b69e8a.svg": "/portfolio/static/media/tools.a3b69e8a.svg",
     "static/media/typescript.png": "/portfolio/static/media/typescript.02ead8fa.png",
     "static/media/virtualzoo.png": "/portfolio/static/media/virtualzoo.182b72aa.png",
@@ -76,9 +80,9 @@
     "static/media/xamppLogo.png": "/portfolio/static/media/xamppLogo.c55eb420.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.316bfe2c.js",
+    "static/js/runtime-main.eca822e2.js",
     "static/js/2.2493b78e.chunk.js",
     "static/css/main.f764cd04.chunk.css",
-    "static/js/main.c4be3778.chunk.js"
+    "static/js/main.22071c77.chunk.js"
   ]
 }
