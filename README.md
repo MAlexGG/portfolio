@@ -9,7 +9,7 @@
 ***
 ## General Info
 
-This is my personal portfolio website for showing my pedagogical, professional and personal projects I made alone and in teams, it's developed with react.js and consumes data from json files.
+This is my personal portfolio website for showing my pedagogical, professional and personal projects I made alone and in teams, it's developed with react.js and consumes data from json files. It's deployed https://malexgg.github.io/portfolio/
 
 ### UI Design
 ![1](https://user-images.githubusercontent.com/73828751/140615764-3665879c-819c-4cf6-85e4-f435d336c17e.png)
