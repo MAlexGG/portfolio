@@ -23,6 +23,10 @@
 
 .img-ico {
     width: 80%;
+    filter: none;
+    @media (min-width: $breakpointLarge) {
+        filter: invert(93%) sepia(96%) saturate(3902%) hue-rotate(326deg) brightness(96%) contrast(97%);
+    }
 }
 
 .img-icoInvert {

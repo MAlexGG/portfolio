@@ -113,7 +113,7 @@
             "id": "11",
             "title": "To-do list",
             "subtitle": "Simple to-do crud app",
-            "description": "This is an educational exercise to understand how to do a simple CRUD with react.js using axios and json-server for data persistence, for css styled components are used. We can create a task that we can read, edit and delete, all of them with UX validations, you can't create empty tasks and you can search a task that it's already created. The UI was made after the functionality and was done directly on development without previous design.",
+            "description": "This is an educational exercise to understand how to do a simple CRUD with react.js using axios and json-server for data persistence, for css styled components are used. We can create a task that we can read, edit and delete, all of them with UX validations, you can't create empty tasks and you can search a task that it's already created. The UI was made after the functionality and was done directly on development without previous design. All services are tested with Mock Service Worker library. It's responsive.",
             "team": "María Alexandra Galarza.",
             "img": "todoList.png",
             "prototype": "",
