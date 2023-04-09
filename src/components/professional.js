@@ -24,7 +24,7 @@ class Professional extends Component{
                     <span>O</span>
                     <span>N</span>
                     <span>A</span>
-                    <span>L &nbsp;</span>
+                    <span>L&nbsp;</span>
                     <span>&</span>
                 </div>
                 <div>
@@ -35,7 +35,9 @@ class Professional extends Component{
                     <span>O</span>
                     <span>N</span>
                     <span>A</span>
-                    <span>L &nbsp;</span>
+                    <span>L</span>
+                </div>
+                <div>
                     <span>P</span>
                     <span>R</span>
                     <span>O</span>
