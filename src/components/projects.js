@@ -16,7 +16,7 @@ class Projects extends Component{
     render(){
         return(
             <div className="ct-main">
-                <Navbar filter="img-ico" />
+                <Navbar filter="img-ico-tools" />
                 <div className="ct-divUp"><div className="img-div"></div></div>
                 <div className="ct-contentProjects">
                     <button className="bt-ctProjects" onClick={this.goPedagogical}>Pedagogical Projects</button>

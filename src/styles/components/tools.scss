@@ -1,16 +1,30 @@
-.ct-tools{
+.ct-tools {
     @include displayFlex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 80vw;
+    width: 90vw;
     margin: 3%;
 }
 
-.img-logo{
+.img-logo {
     height: 5vh;
 }
 
-.a-tool{
+.a-tool {
     @include displayFlex;
     margin: 1%;
+}
+
+.ct-green {
+    @include displayFlex;
+    width: 90vw;
+    margin: 5% 0% 0% 0%;
+    @media (min-width: $breakpointMedium) {
+        justify-content: flex-end;
+        margin: 5% 10% 0% 0%;
+    }
+}
+
+.img-greenHost {
+    width: 150px;
 }
