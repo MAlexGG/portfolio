@@ -130,6 +130,17 @@
             "prototype": "",
             "website": "",
             "repository": "https://github.com/MAlexGG/library-php-mvc.git"
+        },
+        {
+            "id": "13",
+            "title": "Interesting Thoughts",
+            "subtitle": "App for thoughts",
+            "description": "This is an app whose objective is that a register user can create, edit and delete cards with an interesting thought with and image and its author, anyone can see all thoughts but you have to be register to give a like (the heart icon) to another thought, it's developed with Laravel with an MVC architecture, with blade and bootstrap is used for the styles and it's responsive. It has a MySQL database. It has feature tests.",
+            "team": "María Alexandra Galarza.",
+            "img": "interesting_thoughts.png",
+            "prototype": "",
+            "website": "",
+            "repository": "https://github.com/MAlexGG/interesting-thoughts.git"
         }
     ]
 }
