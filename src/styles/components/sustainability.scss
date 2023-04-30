@@ -1,5 +1,6 @@
 .ct-green {
     @include displayFlex;
+    flex-wrap: wrap;
     width: 90vw;
     margin: 5% 0% 0% 0%;
     @media (min-width: $breakpointMedium) {
@@ -8,6 +9,18 @@
     }
 }
 
+.img-carbonCalculator {
+    width: 270px;
+}
+
 .img-greenHost {
     width: 150px;
+}
+
+.img-digitalBeacon {
+    width: 270px;
+}
+
+.img-pageSpeed {
+    width: 270px;
 }
