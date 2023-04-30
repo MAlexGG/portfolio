@@ -16,6 +16,33 @@
      @include displayFlex;
  }
  
+ .ct-ico-about {
+     display: flex;
+     position: relative;
+     &:hover .bt-label-about {
+         visibility: visible;
+     }
+ }
+ 
+ .bt-label-about {
+     visibility: hidden;
+     position: absolute;
+     margin: 0px;
+     font-family: $fontSecondary;
+     font-size: 0.8rem;
+     color: $colorSecondary;
+ }
+ 
+ .left {
+     left: 30px;
+     bottom: -15px;
+ }
+ 
+ .right {
+     left: -30px;
+     bottom: -20px;
+ }
+ 
  .img-refresh {
      width: 28px;
      padding: 0px 4px 0px 4px;

@@ -30,15 +30,30 @@ class Aboutme extends Component {
                     <div className="img-div"></div>
                 </div>
                 <div className="ct-navAbout">
-                   <img className="img-refresh" src={refresh} alt="refresh button" onClick={this.goHome} />
+                    <div className="ct-ico-about">
+                        <img className="img-refresh" src={refresh} alt="refresh button" onClick={this.goHome} />
+                        <p className="bt-label-about left">refresh</p>
+                    </div>
                    <div className="ct-navContact">
                         <div className="ct-navContactBlock">
-                            <a href="mailto:alexandragalarzag@gmail.com" target="_blank" rel='noopener noreferrer'><img className="img-contact" src={contact} alt="contact button" onClick={this.goMail} /></a> 
-                            <a href="http://www.linkedin.com/in/magalarza" target="_blank" rel='noopener noreferrer'><img className="img-contact" src={linkedin} alt="linkedin profile" /></a>
+                            <div className="ct-ico-about">
+                                <a href="mailto:alexandragalarzag@gmail.com" target="_blank" rel='noopener noreferrer'><img className="img-contact" src={contact} alt="contact button" onClick={this.goMail} /></a> 
+                                <p className="bt-label-about right">e-mail</p>
+                            </div>
+                            <div className="ct-ico-about">
+                                <a href="http://www.linkedin.com/in/magalarza" target="_blank" rel='noopener noreferrer'><img className="img-contact" src={linkedin} alt="linkedin profile" /></a>
+                                <p className="bt-label-about right">linked-in</p>
+                            </div>
                         </div>
                         <div className="ct-navContactBlock">
-                            <a href={pdf} target="_blank" rel="noopener noreferrer" download="CV_Galarza_Gallardo_EN.pdf"><img className="img-contact" src={cv} alt="resume in pdf for download" /></a>
-                            <a href="https://github.com/MAlexGG" target="_blank" rel='noopener noreferrer'><img className="img-contact" src={github} alt="github link" /></a>
+                            <div className="ct-ico-about">  
+                                <a href={pdf} target="_blank" rel="noopener noreferrer" download="CV_Galarza_Gallardo_EN.pdf"><img className="img-contact" src={cv} alt="resume in pdf for download" /></a>
+                                <p className="bt-label-about right">resume</p>
+                            </div>
+                            <div className="ct-ico-about">
+                                <a href="https://github.com/MAlexGG" target="_blank" rel='noopener noreferrer'><img className="img-contact" src={github} alt="github link" /></a>
+                                <p className="bt-label-about right">github</p>
+                            </div>
                         </div>
                    </div>
                 </div>

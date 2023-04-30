@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Navbar from "./navbar";
-import GreenHost from "../assets/img/green_host.png";
 
 class Tools extends Component{
     goTools = e => {

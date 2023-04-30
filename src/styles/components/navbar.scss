@@ -20,6 +20,9 @@
     border: none;
     cursor: pointer;
     position: relative;
+    &:hover .bt-label {
+        visibility: visible;
+    }
 }
 
 .bt-label {
@@ -36,10 +39,6 @@
 
 .right {
     left: -30px;
-}
-
-.bt-ico:hover .bt-label {
-    visibility: visible;
 }
 
 .img-ico {
