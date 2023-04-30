@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import App from "../App";
 import Projects from "../components/projects";
 import Tools from "../components/tools";
@@ -10,10 +10,13 @@ import PedagogicalProjects from "../components/pedagogicalProjects";
 import ProfessionalProjects from "../components/professionalProjects";
 import Project from "../components/project";
 import NotFound from "../components/notFound";
+import Sustainability from "../components/sustainability";
+import { HashRouter } from "react-router-dom/cjs/react-router-dom.min";
+
 
 
 const Router = () => (
-    <BrowserRouter basename="/portfolio/">
+    <HashRouter basename="/portfolio">
         <Switch>
             <Route exact path="/" component={App} />
             <Route exact path="/aboutme" component={Aboutme} />
@@ -24,9 +27,10 @@ const Router = () => (
             <Route exact path="/professional-projects" component={ProfessionalProjects} />
             <Route exact path="/project/:index" component={Project} />
             <Route exact path="/tools" component={Tools} />
+            <Route exact path="/sustainability" component={Sustainability}/>
             <Route component={NotFound} />
         </Switch>
-    </BrowserRouter>
+    </HashRouter>
 );
 
 export default Router;
