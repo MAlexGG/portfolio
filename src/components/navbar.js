@@ -34,19 +34,23 @@ class Navbar extends Component{
                 <div className="ct-navbuttons">
                     <button className="bt-ico" onClick={this.goHome}>
                         <img className={this.props.filter} src={home} alt="home button"/>
+                        <p className={`${this.props.filter} bt-label left`}>Home</p>
                     </button>
                     
                     <button className="bt-ico" onClick={this.goTools}>
                         <img className={this.props.filter} src={tools} alt="tools and technologies button"/>
+                        <p className={`${this.props.filter} bt-label left`}>Tools</p>
                     </button>
 
                     <button className="bt-ico" onClick={this.goGreen}>
-                        <img className={this.props.filter} src={green} alt="tools and technologies button"/>
+                        <img className={this.props.filter} src={green} alt="sustainability button"/>
+                        <p className={`${this.props.filter} bt-label left`}>Sustainability</p>
                     </button>
                 </div>
                 <div className="ct-navbuttons">
                     <button className="bt-ico" onClick={this.goProjects}>
                         <img className={this.props.filter} src={projects} alt="projects button"/>
+                        <p className={`${this.props.filter} bt-label right`}>Projects</p>
                     </button>
                 </div>
             </div>

@@ -19,6 +19,27 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
+    position: relative;
+}
+
+.bt-label {
+    visibility: hidden;
+    position: absolute;
+    bottom: -15px;
+    margin: 0px;
+    font-family: $fontSecondary;
+}
+
+.left {
+    left: 30px;
+}
+
+.right {
+    left: -30px;
+}
+
+.bt-ico:hover .bt-label {
+    visibility: visible;
 }
 
 .img-ico {
