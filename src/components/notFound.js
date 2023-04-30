@@ -14,8 +14,11 @@ class NotFound extends Component {
                 <button className = "bt-ico bt-notFoundBack" onClick = { this.goBack }>
                     <img className = "img-icoInvert" src = { back } alt = "go back button" />
                 </button>
-                <p className="txt-notFound">Page not found</p>
-                <p className="txt-error" > error 404 </p>
+                <div className="ct-notFound">
+                    <p className="txt-notFound">Page not found</p>
+                    <p className="txt-error" > error 404 </p>
+                </div>
+                
             </div>
         );
     }

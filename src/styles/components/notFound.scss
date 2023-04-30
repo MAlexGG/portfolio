@@ -1,19 +1,24 @@
-.txt-notFound{
+.ct-notFound {
+    @include displayFlex;
+    flex-direction: column;
+}
+
+.txt-notFound {
     color: $colorPrincipal;
+    margin: 0px;
 }
 
 .txt-error {
     color: $colorPrincipal;
     font-family: $fontSecondary;
     font-size: 2rem;
-    position: absolute;
-    bottom: 30vh;
+    margin: 0px;
     @media (min-width: $breakpointSmall) {
         font-size: 3rem;
-      }
+    }
 }
 
-.bt-notFoundBack{
+.bt-notFoundBack {
     position: absolute;
     top: 0px;
     right: 0px;
