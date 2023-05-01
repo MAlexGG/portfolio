@@ -130,6 +130,17 @@
             "prototype": "https://www.figma.com/proto/vo4TLp4h0pgdWbK1YS8UrS/City-Shelter-App?node-id=43%3A2033&scaling=scale-down&page-id=43%3A2032&starting-point-node-id=43%3A2033",
             "website": "",
             "repository": "https://docs.google.com/presentation/d/1TX0GH4p7DPEmEpFTVSpdP58_pk13y62ojnKOYWtqsIM/edit?usp=sharing"
+        },
+        {
+            "id": "14",
+            "title": "Green improvement of a web",
+            "subtitle": "Factoría F5",
+            "description": "This project was carried out as the final work of the Green Digital Skills Certificate, the objective of this study is to measure the landing page of the Factoría F5 organization's web page, generate an improvement plan and develop a replica from the original page (at educational level) to compare the initial and final carbon footprint, after following some recommendations, without compromising its design and quality. The original page is developed in Wordpress and the replica in React.js, so it will also be possible to have a comparison between technologies, it will only be measured in the desktop version. In the prototype link is the entire analysis.",
+            "team": "María Alexandra Galarza",
+            "img": "green_skills.png",
+            "prototype": "https://docs.google.com/presentation/d/1Ofdi9F7jCz8dKBSnw0UEpIt-gZ_YAoBSuZ6_t-FdUSM/edit?usp=sharing",
+            "website": "https://malexgg.github.io/green-analysis-factoriaf5/",
+            "repository": "https://github.com/MAlexGG/green-analysis-factoriaf5.git"
         }
     ]
 }

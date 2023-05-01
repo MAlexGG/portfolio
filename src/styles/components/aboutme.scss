@@ -97,6 +97,10 @@
      @media (min-width: $breakpointSmall) {
          font-size: 1.2rem;
      }
+     &:hover {
+         background-color: $colorSecondary;
+         color: $colorPrincipal;
+     }
  }
  
  .bt-projects {
@@ -109,6 +113,10 @@
          width: 130px;
          height: 40px;
          font-size: 1.3rem;
+     }
+     &:hover {
+         background-color: $colorSecondary;
+         color: $colorPrincipal;
      }
  }
  
