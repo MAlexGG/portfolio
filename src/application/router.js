@@ -16,7 +16,7 @@ import { HashRouter } from "react-router-dom/cjs/react-router-dom.min";
 
 
 const Router = () => (
-    <HashRouter basename="/portfolio">
+    <HashRouter>
         <Switch>
             <Route exact path="/" component={App} />
             <Route exact path="/aboutme" component={Aboutme} />
