@@ -1,26 +1,32 @@
 .ct-green {
-    @include displayFlex;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
     flex-wrap: wrap;
     width: 90vw;
-    margin: 5% 0% 0% 0%;
-    @media (min-width: $breakpointMedium) {
-        justify-content: flex-end;
-        margin: 5% 10% 0% 0%;
+    margin-top: 1%;
+}
+
+.txt-paragraph-sustainability {
+    display: none;
+    text-align: center;
+    font-family: $fontSecondary;
+    font-size: 1.2rem;
+    margin: 1% 10% 1% 10%;
+    gap: 5px;
+    @media (min-width: $breakpointSmall) {
+        display: block;
+        gap: 0px;
     }
 }
 
-.img-carbonCalculator {
-    width: 270px;
+.ct-websitecarbon {
+    display: flex;
+    flex-direction: column;
 }
 
-.img-greenHost {
-    width: 150px;
-}
-
-.img-digitalBeacon {
+.img-footprint {
     width: 270px;
-}
-
-.img-pageSpeed {
-    width: 270px;
+    margin-top: 1%;
+    border-radius: 15px;
 }
