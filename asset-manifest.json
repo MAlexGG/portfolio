@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.a8c86c54.chunk.css",
-    "main.js": "/portfolio/static/js/main.744dfe45.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.744dfe45.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.6b38a98e.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.6b38a98e.js.map",
-    "static/js/2.4b99738a.chunk.js": "/portfolio/static/js/2.4b99738a.chunk.js",
-    "static/js/2.4b99738a.chunk.js.map": "/portfolio/static/js/2.4b99738a.chunk.js.map",
-    "static/js/3.4661dd05.chunk.js": "/portfolio/static/js/3.4661dd05.chunk.js",
-    "static/js/3.4661dd05.chunk.js.map": "/portfolio/static/js/3.4661dd05.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.7f4e9cfe.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.7f4e9cfe.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.d8d7c211.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.d8d7c211.js.map",
+    "static/js/2.76769eb6.chunk.js": "/portfolio/static/js/2.76769eb6.chunk.js",
+    "static/js/2.76769eb6.chunk.js.map": "/portfolio/static/js/2.76769eb6.chunk.js.map",
+    "static/js/3.68d01630.chunk.js": "/portfolio/static/js/3.68d01630.chunk.js",
+    "static/js/3.68d01630.chunk.js.map": "/portfolio/static/js/3.68d01630.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/main.a8c86c54.chunk.css.map": "/portfolio/static/css/main.a8c86c54.chunk.css.map",
-    "static/js/2.4b99738a.chunk.js.LICENSE.txt": "/portfolio/static/js/2.4b99738a.chunk.js.LICENSE.txt",
-    "static/media/CV_Galarza_Gallardo_EN.37af786a.pdf": "/portfolio/static/media/CV_Galarza_Gallardo_EN.37af786a.pdf",
+    "static/js/2.76769eb6.chunk.js.LICENSE.txt": "/portfolio/static/js/2.76769eb6.chunk.js.LICENSE.txt",
+    "static/media/CV_Galarza_Gallardo_EN.b96989a6.pdf": "/portfolio/static/media/CV_Galarza_Gallardo_EN.b96989a6.pdf",
     "static/media/agorax.png": "/portfolio/static/media/agorax.8b8470d6.png",
     "static/media/back.1d749340.svg": "/portfolio/static/media/back.1d749340.svg",
     "static/media/calculator.png": "/portfolio/static/media/calculator.8214c232.png",
@@ -56,9 +56,9 @@
     "static/media/wheel.png": "/portfolio/static/media/wheel.90a16460.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.6b38a98e.js",
-    "static/js/2.4b99738a.chunk.js",
+    "static/js/runtime-main.d8d7c211.js",
+    "static/js/2.76769eb6.chunk.js",
     "static/css/main.a8c86c54.chunk.css",
-    "static/js/main.744dfe45.chunk.js"
+    "static/js/main.7f4e9cfe.chunk.js"
   ]
 }
