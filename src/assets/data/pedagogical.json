@@ -35,7 +35,7 @@
         {
             "id": "4",
             "title": "Handy App",
-            "subtitle": "Appointments from coders to CTO app",
+            "subtitle": "appointments from coders to CTO app",
             "description": "Handy App allows workers from the company to request an appointment with the CTO to solve technical problems of the development team. The CTO can see all the appoitments required from de coders and the coders can manipulate their request information. The user securities are not implemented yet. It was made with HTML5, CSS3, Sass, PHP, Figma, MySql, PHPMyAdmin-PDO.",
             "team": "Sergio Corcuera, María Alexandra Galarza, Berta López, Gabriela Piñeiro, Joan Recordà.",
             "img": "handyapp.png",
@@ -134,7 +134,7 @@
         {
             "id": "14",
             "title": "Green improvement of a web",
-            "subtitle": "Factoría F5",
+            "subtitle": "factoría F5",
             "description": "This project was carried out as the final work of the Green Digital Skills Certificate, the objective of this study is to measure the landing page of the Factoría F5 organization's web page, generate an improvement plan and develop a replica from the original page (at educational level) to compare the initial and final carbon footprint, after following some recommendations, without compromising its design and quality. The original page is developed in Wordpress and the replica in React.js, so it will also be possible to have a comparison between technologies, it will only be measured in the desktop version. In the prototype link is the entire analysis.",
             "team": "María Alexandra Galarza",
             "img": "green_skills.png",

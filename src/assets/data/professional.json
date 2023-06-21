@@ -45,17 +45,6 @@
         },
         {
             "id": "5",
-            "title": "PhotoTrips",
-            "subtitle": "trips photo album website",
-            "description": "This is an online trips album photos, with categories by continent, countries and cities, it's designed in Figma and developed with Laravel - PHP, has a database in Mysql and the front it's developed with React.js. It's under construction.",
-            "team": "María Alexandra Galarza.",
-            "img": "phototrips.png",
-            "prototype": "https://www.figma.com/proto/WIcpZrkpTNgWNQn79HXExA/Phototrips?node-id=1%3A3&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A3",
-            "website": "",
-            "repository": "https://github.com/MAlexGG/phototrips-back.git"
-        },
-        {
-            "id": "6",
             "title": "Portfolio",
             "subtitle": "my personal portfolio website",
             "description": "This is my personal portfolio website for showing my pedagogical, professional and personal projects I made alone and in teams, it's developed with react.js and consumes data from json files.",
@@ -66,9 +55,9 @@
             "repository": "https://github.com/MAlexGG/portfolio.git"
         },
         {
-            "id": "7",
+            "id": "6",
             "title": "The CRUD project",
-            "subtitle": "Pedagogical responsive website",
+            "subtitle": "pedagogical responsive website",
             "description": "This is a website for pedagogical purposes for fullstack bootcamp students, developed in React.js and Laravel, it shows how to read a json file, how to make a fake CRUD using the browser memory, how to make a CRUD with json server using fetch Api and another one using Axios Library and hooks, and a last one consumes a PHP API with auth and tokens.",
             "team": "María Alexandra Galarza.",
             "img": "crudProject.jpg",
@@ -77,9 +66,9 @@
             "repository": "https://github.com/MAlexGG/crud-react-laravel-api-front.git"
         },
         {
-            "id": "8",
+            "id": "7",
             "title": "Virtual Zoo",
-            "subtitle": "Mobile animal virtual zoo",
+            "subtitle": "mobile animal virtual zoo",
             "description": "This is a simple mobile app that works as a virtual zoo, it's developed with react.js and it's consuming Zoo Animal API https://zoo-animal-api.herokuapp.com with Axios requests and from a service. Use styled components library and It's using react-router-dom v.6 for navigate between pages. It's not responsive yet, only It's designed for mobile.",
             "team": "María Alexandra Galarza.",
             "img": "virtualzoo.png",
@@ -88,9 +77,9 @@
             "repository": "https://github.com/MAlexGG/virtual-zoo.git"
         },
         {
-            "id": "9",
+            "id": "8",
             "title": "Sakura Tarot",
-            "subtitle": "Past, present and future tarot app",
+            "subtitle": "past, present and future tarot app",
             "description": "This is a tarot project that use the Sakura Cards from the API https://6388b6e5a4bb27a7f78f96a5.mockapi.io/sakura-cards/, Sakura tarot use the cards obtained from the manga serie called Sakura Card Captor. You can get the past, present and future lecture from cards that you will choose. It's developed with React.js, routes with react-router-dom package and styles with styled components library, the UI was design in Figma.",
             "team": "María Alexandra Galarza.",
             "img": "sakuraTarot.png",
@@ -99,7 +88,7 @@
             "repository": "https://github.com/MAlexGG/sakura.git"
         },
         {
-            "id": "10",
+            "id": "9",
             "title": "Calculator",
             "subtitle": "TDD of a Basic JS calculator",
             "description": "This is an application that has the 4 basic functions of a calculator (addition, subtraction, multiplication and division). The calculator has a screen where the operations and results of them are displayed, it starts at 0. Has a button that allows you to reset to 0 (button C) and another button with an equal sign that will show the result of the operation you perform on the screen. It can perform operations with immediate results. It was developed with HTML, CSS and javascript. It was developed with TDD, using Jest v.29.3.1 ESModules was used with babel v.7.20.2 as compiler",
@@ -110,9 +99,9 @@
             "repository": "https://github.com/MAlexGG/calculator-js.git"
         },
         {
-            "id": "11",
+            "id": "10",
             "title": "To-do list",
-            "subtitle": "Simple to-do crud app",
+            "subtitle": "simple to-do crud app",
             "description": "This is an educational exercise to understand how to do a simple CRUD with react.js using axios and json-server for data persistence, for css styled components are used. We can create a task that we can read, edit and delete, all of them with UX validations, you can't create empty tasks and you can search a task that it's already created. The UI was made after the functionality and was done directly on development without previous design. All services are tested with Mock Service Worker library. It's responsive.",
             "team": "María Alexandra Galarza.",
             "img": "todoList.png",
@@ -121,7 +110,7 @@
             "repository": "https://github.com/MAlexGG/todo-list-react.git"
         },
         {
-            "id": "12",
+            "id": "11",
             "title": "Library",
             "subtitle": "MVC app for books",
             "description": "This is a simple CRUD project whose objective is to show books, it's developed in vanilla PHP, with an MVC architecture and with object-oriented programming, bootstrap is partially used for the styles and it's responsive. It has a MySQL database. The UI was made after the functionality and was done directly on development without previous design.",
@@ -132,15 +121,37 @@
             "repository": "https://github.com/MAlexGG/library-php-mvc.git"
         },
         {
-            "id": "13",
+            "id": "12",
             "title": "Interesting Thoughts",
-            "subtitle": "App for thoughts",
+            "subtitle": "app for thoughts",
             "description": "This is an app whose objective is that a register user can create, edit and delete cards with an interesting thought with and image and its author, anyone can see all thoughts but you have to be register to give a like (the heart icon) to another thought, it's developed with Laravel with an MVC architecture, with blade and bootstrap is used for the styles and it's responsive. It has a MySQL database. It has feature tests.",
             "team": "María Alexandra Galarza.",
             "img": "interesting_thoughts.png",
             "prototype": "",
             "website": "",
             "repository": "https://github.com/MAlexGG/interesting-thoughts.git"
+        },
+        {
+            "id": "13",
+            "title": "Curious Facts",
+            "subtitle": "do you know that?",
+            "description": "This is a single page responsive application that calls the API https://uselessfacts.jsph.pl and gets random curious facts that prints on screen. If you want you can save your favorites facts and also you can delete the last one. It's tested with jest, globals for mocking and jsdom.",
+            "team": "María Alexandra Galarza.",
+            "img": "curiousFacts.png",
+            "prototype": "https://www.figma.com/proto/DZX9DselgRidAd3aDq54IP/Personal-Projects?type=design&node-id=1006-402&scaling=scale-down&page-id=1001%3A402&starting-point-node-id=1006%3A402",
+            "website": "",
+            "repository": "https://github.com/MAlexGG/testing-fetch.git"
+        },
+        {
+            "id": "14",
+            "title": "PhotoTrips",
+            "subtitle": "trips photo album website",
+            "description": "This is a website for personal use, it's a photo album that shows your photos classified by continent, country and city, you can upload an image, with a title and description, CRUD for cities and countries, you can register as a regular user, but an admin user will validate your registration for usign the web. The API it's made with laravel, MVC architecture with TDD and it's consumed by a React App.",
+            "team": "María Alexandra Galarza.",
+            "img": "phototrips.png",
+            "prototype": "https://www.figma.com/proto/WIcpZrkpTNgWNQn79HXExA/Phototrips?type=design&node-id=1-3&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A3",
+            "website": "",
+            "repository": "https://github.com/MAlexGG/phototrips-back.git"
         }
     ]
 }
