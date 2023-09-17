@@ -5,7 +5,7 @@
             "subtitle": "my personal resume website",
             "description": "This is my resume made with HTML5, CSS3 and javascript vanilla, it's a flirtatious design where I show diferent information distributed in a lateral nav bar. I added some css animations for a more dynamic experience. I made de UX/UI design in Figma both desktop and mobile. It's responsive.",
             "team": "María Alexandra Galarza.",
-            "img": "resume.png",
+            "img": "resume.webp",
             "prototype": "https://www.figma.com/proto/Ahxnon0AC8WMguKBj20xoo/CV?node-id=9%3A97&scaling=scale-down&page-id=0%3A1&starting-point-node-id=9%3A97&show-proto-sidebar=1",
             "website": "https://malexgg.github.io/CV/",
             "repository": "https://github.com/MAlexGG/CV.git"
@@ -16,7 +16,7 @@
             "subtitle": "online catalog for a macrame store",
             "description": "This is a product catalogue with payment gateway (stripe consume with API) and chat (whatsapp consume with API) made with HTML5, CSS3 and javascript vanilla. I made the UX/UI design in Figma both desktop and mobile and the development was in team. It's responsive.",
             "team": "Andrea Cevallos, Sergio Corcuera, María Alexandra Galarza, Andrés Patiño.",
-            "img": "enfiladissa.png",
+            "img": "enfiladissa.webp",
             "prototype": "https://www.figma.com/proto/zH4T8vm8vfkbgKxkWNMNGz/Enfiladissa?node-id=1%3A2&scaling=contain&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1",
             "website": "https://malexgg.github.io/Enfiladissa/",
             "repository": "https://github.com/MAlexGG/Enfiladissa.git"
@@ -27,7 +27,7 @@
             "subtitle": "website for an architecture company",
             "description": "Website for an architecture company that wants to show their projects and publications, it was developed with wordpress using the elementor plugin, it doesn't have a UI design, since the elements of the software were used. It also doesn't have a repository on github.",
             "team": "María Alexandra Galarza.",
-            "img": "lego.png",
+            "img": "lego.webp",
             "prototype": "",
             "website": "https://legoarquitectura.com/",
             "repository": ""
@@ -38,7 +38,7 @@
             "subtitle": "website for a bike route business",
             "description": "This is the website for a local bike rental business located in the french north-apline region. All the development was made by Sergio Corcuera and I collaborated with the UI design.",
             "team": "Sergio Corcuera, María Alexandra Galarza.",
-            "img": "tikibike.png",
+            "img": "tikibike.webp",
             "prototype": "https://www.figma.com/proto/0R7ZtVwIK3RXgkM6JDU6EJ/Tikibike?node-id=43%3A48&scaling=contain&page-id=43%3A45&starting-point-node-id=43%3A48&show-proto-sidebar=1",
             "website": "https://blaucomfuig.github.io/tikibike/",
             "repository": "https://github.com/blaucomfuig/tikibike.git"
@@ -60,7 +60,7 @@
             "subtitle": "pedagogical responsive website",
             "description": "This is a website for pedagogical purposes for fullstack bootcamp students, developed in React.js and Laravel, it shows how to read a json file, how to make a fake CRUD using the browser memory, how to make a CRUD with json server using fetch Api and another one using Axios Library and hooks, and a last one consumes a PHP API with auth and tokens.",
             "team": "María Alexandra Galarza.",
-            "img": "crudProject.jpg",
+            "img": "crudProject.webp",
             "prototype": "https://www.figma.com/proto/DZX9DselgRidAd3aDq54IP/Untitled?node-id=501%3A179&scaling=scale-down&page-id=501%3A178&starting-point-node-id=501%3A179",
             "website": "",
             "repository": "https://github.com/MAlexGG/crud-react-laravel-api-front.git"
@@ -71,7 +71,7 @@
             "subtitle": "mobile animal virtual zoo",
             "description": "This is a simple mobile app that works as a virtual zoo, it's developed with react.js and it's consuming Zoo Animal API https://zoo-animal-api.herokuapp.com with Axios requests and from a service. Use styled components library and It's using react-router-dom v.6 for navigate between pages. It's not responsive yet, only It's designed for mobile.",
             "team": "María Alexandra Galarza.",
-            "img": "virtualzoo.png",
+            "img": "virtualzoo.webp",
             "prototype": "https://www.figma.com/proto/C2WufDbWmVbojtcGXFJfcI/Animals?node-id=24%3A4&scaling=scale-down&page-id=23%3A2&starting-point-node-id=24%3A4",
             "website": "",
             "repository": "https://github.com/MAlexGG/virtual-zoo.git"
@@ -82,7 +82,7 @@
             "subtitle": "past, present and future tarot app",
             "description": "This is a tarot project that use the Sakura Cards from the API https://6388b6e5a4bb27a7f78f96a5.mockapi.io/sakura-cards/, Sakura tarot use the cards obtained from the manga serie called Sakura Card Captor. You can get the past, present and future lecture from cards that you will choose. It's developed with React.js, routes with react-router-dom package and styles with styled components library, the UI was design in Figma.",
             "team": "María Alexandra Galarza.",
-            "img": "sakuraTarot.png",
+            "img": "sakuraTarot.webp",
             "prototype": "https://www.figma.com/proto/uFtZpUyS3innhTcpgYsA28/Sakura?node-id=2%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A2",
             "website": "",
             "repository": "https://github.com/MAlexGG/sakura.git"
@@ -93,7 +93,7 @@
             "subtitle": "TDD of a Basic JS calculator",
             "description": "This is an application that has the 4 basic functions of a calculator (addition, subtraction, multiplication and division). The calculator has a screen where the operations and results of them are displayed, it starts at 0. Has a button that allows you to reset to 0 (button C) and another button with an equal sign that will show the result of the operation you perform on the screen. It can perform operations with immediate results. It was developed with HTML, CSS and javascript. It was developed with TDD, using Jest v.29.3.1 ESModules was used with babel v.7.20.2 as compiler",
             "team": "María Alexandra Galarza.",
-            "img": "calculator.png",
+            "img": "calculator.webp",
             "prototype": "",
             "website": "",
             "repository": "https://github.com/MAlexGG/calculator-js.git"
@@ -115,7 +115,7 @@
             "subtitle": "MVC app for books",
             "description": "This is a simple CRUD project whose objective is to show books, it's developed in vanilla PHP, with an MVC architecture and with object-oriented programming, bootstrap is partially used for the styles and it's responsive. It has a MySQL database. The UI was made after the functionality and was done directly on development without previous design.",
             "team": "María Alexandra Galarza.",
-            "img": "library.png",
+            "img": "library.webp",
             "prototype": "",
             "website": "",
             "repository": "https://github.com/MAlexGG/library-php-mvc.git"
@@ -126,7 +126,7 @@
             "subtitle": "app for thoughts",
             "description": "This is an app whose objective is that a register user can create, edit and delete cards with an interesting thought with and image and its author, anyone can see all thoughts but you have to be register to give a like (the heart icon) to another thought, it's developed with Laravel with an MVC architecture, with blade and bootstrap is used for the styles and it's responsive. It has a MySQL database. It has feature tests.",
             "team": "María Alexandra Galarza.",
-            "img": "interesting_thoughts.png",
+            "img": "interesting_thoughts.webp",
             "prototype": "",
             "website": "",
             "repository": "https://github.com/MAlexGG/interesting-thoughts.git"
@@ -148,10 +148,21 @@
             "subtitle": "trips photo album website",
             "description": "This is a website for personal use, it's a photo album that shows your photos classified by continent, country and city, you can upload an image, with a title and description, CRUD for cities and countries, you can register as a regular user, but an admin user will validate your registration for usign the web. The API it's made with laravel, MVC architecture with TDD and it's consumed by a React App.",
             "team": "María Alexandra Galarza.",
-            "img": "phototrips.png",
+            "img": "phototrips.webp",
             "prototype": "https://www.figma.com/proto/WIcpZrkpTNgWNQn79HXExA/Phototrips?type=design&node-id=736-140&scaling=scale-down&page-id=0%3A1&starting-point-node-id=736%3A140",
             "website": "",
             "repository": "https://github.com/MAlexGG/phototrips-back.git"
+        },
+        {
+            "id": "15",
+            "title": "Red PHI Ecuador",
+            "subtitle": "Coloquio Geomateriales website",
+            "description": "This is a responsive front-end website to promote a PHI network colloquium in Ecuador, in which several universities participate, publicize the organizers, speakers and the schedule. It also has a registration page that redirects to an external payment gateway. It's designed with Figma using atomic design methodology and It's developed in React.js with Next.js following a component architecture. It was deployed with docker.",
+            "team": "María Alexandra Galarza.",
+            "img": "phiecuador.webp",
+            "prototype": "https://www.figma.com/proto/DZX9DselgRidAd3aDq54IP/Personal-Projects?type=design&node-id=1101-403&t=j9rPYU0qVH3YsQ8R-0&scaling=scale-down&page-id=1101%3A402&starting-point-node-id=1101%3A403&show-proto-sidebar=1",
+            "website": "http://www.redphi-ecuador.org/",
+            "repository": "https://github.com/MAlexGG/phi-ecuador.git"
         }
     ]
 }
