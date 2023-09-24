@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.a8c86c54.chunk.css",
-    "main.js": "/portfolio/static/js/main.4f8f020d.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.4f8f020d.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.4af23bee.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.4af23bee.js.map",
-    "static/js/2.10a3b1f2.chunk.js": "/portfolio/static/js/2.10a3b1f2.chunk.js",
-    "static/js/2.10a3b1f2.chunk.js.map": "/portfolio/static/js/2.10a3b1f2.chunk.js.map",
-    "static/js/3.01a6cd85.chunk.js": "/portfolio/static/js/3.01a6cd85.chunk.js",
-    "static/js/3.01a6cd85.chunk.js.map": "/portfolio/static/js/3.01a6cd85.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.e50470ba.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.e50470ba.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.20e8142a.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.20e8142a.js.map",
+    "static/js/2.2ccb30fe.chunk.js": "/portfolio/static/js/2.2ccb30fe.chunk.js",
+    "static/js/2.2ccb30fe.chunk.js.map": "/portfolio/static/js/2.2ccb30fe.chunk.js.map",
+    "static/js/3.efbe23ac.chunk.js": "/portfolio/static/js/3.efbe23ac.chunk.js",
+    "static/js/3.efbe23ac.chunk.js.map": "/portfolio/static/js/3.efbe23ac.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/main.a8c86c54.chunk.css.map": "/portfolio/static/css/main.a8c86c54.chunk.css.map",
-    "static/js/2.10a3b1f2.chunk.js.LICENSE.txt": "/portfolio/static/js/2.10a3b1f2.chunk.js.LICENSE.txt",
+    "static/js/2.2ccb30fe.chunk.js.LICENSE.txt": "/portfolio/static/js/2.2ccb30fe.chunk.js.LICENSE.txt",
     "static/media/CV_Galarza_Gallardo_EN.b96989a6.pdf": "/portfolio/static/media/CV_Galarza_Gallardo_EN.b96989a6.pdf",
     "static/media/agorax.webp": "/portfolio/static/media/agorax.b39af79a.webp",
     "static/media/back.1d749340.svg": "/portfolio/static/media/back.1d749340.svg",
@@ -58,9 +58,9 @@
     "static/media/wheel.webp": "/portfolio/static/media/wheel.272a4bb0.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.4af23bee.js",
-    "static/js/2.10a3b1f2.chunk.js",
+    "static/js/runtime-main.20e8142a.js",
+    "static/js/2.2ccb30fe.chunk.js",
     "static/css/main.a8c86c54.chunk.css",
-    "static/js/main.4f8f020d.chunk.js"
+    "static/js/main.e50470ba.chunk.js"
   ]
 }
