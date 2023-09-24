@@ -44,7 +44,7 @@ class Navbar extends Component{
 
                     <button className="bt-ico" onClick={this.goGreen}>
                         <img className={this.props.filter} src={green} alt="sustainability button"/>
-                        <p className={`${this.props.filter} bt-label left`}>sustainability</p>
+                        <p className={`${this.props.filter} bt-label left`}>green</p>
                     </button>
                 </div>
                 <div className="ct-navbuttons">

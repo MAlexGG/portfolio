@@ -23,7 +23,7 @@ class Sustainability extends Component{
                 <div className="ct-divUp"><div className="img-div"></div></div>
                 <Navbar filter="img-ico-tools"/>
                 <div className="ct-contentAbout">
-                    <p className="txt-title">Sustainability</p>
+                    <p className="txt-title">Green Software</p>
                     <p className="txt-paragraph-sustainability">For me it's important to be on this planet and take care of it, with all the complexity it has, seeing my life as a whole and being in harmony with everything that surrounds us. We know that reaching this level in the system in which we live is very difficult but not impossible, steps can be taken and change the way we relate to our environment. Technologies and internet are very polluting and I want to prove to myself that it's possible to generate a minimum impact with the software we develop.</p>
                     <p className="txt-paragraph-sustainability">I have calculated this page with different tools that measure the carbon footprint of web pages and the results of my portfolio are the following:</p>
                 </div>
