@@ -157,7 +157,7 @@
             "id": "15",
             "title": "Red PHI Ecuador",
             "subtitle": "Coloquio Geomateriales website",
-            "description": "This is a responsive front-end website to promote a PHI network colloquium in Ecuador, in which several universities participate, publicize the organizers, speakers and the schedule. It also has a registration page that redirects to an external payment gateway. It's designed with Figma using atomic design methodology and It's developed in React.js with Next.js following a component architecture. It was deployed with docker.",
+            "description": "This is a responsive website to promote a PHI network colloquium in Ecuador, in which several universities participate, publicize the organizers, speakers and the schedule. It also has a registration page that redirects to an external payment gateway. It's designed with Figma using atomic design methodology and It's developed in React.js with Next.js following a component architecture. It's deployed on Vercel.",
             "team": "María Alexandra Galarza.",
             "img": "phiecuador.webp",
             "prototype": "https://www.figma.com/proto/DZX9DselgRidAd3aDq54IP/Personal-Projects?type=design&node-id=1101-403&t=j9rPYU0qVH3YsQ8R-0&scaling=scale-down&page-id=1101%3A402&starting-point-node-id=1101%3A403&show-proto-sidebar=1",
