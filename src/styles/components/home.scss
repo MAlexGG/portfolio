@@ -63,7 +63,7 @@ span:nth-child(even) {
 
 @for $item from 1 through 21 {
     span:nth-of-type(#{$item}) {
-        animation-delay: #{(1 + ($item/10))}s;
+        animation-delay: #{(1 + calc($item/10))}s;
     }
 }
 
