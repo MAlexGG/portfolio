@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a8c86c54.chunk.css",
-    "main.js": "/portfolio/static/js/main.62eba3cd.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.62eba3cd.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.20e8142a.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.20e8142a.js.map",
-    "static/js/2.2ccb30fe.chunk.js": "/portfolio/static/js/2.2ccb30fe.chunk.js",
-    "static/js/2.2ccb30fe.chunk.js.map": "/portfolio/static/js/2.2ccb30fe.chunk.js.map",
-    "static/js/3.efbe23ac.chunk.js": "/portfolio/static/js/3.efbe23ac.chunk.js",
-    "static/js/3.efbe23ac.chunk.js.map": "/portfolio/static/js/3.efbe23ac.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.b3322b9c.chunk.css",
+    "main.js": "/portfolio/static/js/main.0e604add.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.0e604add.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.00d088ce.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.00d088ce.js.map",
+    "static/js/2.f34c1b98.chunk.js": "/portfolio/static/js/2.f34c1b98.chunk.js",
+    "static/js/2.f34c1b98.chunk.js.map": "/portfolio/static/js/2.f34c1b98.chunk.js.map",
+    "static/js/3.57201779.chunk.js": "/portfolio/static/js/3.57201779.chunk.js",
+    "static/js/3.57201779.chunk.js.map": "/portfolio/static/js/3.57201779.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.a8c86c54.chunk.css.map": "/portfolio/static/css/main.a8c86c54.chunk.css.map",
-    "static/js/2.2ccb30fe.chunk.js.LICENSE.txt": "/portfolio/static/js/2.2ccb30fe.chunk.js.LICENSE.txt",
-    "static/media/CV_Galarza_Gallardo_EN.b96989a6.pdf": "/portfolio/static/media/CV_Galarza_Gallardo_EN.b96989a6.pdf",
+    "static/css/main.b3322b9c.chunk.css.map": "/portfolio/static/css/main.b3322b9c.chunk.css.map",
+    "static/js/2.f34c1b98.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f34c1b98.chunk.js.LICENSE.txt",
+    "static/media/CV_Galarza_Gallardo_EN.9586b2e9.pdf": "/portfolio/static/media/CV_Galarza_Gallardo_EN.9586b2e9.pdf",
     "static/media/agorax.webp": "/portfolio/static/media/agorax.b39af79a.webp",
     "static/media/back.1d749340.svg": "/portfolio/static/media/back.1d749340.svg",
     "static/media/calculator.webp": "/portfolio/static/media/calculator.1a783b2e.webp",
@@ -58,9 +58,9 @@
     "static/media/wheel.webp": "/portfolio/static/media/wheel.272a4bb0.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.20e8142a.js",
-    "static/js/2.2ccb30fe.chunk.js",
-    "static/css/main.a8c86c54.chunk.css",
-    "static/js/main.62eba3cd.chunk.js"
+    "static/js/runtime-main.00d088ce.js",
+    "static/js/2.f34c1b98.chunk.js",
+    "static/css/main.b3322b9c.chunk.css",
+    "static/js/main.0e604add.chunk.js"
   ]
 }
