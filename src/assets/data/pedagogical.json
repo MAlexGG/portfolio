@@ -133,7 +133,7 @@
         },
         {
             "id": "14",
-            "title": "Green improvement of a web",
+            "title": "Green improvement Factoría F5 web",
             "subtitle": "factoría F5",
             "description": "This project was carried out as the final work of the Green Digital Skills Certificate, the objective of this study is to measure the landing page of the Factoría F5 organization's web page, generate an improvement plan and develop a replica from the original page (at educational level) to compare the initial and final carbon footprint, after following some recommendations, without compromising its design and quality. The original page is developed in Wordpress and the replica in React.js, so it will also be possible to have a comparison between technologies, it will only be measured in the desktop version. In the prototype link is the entire analysis.",
             "team": "María Alexandra Galarza",
