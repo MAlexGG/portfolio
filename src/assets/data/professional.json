@@ -163,6 +163,28 @@
             "prototype": "https://www.figma.com/proto/DZX9DselgRidAd3aDq54IP/Personal-Projects?type=design&node-id=1101-403&t=j9rPYU0qVH3YsQ8R-0&scaling=scale-down&page-id=1101%3A402&starting-point-node-id=1101%3A403&show-proto-sidebar=1",
             "website": "http://www.redphi-ecuador.org/",
             "repository": "https://github.com/MAlexGG/phi-ecuador.git"
+        },
+        {
+            "id": "16",
+            "title": "Happy Travel",
+            "subtitle": "dream of traveling",
+            "description": "This responsive website works as a social network where authorized users can create the trip of their dreams, all users will be able to see each user's trips and can give ratings. It's designed with Figma using atomic design methodology. The API it's developed with Laravel using Sanctum for the authorization and authentication, follows a MVC architecture and the frontend it's developed with react.js with next.js. following a component architecture.",
+            "team": "María Alexandra Galarza.",
+            "img": "happyTravel.webp",
+            "prototype": "https://www.figma.com/proto/twPJOzEo5hZJZ7srsEt10y/HappyTravel?type=design&node-id=2-7&t=1ODejgFE252TCdUm-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A7&show-proto-sidebar=1&mode=design",
+            "website": "",
+            "repository": "https://github.com/MAlexGG/happy-travel-front"
+        },
+        {
+            "id": "17",
+            "title": "Kamakura Food",
+            "subtitle": "japanese food cart",
+            "description": "Kamakura food started as a project for my coders to whom I teach and ended up being an exciting challenge for me, this project is made in vanilla javascript and carried out with functional programming, its objective is that  the information that cames from an array of objects it can be printed dynamically, in addition to being able to add the products to a shopping cart and calculate the subtotal according to the chosen quantity and the total that will be rendered in a receipt. I currently have the github repository private. It's tested with vitests and jsdom.",
+            "team": "María Alexandra Galarza.",
+            "img": "kamakuraFood.webp",
+            "prototype": "",
+            "website": "",
+            "repository": "https://github.com/MAlexGG/kamakura-food"
         }
     ]
 }
