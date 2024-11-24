@@ -42,7 +42,8 @@
         ]
     },
     "devDependencies": {
-        "@babel/plugin-proposal-private-property-in-object": "^7.12.3",
+        "@babel/core": "^7.26.0",
+        "@babel/plugin-proposal-private-property-in-object": "^7.16.0",
         "gh-pages": "^3.2.3"
     },
     "homepage": "https://malexgg.github.io/portfolio"
