@@ -21,3 +21,9 @@
     width: 30px;
     padding: 0 4px;
 }
+
+@media (max-width: 576px) {
+    .imgContact{
+        width: 40px;
+    }
+}

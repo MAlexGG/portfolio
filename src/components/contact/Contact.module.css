@@ -30,3 +30,11 @@
     font-size: var(--font-xxxsmall);
     color: var(--color-secondary);
 }
+
+
+@media (max-width: 576px) {
+    .ctMain{
+        justify-content: center;
+        margin-top: 8%;
+    }
+}

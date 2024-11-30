@@ -5,6 +5,7 @@
     cursor: pointer;
     font-family: var(--font-main);
     margin: 15px;
+    padding: 0;
 }
 
 .btStroke{
@@ -27,4 +28,13 @@
     border: 3px solid var(--color-secondary);
     background-color: transparent;
     color: var(--color-secondary);
+}
+
+/* Media Queries */
+@media (max-width: 576px) {
+    .btMain{
+        width: 130px;
+        height: 40px;
+        font-size: var(--font-xxsmall);
+    }
 }

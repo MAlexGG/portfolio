@@ -24,11 +24,13 @@
 
 .txtTitle{
     font-size: var(--font-medium);
+    margin: 2%;
 }
 
 .txtParagraph{
     font-family: var(--font-secondary);
     font-size: var(--font-xxsmall);
+    text-align: center;
 }
 
 .btTools{
@@ -74,5 +76,13 @@
 
 /* Media Queries */
 @media (max-width: 576px) {
-    
+    .ctContentAbout{
+        width: 90%;
+    }
+    .txtTitle{
+        font-size: var(--font-xsmall);
+    }
+    .txtParagraph{
+        font-size: var(--font-xxxsmall);
+    }
 }
