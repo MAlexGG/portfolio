@@ -1,0 +1,99 @@
+.ctHome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    color: transparent;
+    text-align: center;
+    overflow: hidden;
+}
+
+.ctHome::-webkit-scrollbar {
+    display: none;
+}
+
+/* Smoky Effect */
+span {
+    display: inline-block;
+    text-shadow: 0 0 0 var(--color-main);
+    animation: smoky 5s 3s both;
+    font-size: var(--font-large);
+}
+
+span:nth-child(even) {
+    animation-name: smoky-mirror;
+}
+
+@keyframes smoky {
+    60% {
+        text-shadow: 0 0 40px var(--color-main);
+    }
+    to {
+        transform: translate3d(15rem, -8rem, 0) rotate(-40deg) skewX(70deg) scale(1.5);
+        text-shadow: 0 0 20px var(--color-main);
+        opacity: 0;
+    }
+}
+
+@keyframes smoky-mirror {
+    60% {
+        text-shadow: 0 0 40px var(--color-main);
+    }
+    to {
+        transform: translate3d(18rem, -8rem, 0) rotate(-40deg) skewX(-70deg) scale(2);
+        text-shadow: 0 0 20px var(--color-main);
+        opacity: 0;
+    }
+}
+
+
+.txtName{
+    color: var(--color-main);
+    font-family: var(--font-secondary);
+    font-size: var(--font-xsmall);
+    animation: fadeOut 8s;
+    -webkit-animation: fadeOut 8s;
+    -moz-animation: fadeOut 8s;
+    -o-animation: fadeOut 8s;
+    -ms-animation: fadeOut 8s;
+}
+
+/* Fade out effect */
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/* Media Queries */
+@media (max-width: 576px) {
+    span{
+        font-size: var(--font-small);
+    }
+    .txtName{
+        font-size: var(--font-xxsmall);
+    }
+}

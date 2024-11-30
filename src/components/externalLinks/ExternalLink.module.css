@@ -1,0 +1,23 @@
+.ctIco{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctIco:hover .btLabelAbout{
+    visibility: visible;
+}
+
+.btLabelAbout {
+    visibility: hidden;
+    margin: 0px;
+    font-family: var(--font-secondary);
+    font-size: var(--font-xxxsmall);
+    color: var(--color-secondary);
+}
+
+.imgContact{
+    width: 30px;
+    padding: 0 4px;
+}

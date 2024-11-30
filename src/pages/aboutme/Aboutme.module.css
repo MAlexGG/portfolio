@@ -1,0 +1,78 @@
+.ctAboutme{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-main);
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+}
+
+.ctContentAbout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+}
+
+.txtTitle{
+    font-size: var(--font-medium);
+}
+
+.txtParagraph{
+    font-family: var(--font-secondary);
+    font-size: var(--font-xxsmall);
+}
+
+.btTools{
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid;
+    font-size: var(--font-xxxsmall);
+    cursor: pointer;
+}
+
+.btTools:hover{
+    background-color: var(--color-secondary);
+    color: var(--color-main)
+}
+
+/* Fade in effect */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Media Queries */
+@media (max-width: 576px) {
+    
+}

@@ -10,7 +10,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       navigate("/aboutme")
-    }, 2000)
+    }, 8000)
   }, [])
 
   return (

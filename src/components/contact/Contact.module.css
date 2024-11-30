@@ -1,0 +1,32 @@
+.ctMain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    padding: 10px;
+}
+
+.ctLinks{
+    display: flex;
+}
+
+.btRefresh{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
+
+.btRefresh:hover .btLabel{
+    visibility: visible;
+}
+
+.btLabel{
+    visibility: hidden;
+    margin: 0px;
+    font-family: var(--font-secondary);
+    font-size: var(--font-xxxsmall);
+    color: var(--color-secondary);
+}
