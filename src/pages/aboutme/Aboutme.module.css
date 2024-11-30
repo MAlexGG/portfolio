@@ -46,6 +46,19 @@
     color: var(--color-main)
 }
 
+/* Media Queries */
+@media (max-width: 576px) {
+    .ctContentAbout{
+        width: 90%;
+    }
+    .txtTitle{
+        font-size: var(--font-xsmall);
+    }
+    .txtParagraph, .btTools{
+        font-size: var(--font-xxxsmall);
+    }
+}
+
 /* Fade in effect */
 @keyframes fadeIn {
     0% {
@@ -71,18 +84,5 @@
     }
     100% {
         opacity: 1;
-    }
-}
-
-/* Media Queries */
-@media (max-width: 576px) {
-    .ctContentAbout{
-        width: 90%;
-    }
-    .txtTitle{
-        font-size: var(--font-xsmall);
-    }
-    .txtParagraph, .btTools{
-        font-size: var(--font-xxxsmall);
     }
 }

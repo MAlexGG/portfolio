@@ -1,0 +1,40 @@
+span {
+    display: inline-block;
+    text-shadow: 0 0 0 var(--color-main);
+    animation: smoky 5s 3s both;
+    font-size: var(--font-large);
+}
+
+span:nth-child(even) {
+    animation-name: smoky-mirror;
+}
+
+@keyframes smoky {
+    60% {
+        text-shadow: 0 0 40px var(--color-main);
+    }
+    to {
+        transform: translate3d(15rem, -8rem, 0) rotate(-40deg) skewX(70deg) scale(1.5);
+        text-shadow: 0 0 20px var(--color-main);
+        opacity: 0;
+    }
+}
+
+@keyframes smoky-mirror {
+    60% {
+        text-shadow: 0 0 40px var(--color-main);
+    }
+    to {
+        transform: translate3d(18rem, -8rem, 0) rotate(-40deg) skewX(-70deg) scale(2);
+        text-shadow: 0 0 20px var(--color-main);
+        opacity: 0;
+    }
+}
+
+
+/* Media Queries */
+@media (max-width: 576px) {
+    span{
+        font-size: var(--font-small);
+    }
+}
