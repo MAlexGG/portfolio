@@ -1,0 +1,33 @@
+.ctIco{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctNone{
+    display: none;
+}
+
+.ctIco:hover .btLabel{
+    visibility: visible;
+}
+
+.btLabel {
+    visibility: hidden;
+    margin: 0px;
+    font-family: var(--font-secondary);
+    font-size: var(--font-xxxsmall);
+    color: var(--color-secondary);
+}
+
+.imgNavbar{
+    width: 30px;
+    padding: 0 4px;
+}
+
+@media (max-width: 576px) {
+    .imgNavbar{
+        width: 40px;
+    }
+}

@@ -1,6 +1,11 @@
+import styles from './Tools.module.css'
+import Navbar from '../../components/navbar/Navbar'
+
 function Tools() {
   return (
-    <div>Tools</div>
+    <div className={styles.ctTools}>
+      <Navbar/>  
+    </div>
   )
 }
 

@@ -37,7 +37,7 @@
     background-color: transparent;
     border: none;
     border-bottom: 3px solid;
-    font-size: var(--font-xxxsmall);
+    font-size: var(--font-xxsmall);
     cursor: pointer;
 }
 
@@ -82,7 +82,7 @@
     .txtTitle{
         font-size: var(--font-xsmall);
     }
-    .txtParagraph{
+    .txtParagraph, .btTools{
         font-size: var(--font-xxxsmall);
     }
 }

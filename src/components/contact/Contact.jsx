@@ -1,5 +1,5 @@
 import styles from './Contact.module.css'
-import ExternalLink from '../externalLinks/ExternalLink'
+import ExternalLink from '../externalLink/ExternalLink'
 import pdf from '../../assets/pdf/CV_Galarza_Gallardo_EN.pdf'
 import refresh from '../../assets/img/refresh.svg'
 import contact from '../../assets/img/contact.svg'

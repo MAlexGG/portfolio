@@ -44,3 +44,10 @@ body{
   padding: 0;
   background-color: var(--color-secondary);
 }
+
+a, a:visited, a:active{
+  color: var(--color-secondary);
+  text-decoration: none;
+  width: 50px;
+}
+
