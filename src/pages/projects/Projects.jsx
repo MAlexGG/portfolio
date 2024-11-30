@@ -6,7 +6,10 @@ function Projects() {
   return (
     <div className={styles.ctProjects}>
       <Divisor position="up"/>
-      <Navbar/>
+      <div className={styles.ctNavbar}>
+        <Navbar/>
+      </div>
+      
       <Divisor position="down"/>
     </div>
   )
