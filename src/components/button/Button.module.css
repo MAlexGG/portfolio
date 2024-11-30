@@ -1,0 +1,30 @@
+.btMain{
+    width: 200px;
+    height: 60px;
+    font-size: var(--font-xsmall);
+    cursor: pointer;
+    font-family: var(--font-main);
+    margin: 15px;
+}
+
+.btStroke{
+    border: 3px solid var(--color-secondary);
+    background-color: transparent;
+}
+
+.btFill{
+    background-color: var(--color-secondary);
+    color: var(--color-main);
+    border: none;
+}
+
+.btStroke:hover{
+    background-color: var(--color-secondary);
+    color: var(--color-main);
+}
+
+.btFill:hover{
+    border: 3px solid var(--color-secondary);
+    background-color: transparent;
+    color: var(--color-secondary);
+}

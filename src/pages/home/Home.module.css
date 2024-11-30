@@ -53,11 +53,11 @@ span:nth-child(even) {
     color: var(--color-main);
     font-family: var(--font-secondary);
     font-size: var(--font-xsmall);
-    animation: fadeOut 8s;
-    -webkit-animation: fadeOut 8s;
-    -moz-animation: fadeOut 8s;
-    -o-animation: fadeOut 8s;
-    -ms-animation: fadeOut 8s;
+    animation: fadeOut 9s;
+    -webkit-animation: fadeOut 9s;
+    -moz-animation: fadeOut 9s;
+    -o-animation: fadeOut 9s;
+    -ms-animation: fadeOut 9s;
 }
 
 /* Fade out effect */

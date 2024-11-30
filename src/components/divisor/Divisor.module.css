@@ -1,7 +1,15 @@
 .ctDivisor{
     width: 100px;
     height: 5px;
-    /* margin: 2vh; */
+    margin: 2vh;
     background-color: var(--color-secondary);
     position: absolute;
+}
+
+.up{
+    top: 0;
+}
+
+.down{
+    bottom: 0;
 }

@@ -1,8 +1,8 @@
 import styes from './Divisor.module.css'
 
-function Divisor() {
+function Divisor({position}) {
   return (
-    <div className={styes.ctDivisor}></div>
+    <div className={`${styes.ctDivisor} ${styes[position]}`}></div>
   )
 }
 
