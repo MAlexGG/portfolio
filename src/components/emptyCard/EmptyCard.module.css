@@ -1,0 +1,23 @@
+.ctEmptyCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 343px;
+    height: 343px;
+    background-color: transparent;
+    border: 2px dashed var(--color-main);
+}
+
+.txtTitle {
+    color: var(--color-main);
+    font-size: var(--font-xsmall);
+}
+
+.txtSubtitle {
+    color: var(--color-main);
+    font-family: var(--font-secondary);
+    font-size: var(--font-xxsmall);
+    padding: 3%;
+    text-align: center;
+}

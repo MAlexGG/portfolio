@@ -4,6 +4,7 @@ import { useState } from 'react'
 import pedagogicalList from '../../assets/data/pedagogical.json'
 import Card from '../../components/card/Card';
 import Navbar from '../../components/navbar/Navbar'
+import EmptyCard from '../../components/emptyCard/EmptyCard';
 
 function Pedagogical() {
 
@@ -20,9 +21,10 @@ function Pedagogical() {
         <div>
           <Navbar background="dark"/>
           <div className={styles.ctCards}>
+            <EmptyCard/>
             {data?.map((card, index) => (
               <Card key={index} card={card}/>
-            ))}
+            )).reverse()}
           </div>
         </div>
       }

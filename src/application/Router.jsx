@@ -5,6 +5,7 @@ import Projects from "../pages/projects/Projects"
 import Tools from "../pages/tools/Tools"
 import Sustainability from "../pages/sustainability/Sustainability"
 import Pedagogical from "../pages/pedagogical/Pedagogical"
+import Project from "../pages/project/Project"
 
 function Router() {
   return (
@@ -14,6 +15,7 @@ function Router() {
             <Route path="/aboutme" element={<Aboutme/>}/>
             <Route path="/projects" element={<Projects/>}/>
             <Route path="/pedagogical" element={<Pedagogical/>}/>
+            <Route path="/project/:id" element={<Project/>}/>
             <Route path="/tools" element={<Tools/>}/>
             <Route path="/sustainability" element={<Sustainability/>}/>
   

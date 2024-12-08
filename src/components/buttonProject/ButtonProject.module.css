@@ -1,0 +1,32 @@
+.btStroke, .btStroke:visited, .btStroke:active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    font-size: var(--font-xxsmall);
+    background-color: transparent;
+    color: var(--color-secondary);
+    border: 3px solid var(--color-secondary);
+    cursor: pointer;
+    font-family: var(--font-main);
+}
+
+.btFill, .btFill:visited, .btFill:active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    border: none;
+    font-size: var(--font-xxsmall);
+    background-color: var(--color-secondary);
+    color: var(--color-main);
+    cursor: pointer;
+    font-family: var(--font-main);
+}
+
+.btNotReady, .btNotReady:visited, .btNotReady:active{
+    opacity: 0.6;
+    cursor: default;
+}
