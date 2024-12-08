@@ -1,3 +1,10 @@
+.ctPedagogical{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 .ctCards {
     display: grid;
     grid-template-columns: 343px 343px 343px;
@@ -5,11 +12,21 @@
     justify-content: center;
     align-items: flex-start;
     width: 100vw;
-    height: 83vh;
-    overflow: scroll;
-    scrollbar-width: none;
+    margin: 70px 0;
 }
 
 .ctCards::-webkit-scrollbar {
     display: none;
+}
+
+@media (max-width: 1080px) {
+    .ctCards{
+        grid-template-columns: 343px 343px;
+    }
+}
+
+@media (max-width: 576px) {
+    .ctCards{
+        grid-template-columns: 343px;
+    }
 }

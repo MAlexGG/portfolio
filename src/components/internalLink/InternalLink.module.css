@@ -10,11 +10,11 @@
     display: none;
 }
 
-.ctIco:hover .btLabel{
+.ctIco:hover .txtLabel{
     visibility: visible;
 }
 
-.btLabel {
+.txtLabel {
     visibility: hidden;
     margin: 0px;
     font-family: var(--font-secondary);
@@ -22,9 +22,17 @@
     color: var(--color-secondary);
 }
 
+.txtMainColor{
+    color: var(--color-main);
+}
+
 .imgNavbar{
     width: 30px;
     padding: 0 4px;
+}
+
+.imgMainColor{
+    filter: var(--filter-main);
 }
 
 @media (max-width: 576px) {

@@ -3,6 +3,7 @@ import Title from '../../components/title/Title'
 import { useState } from 'react'
 import pedagogicalList from '../../assets/data/pedagogical.json'
 import Card from '../../components/card/Card';
+import Navbar from '../../components/navbar/Navbar'
 
 function Pedagogical() {
 
@@ -16,14 +17,15 @@ function Pedagogical() {
        visible ? 
        <Title titleList="PEDAGOGICAL PROJECTS" setVisible={setVisible}/>
         :
-        <div className={styles.ctCards}>
-          {data?.map((card, index) => (
-            <Card key={index} card={card}/>
-          ))}
+        <div>
+          <Navbar background="dark"/>
+          <div className={styles.ctCards}>
+            {data?.map((card, index) => (
+              <Card key={index} card={card}/>
+            ))}
+          </div>
         </div>
       }
-
-        
     </div>
   )
 }

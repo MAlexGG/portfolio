@@ -46,3 +46,15 @@
     transform: rotateY(180deg);
     background-color: var(--color-main);
 }
+
+.txtTitle{
+    font-size: var(--font-xsmall);
+    text-align: center;
+    margin: 1rem;
+}
+
+.txtSubtitle{
+    font-family: var(--font-secondary);
+    font-size: var(--font-xxxsmall);
+    padding: 3%;
+}

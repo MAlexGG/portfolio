@@ -12,10 +12,11 @@
   --font-small: 3rem;
   --font-medium: 5rem;
   --font-large: 10rem;
-  
   /* Colors */
   --color-main: #F1C232;
   --color-secondary: #191919;
+  /* Filters */
+  --filter-main: invert(90%) sepia(80%) saturate(6969%) hue-rotate(330deg) brightness(99%) contrast(90%);
 }
 
 

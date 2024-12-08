@@ -11,7 +11,7 @@ function Title({titleList, setVisible}) {
     setTimeout(() => {
       setVisible(false)
     }, 8000)
-  }, []) 
+  }, [])
 
   return (
     <div className={styles.ctTitle}>
