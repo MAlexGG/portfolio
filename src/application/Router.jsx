@@ -4,7 +4,7 @@ import Aboutme from "../pages/aboutme/Aboutme"
 import Projects from "../pages/projects/Projects"
 import Tools from "../pages/tools/Tools"
 import Sustainability from "../pages/sustainability/Sustainability"
-import FrontPage from "../pages/projectsPedagogical/FrontPage"
+import Pedagogical from "../pages/pedagogical/Pedagogical"
 
 function Router() {
   return (
@@ -12,17 +12,12 @@ function Router() {
         <Routes>
             <Route path="/" element={<App/>}/>
             <Route path="/aboutme" element={<Aboutme/>}/>
-
-            <Route path="/projects">
-              <Route index element={<Projects/>}/>
-              <Route path="pedagogical" element={<FrontPage/>}/>
-              {/* <Route path="/personal-profesional" element={<FrontPage/>}/> */}
-            </Route>
-
+            <Route path="/projects" element={<Projects/>}/>
+            <Route path="/pedagogical" element={<Pedagogical/>}/>
             <Route path="/tools" element={<Tools/>}/>
             <Route path="/sustainability" element={<Sustainability/>}/>
+  
             {/* <Route path="" element={}/>
-            <Route path="" element={}/>
             <Route path="" element={}/>
             <Route path="" element={}/>
             <Route path="" element={}/> */}

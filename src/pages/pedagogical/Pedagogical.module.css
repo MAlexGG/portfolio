@@ -1,0 +1,15 @@
+.ctCards {
+    display: grid;
+    grid-template-columns: 343px 343px 343px;
+    gap: 30px;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100vw;
+    height: 83vh;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.ctCards::-webkit-scrollbar {
+    display: none;
+}
