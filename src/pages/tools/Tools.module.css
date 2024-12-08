@@ -1,9 +1,83 @@
 .ctTools{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: var(--color-main);
     width: 100vw;
     height: 100vh;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+}
+
+.ctNavbar{
+    width: 100vw;
+}
+
+.ctContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+}
+
+.txtTitle{
+    font-size: var(--font-medium);
+    margin: 2%;
+    text-align: center;
+}
+
+.txtParagraph{
+    font-family: var(--font-secondary);
+    font-size: var(--font-xxsmall);
+    text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 576px) {
+    .ctContent{
+        width: 90%;
+    }
+    .ctNavbar{
+        margin-top: 50px;
+    }
+    .txtTitle{
+        font-size: var(--font-xsmall);
+    }
+    .txtParagraph{
+        font-size: var(--font-xxxsmall);
+    }
+}
+
+/* Fade in effect */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
