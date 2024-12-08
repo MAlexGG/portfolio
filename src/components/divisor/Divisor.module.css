@@ -3,7 +3,8 @@
     height: 5px;
     margin: 2vh;
     background-color: var(--color-secondary);
-    position: absolute;
+    position: fixed;
+    z-index: 1;
 }
 
 .up{
