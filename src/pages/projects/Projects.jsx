@@ -12,7 +12,7 @@ function Projects() {
       </div>
       <div className={styles.ctProjectType}>
           <Link to={"/pedagogical"} className={styles.btProjects}>Pedagogical Projects</Link>
-          <Link to={"/"} className={styles.btProjects}>Professional & Personal Projects</Link>
+          <Link to={"/professional-personal"} className={styles.btProjects}>Professional & Personal Projects</Link>
       </div>
       <Divisor position="down"/>
     </div>
