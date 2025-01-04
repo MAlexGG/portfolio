@@ -1,7 +1,6 @@
 import { useLocation } from 'react-router-dom'
 import styles from './Project.module.css'
 import close from '../../assets/img/close.svg'
-import image from '../../assets/img/ui/agorax.webp'
 
 function Project() {
 
@@ -13,7 +12,7 @@ function Project() {
     <div className={styles.ctProject}>
       <button className={styles.btProjectClose}><img src={close} alt="close button" /></button>
       <div className={styles.ctProjectImg}>
-          <img className={styles.imgProjectImg} src={image} alt="design UI"/> 
+          <img className={styles.imgProjectImg} src={`/img/ui/${data.img}`} alt="design UI"/> 
       </div>
       <div className={styles.ctProjectTxt}>
           <h2 className={styles.txtProjectTitle}>{data.title}</h2>
