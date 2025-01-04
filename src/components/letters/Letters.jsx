@@ -1,9 +1,8 @@
+/* eslint-disable react/prop-types */
 import styles from './Letters.module.css'
 
-// eslint-disable-next-line react/prop-types
 function Letters({letters}) {
 
-   // eslint-disable-next-line react/prop-types
    const array = letters.split(""); 
 
   return (

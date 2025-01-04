@@ -18,7 +18,7 @@ function Pedagogical() {
        visible ? 
        <Title titleList="PEDAGOGICAL PROJECTS" setVisible={setVisible}/>
         :
-        <div>
+        <div className={styles.ctContent}>
           <Navbar background="dark"/>
           <div className={styles.ctCards}>
             <EmptyCard/>

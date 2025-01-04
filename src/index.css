@@ -11,7 +11,7 @@
   --font-xsmall: 2rem;
   --font-small: 3rem;
   --font-medium: 5rem;
-  --font-large: 10rem;
+  --font-large: 8rem;
   /* Colors */
   --color-main: #F1C232;
   --color-secondary: #191919;
@@ -51,4 +51,3 @@ a, a:visited, a:active{
   text-decoration: none;
   width: 50px;
 }
-
