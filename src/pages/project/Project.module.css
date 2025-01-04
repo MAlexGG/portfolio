@@ -1,1 +1,130 @@
-.ctProject{}
+.ctProject{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    height: 100vh; 
+    overflow: scroll;
+}
+
+.ctProjectImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    height: 100vh;
+    background-color: var(--color-main);
+    margin: 0%;
+}
+
+.imgProjectImg {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.56));
+}
+
+.ctProjectTxt {
+    width: 35%;
+    padding: 2%;
+    text-align: center;
+}
+
+.txtProjectTitle {
+    font-size: 2rem;
+    color: var(--color-main);
+}
+
+.txtProjectDesc {
+    font-size: 1rem;
+    color: var(--color-main);
+    font-family: var(--font-secondary);
+}
+
+.btProjectClose {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 1%;
+    z-index: 1;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    filter: var(--filter-main);
+}
+/* .ct-project {
+    @include displayFlex;
+    width: 100vw;
+    height: 100vh;
+    background-color: $colorSecondary;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: scroll;
+    @media (min-width: $breakpointLarge) {
+        flex-direction: row;
+    }
+}
+
+.ct-projectImg {
+    @include displayFlex;
+    width: 100vw;
+    height: 45vh;
+    background-color: $colorPrincipal;
+    margin: 0%;
+    @media (min-width: $breakpointMedium) {
+        width: 100%;
+        height: 50vh;
+        padding: 5%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+    @media (min-width: $breakpointLarge) {
+        width: 60vw;
+        height: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+}
+
+.img-projectImg {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.56));
+}
+
+.ct-projectTxt {
+    width: 95vw;
+    padding: 0%;
+    text-align: center;
+    @media (min-width: $breakpointLarge) {
+        padding: 2%;
+        width: 40vw;
+    }
+}
+
+.txt-projectTitle {
+    font-size: 2rem;
+    color: $colorPrincipal;
+    @media (min-width: $breakpointLarge) {
+        font-size: 3rem;
+        margin: 3% 0% 3% 0%;
+    }
+}
+
+.txt-projectDesc {
+    font-size: 1rem;
+    color: $colorPrincipal;
+    font-family: $fontSecondary;
+    @media (min-width: $breakpointMedium) {
+        font-size: 1.2rem;
+    }
+}
+
+.bt-projectClose {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 1%;
+    z-index: 1;
+} */
