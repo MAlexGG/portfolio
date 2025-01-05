@@ -66,6 +66,9 @@
     .txtParagraph{
         font-size: var(--font-xxxsmall);
     }
+    .btTools{
+        font-size: var(--font-xxxsmall);
+    }
 }
 
 /* Fade in effect */
