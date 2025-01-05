@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router"
+import { createHashRouter } from "react-router"
 import App from "../App"
 import Aboutme from "../pages/aboutme/Aboutme"
 import Projects from "../pages/projects/Projects"
@@ -8,27 +8,15 @@ import Pedagogical from "../pages/pedagogical/Pedagogical"
 import Project from "../pages/project/Project"
 import Professional from "../pages/professional/Professional"
 
-function Router() {
-  return (
-    <BrowserRouter>
-        <Routes>
-            <Route path="/" element={<App/>}/>
-            <Route path="/aboutme" element={<Aboutme/>}/>
-            <Route path="/projects" element={<Projects/>}/>
-            <Route path="/pedagogical" element={<Pedagogical/>}/>
-            <Route path="/professional-personal" element={<Professional/>}/>
-            <Route path="/project/:id" element={<Project/>}/>
-            <Route path="/tools" element={<Tools/>}/>
-            <Route path="/sustainability" element={<Sustainability/>}/>
-  
-            {/* <Route path="" element={}/>
-            <Route path="" element={}/>
-            <Route path="" element={}/>
-            <Route path="" element={}/> */}
-        </Routes>
-    
-    </BrowserRouter>
-  )
-}
-
-export default Router
+const router = createHashRouter([
+  { path:"/", element:<App/> },
+  { path:"/aboutme", element:<Aboutme/> }, 
+  { path:"/projects", element:<Projects/> },
+  { path:"/pedagogical", element:<Pedagogical/> },
+  { path:"/professional-personal", element:<Professional/> },
+  { path:"/project/:id", element:<Project/> },
+  { path:"/tools", element:<Tools/> },
+  { path:"/sustainability", element:<Sustainability/>}  
+])
+ 
+export default router
