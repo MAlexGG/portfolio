@@ -55,9 +55,17 @@
         flex-direction: column;
         padding-bottom: 25px;
     }
-    .btProjects{
+    .btProjects, .btProjects:visited, .btProjects:active{
         width: 220px;
         height: 220px;
+        font-size: var(--font-xsmall);
+    }
+}
+
+@media (max-height: 576px) {
+    .btProjects, .btProjects:visited, .btProjects:active{
+        width: 260px;
+        height: 260px;
         font-size: var(--font-xsmall);
     }
 }

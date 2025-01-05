@@ -33,7 +33,7 @@
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 720px) {
     .ctCards{
         grid-template-columns: 343px;
     }

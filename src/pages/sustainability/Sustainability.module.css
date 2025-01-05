@@ -80,6 +80,22 @@
     }
 }
 
+@media (max-height: 576px) {
+    .txtTitle{
+        font-size: var(--font-xsmall);
+    }
+    .txtParagraph{
+        font-size: var(--font-xxxsmall);
+    }
+    .imgFootprint{
+        width: 140px;
+    }
+
+    .ctGreen{
+        margin: 25px 0;
+    }
+}
+
 /* Fade in effect */
 @keyframes fadeIn {
     0% {

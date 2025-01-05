@@ -54,6 +54,15 @@
     }
 }
 
+@media (max-height: 576px) {
+    .txtTitle{
+        font-size: var(--font-xsmall);
+    }
+    .txtParagraph{
+        font-size: var(--font-xxxsmall);
+    }
+}
+
 /* Fade in effect */
 @keyframes fadeIn {
     0% {

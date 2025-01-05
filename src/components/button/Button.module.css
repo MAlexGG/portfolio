@@ -38,3 +38,11 @@
         font-size: var(--font-xxsmall);
     }
 }
+
+@media (max-height: 576px) {
+    .btMain{
+        width: 130px;
+        height: 40px;
+        font-size: var(--font-xxsmall);
+    }
+}
