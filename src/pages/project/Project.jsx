@@ -7,8 +7,6 @@ function Project() {
     const location = useLocation();
     const data = location.state; 
 
-    console.log(data)
-
   return (
     <div className={styles.ctProject}>
       <Link to={`/${data.category}`} className={styles.btProjectClose}><img src={close} alt="close button" /></Link>
