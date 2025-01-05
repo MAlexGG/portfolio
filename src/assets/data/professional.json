@@ -8,7 +8,8 @@
             "img": "resume.webp",
             "prototype": "https://www.figma.com/proto/Ahxnon0AC8WMguKBj20xoo/CV?node-id=9%3A97&scaling=scale-down&page-id=0%3A1&starting-point-node-id=9%3A97&show-proto-sidebar=1",
             "website": "https://malexgg.github.io/CV/",
-            "repository": "https://github.com/MAlexGG/CV.git"
+            "repository": "https://github.com/MAlexGG/CV.git",
+            "category": "professional-personal"
         },
         {
             "id": "2",
@@ -19,7 +20,8 @@
             "img": "enfiladissa.webp",
             "prototype": "https://www.figma.com/proto/zH4T8vm8vfkbgKxkWNMNGz/Enfiladissa?node-id=1%3A2&scaling=contain&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1",
             "website": "https://malexgg.github.io/Enfiladissa/",
-            "repository": "https://github.com/MAlexGG/Enfiladissa.git"
+            "repository": "https://github.com/MAlexGG/Enfiladissa.git",
+            "category": "professional-personal"
         },
         {
             "id": "3",
@@ -30,7 +32,8 @@
             "img": "lego.webp",
             "prototype": "",
             "website": "https://legoarquitectura.com/",
-            "repository": ""
+            "repository": "",
+            "category": "professional-personal"
         },
         {
             "id": "4",
@@ -41,7 +44,8 @@
             "img": "tikibike.webp",
             "prototype": "https://www.figma.com/proto/0R7ZtVwIK3RXgkM6JDU6EJ/Tikibike?node-id=43%3A48&scaling=contain&page-id=43%3A45&starting-point-node-id=43%3A48&show-proto-sidebar=1",
             "website": "https://blaucomfuig.github.io/tikibike/",
-            "repository": "https://github.com/blaucomfuig/tikibike.git"
+            "repository": "https://github.com/blaucomfuig/tikibike.git",
+            "category": "professional-personal"
         },
         {
             "id": "5",
@@ -52,7 +56,8 @@
             "img": "portfolio.png",
             "prototype": "https://www.figma.com/proto/TGZFE24cAcxAaDk33VYn0M/Untitled?node-id=5%3A9&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1",
             "website": "https://malexgg.github.io/portfolio/",
-            "repository": "https://github.com/MAlexGG/portfolio.git"
+            "repository": "https://github.com/MAlexGG/portfolio.git",
+            "category": "professional-personal"
         },
         {
             "id": "6",
@@ -63,7 +68,8 @@
             "img": "crudProject.webp",
             "prototype": "https://www.figma.com/proto/DZX9DselgRidAd3aDq54IP/Untitled?node-id=501%3A179&scaling=scale-down&page-id=501%3A178&starting-point-node-id=501%3A179",
             "website": "",
-            "repository": "https://github.com/MAlexGG/crud-react-laravel-api-front.git"
+            "repository": "https://github.com/MAlexGG/crud-react-laravel-api-front.git",
+            "category": "professional-personal"
         },
         {
             "id": "7",
@@ -74,7 +80,8 @@
             "img": "virtualzoo.webp",
             "prototype": "https://www.figma.com/proto/C2WufDbWmVbojtcGXFJfcI/Animals?node-id=24%3A4&scaling=scale-down&page-id=23%3A2&starting-point-node-id=24%3A4",
             "website": "",
-            "repository": "https://github.com/MAlexGG/virtual-zoo.git"
+            "repository": "https://github.com/MAlexGG/virtual-zoo.git",
+            "category": "professional-personal"
         },
         {
             "id": "8",
@@ -85,7 +92,8 @@
             "img": "sakuraTarot.webp",
             "prototype": "https://www.figma.com/proto/uFtZpUyS3innhTcpgYsA28/Sakura?node-id=2%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A2",
             "website": "",
-            "repository": "https://github.com/MAlexGG/sakura.git"
+            "repository": "https://github.com/MAlexGG/sakura.git",
+            "category": "professional-personal"
         },
         {
             "id": "9",
@@ -96,7 +104,8 @@
             "img": "calculator.webp",
             "prototype": "",
             "website": "",
-            "repository": "https://github.com/MAlexGG/calculator-js.git"
+            "repository": "https://github.com/MAlexGG/calculator-js.git",
+            "category": "professional-personal"
         },
         {
             "id": "10",
@@ -107,7 +116,8 @@
             "img": "todoList.png",
             "prototype": "",
             "website": "",
-            "repository": "https://github.com/MAlexGG/todo-list-react.git"
+            "repository": "https://github.com/MAlexGG/todo-list-react.git",
+            "category": "professional-personal"
         },
         {
             "id": "11",
@@ -118,7 +128,8 @@
             "img": "library.webp",
             "prototype": "",
             "website": "",
-            "repository": "https://github.com/MAlexGG/library-php-mvc.git"
+            "repository": "https://github.com/MAlexGG/library-php-mvc.git",
+            "category": "professional-personal"
         },
         {
             "id": "12",
@@ -129,7 +140,8 @@
             "img": "interesting_thoughts.webp",
             "prototype": "",
             "website": "",
-            "repository": "https://github.com/MAlexGG/interesting-thoughts.git"
+            "repository": "https://github.com/MAlexGG/interesting-thoughts.git",
+            "category": "professional-personal"
         },
         {
             "id": "13",
@@ -140,7 +152,8 @@
             "img": "curiousFacts.png",
             "prototype": "https://www.figma.com/proto/DZX9DselgRidAd3aDq54IP/Personal-Projects?type=design&node-id=1006-402&scaling=scale-down&page-id=1001%3A402&starting-point-node-id=1006%3A402",
             "website": "",
-            "repository": "https://github.com/MAlexGG/testing-fetch.git"
+            "repository": "https://github.com/MAlexGG/testing-fetch.git",
+            "category": "professional-personal"
         },
         {
             "id": "14",
@@ -151,7 +164,8 @@
             "img": "phototrips.webp",
             "prototype": "https://www.figma.com/proto/WIcpZrkpTNgWNQn79HXExA/Phototrips?type=design&node-id=736-140&scaling=scale-down&page-id=0%3A1&starting-point-node-id=736%3A140",
             "website": "",
-            "repository": "https://github.com/MAlexGG/phototrips-back.git"
+            "repository": "https://github.com/MAlexGG/phototrips-back.git",
+            "category": "professional-personal"
         },
         {
             "id": "15",
@@ -162,7 +176,8 @@
             "img": "phiecuador.webp",
             "prototype": "https://www.figma.com/proto/DZX9DselgRidAd3aDq54IP/Personal-Projects?type=design&node-id=1101-403&t=j9rPYU0qVH3YsQ8R-0&scaling=scale-down&page-id=1101%3A402&starting-point-node-id=1101%3A403&show-proto-sidebar=1",
             "website": "http://www.redphi-ecuador.org/",
-            "repository": "https://github.com/MAlexGG/phi-ecuador.git"
+            "repository": "https://github.com/MAlexGG/phi-ecuador.git",
+            "category": "professional-personal"
         },
         {
             "id": "16",
@@ -173,7 +188,8 @@
             "img": "happyTravel.webp",
             "prototype": "https://www.figma.com/proto/twPJOzEo5hZJZ7srsEt10y/HappyTravel?type=design&node-id=2-7&t=1ODejgFE252TCdUm-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A7&show-proto-sidebar=1&mode=design",
             "website": "",
-            "repository": "https://github.com/MAlexGG/happy-travel-front"
+            "repository": "https://github.com/MAlexGG/happy-travel-front",
+            "category": "professional-personal"
         },
         {
             "id": "17",
@@ -184,7 +200,8 @@
             "img": "kamakuraFood.webp",
             "prototype": "",
             "website": "",
-            "repository": "https://github.com/MAlexGG/kamakura-food"
+            "repository": "https://github.com/MAlexGG/kamakura-food",
+            "category": "professional-personal"
         },
         {
             "id": "18",
@@ -195,7 +212,8 @@
             "img": "bookstoreJava.webp",
             "prototype": "",
             "website": "",
-            "repository": "https://github.com/MAlexGG/crud_postgresql_mvc"
+            "repository": "https://github.com/MAlexGG/crud_postgresql_mvc",
+            "category": "professional-personal"
         },
         {
             "id": "19",
@@ -206,7 +224,8 @@
             "img": "crudSB.webp",
             "prototype": "",
             "website": "",
-            "repository": "https://github.com/MAlexGG/crud-postgresql-springboot"
+            "repository": "https://github.com/MAlexGG/crud-postgresql-springboot",
+            "category": "professional-personal"
         },
         {
             "id": "20",
@@ -217,7 +236,8 @@
             "img": "happyTravelAPI.webp",
             "prototype": "",
             "website": "",
-            "repository": "https://github.com/MAlexGG/happy-travel-back-sb"
+            "repository": "https://github.com/MAlexGG/happy-travel-back-sb",
+            "category": "professional-personal"
         },
         {
             "id": "21",
@@ -228,7 +248,8 @@
             "img": "estelaJulia.webp",
             "prototype": "https://www.figma.com/proto/H2z9KJzmFbWD5mrCoNceGP/Estela-Julia?node-id=1-3&node-type=canvas&t=4VAJQs5aaDL1ZouB-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A3",
             "website": "https://www.estelajulia.com",
-            "repository": "https://github.com/MAlexGG/estela-julia"
+            "repository": "https://github.com/MAlexGG/estela-julia",
+            "category": "professional-personal"
         }
     ]
 }

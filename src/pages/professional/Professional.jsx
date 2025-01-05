@@ -5,10 +5,12 @@ import Title from '../../components/title/Title';
 import Navbar from '../../components/navbar/Navbar';
 import EmptyCard from '../../components/emptyCard/EmptyCard';
 import Card from '../../components/card/Card';
+import { useLocation } from 'react-router-dom';
 
 function Professional() {
 
-    const [visible, setVisible] = useState(true);
+    const location = useLocation();
+    const [visible, setVisible] = useState(location.state);
     const data = professionalList.projects;
 
   return (

@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import styles from './ExternalLink.module.css'
 
 function ExternalLink({href, image, alt, text}) {

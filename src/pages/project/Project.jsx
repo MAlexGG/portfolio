@@ -1,4 +1,4 @@
-import { useLocation } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import styles from './Project.module.css'
 import close from '../../assets/img/close.svg'
 
@@ -6,11 +6,12 @@ function Project() {
 
     const location = useLocation();
     const data = location.state; 
-    console.log(location.state)
+
+    console.log(data)
 
   return (
     <div className={styles.ctProject}>
-      <button className={styles.btProjectClose}><img src={close} alt="close button" /></button>
+      <Link to={`/${data.category}`} className={styles.btProjectClose}><img src={close} alt="close button" /></Link>
       <div className={styles.ctProjectImg}>
           <img className={styles.imgProjectImg} src={`/img/ui/${data.img}`} alt="design UI"/> 
       </div>
@@ -20,8 +21,6 @@ function Project() {
           <p className={styles.txtProjectDesc}><strong>Team:</strong> {data.team}</p>
       </div>
     </div>
-    
-
   )
 }
 

@@ -5,10 +5,12 @@ import pedagogicalList from '../../assets/data/pedagogical.json'
 import Card from '../../components/card/Card';
 import Navbar from '../../components/navbar/Navbar'
 import EmptyCard from '../../components/emptyCard/EmptyCard';
+import { useLocation } from 'react-router-dom';
 
 function Pedagogical() {
 
-  const [visible, setVisible] = useState(true);
+  const location = useLocation();
+  const [visible, setVisible] = useState(location.state);
   const data = pedagogicalList.projects;
 
 

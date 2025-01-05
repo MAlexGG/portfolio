@@ -8,7 +8,8 @@
             "img": "klik.webp",
             "prototype": "https://www.figma.com/proto/oF58S3ZaMh4VMisPHXeyW7/FactoriaF5-850h-LandingPageKlik?node-id=2%3A3&scaling=scale-down-width&page-id=0%3A1",
             "website": "https://malexgg.github.io/Practica-KLIK/",
-            "repository": "https://github.com/MAlexGG/Practica-KLIK.git"
+            "repository": "https://github.com/MAlexGG/Practica-KLIK.git",
+            "category": "pedagogical"
         },
         {
             "id": "2",
@@ -19,7 +20,8 @@
             "img": "sombrereria.webp",
             "prototype": "https://www.figma.com/proto/HbhS51FFagdoIjPCwCjjxj/FactoriaF5-850h-SombrereriaMil?node-id=1%3A187&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A187&show-proto-sidebar=1",
             "website": "https://malexgg.github.io/sombrereriamil/",
-            "repository": "https://github.com/MAlexGG/sombrereriamil"
+            "repository": "https://github.com/MAlexGG/sombrereriamil",
+            "category": "pedagogical"
         },
         {
             "id": "3",
@@ -30,7 +32,8 @@
             "img": "wheel.webp",
             "prototype": "https://www.figma.com/proto/k3C6QkmAHgly4No7TyEkQL/FactoriaF5-850H-WheelOfDoom?node-id=2%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A2&show-proto-sidebar=1",
             "website": "",
-            "repository": "https://github.com/MAlexGG/Wheel-of-Doom"
+            "repository": "https://github.com/MAlexGG/Wheel-of-Doom",
+            "category": "pedagogical"
         },
         {
             "id": "4",
@@ -41,7 +44,8 @@
             "img": "handyapp.webp",
             "prototype": "https://www.figma.com/proto/OGBNneuZMAT8FbGyUrNNoi/FactoriaF5-850h-HandyApp?node-id=2%3A3&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A46",
             "website": "https://crud-f5-app.herokuapp.com/?action=index",
-            "repository": "https://github.com/MAlexGG/Consultorio.git"
+            "repository": "https://github.com/MAlexGG/Consultorio.git",
+            "category": "pedagogical"
         },
         {
             "id": "5",
@@ -52,7 +56,8 @@
             "img": "agorax.webp",
             "prototype": "https://www.figma.com/proto/pmLKbqGzobp7nxh1Ni4nQf/FactoriaF5-850h-AgoraxDev?node-id=1%3A483&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A483&show-proto-sidebar=1",
             "website": "http://agoraxmeets.herokuapp.com/",
-            "repository": "https://github.com/MAlexGG/AgoraxDEV"
+            "repository": "https://github.com/MAlexGG/AgoraxDEV",
+            "category": "pedagogical"
         },
         {
             "id": "6",
@@ -63,7 +68,8 @@
             "img": "klikshare.webp",
             "prototype": "https://www.figma.com/proto/plVX4LqUsr6yJjotCYBhJn/FactoriaF5-850h-KlikShare?node-id=3%3A683&scaling=contain&page-id=0%3A1&starting-point-node-id=3%3A683",
             "website": "",
-            "repository": "https://github.com/MAlexGG/KlikShareFront"
+            "repository": "https://github.com/MAlexGG/KlikShareFront",
+            "category": "pedagogical"
         },
         {
             "id": "7",
@@ -74,7 +80,8 @@
             "img": "hangar.webp",
             "prototype": "https://www.figma.com/proto/xvwk16vqDaWrIrgtkWhHly/FactoriaF5-850h-HangarRebelde?node-id=1%3A527&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A527",
             "website": "",
-            "repository": "https://github.com/MAlexGG/HangarRebelde"
+            "repository": "https://github.com/MAlexGG/HangarRebelde",
+            "category": "pedagogical"
         },
         {
             "id": "8",
@@ -85,7 +92,8 @@
             "img": "starwars.webp",
             "prototype": "",
             "website": "",
-            "repository": "https://github.com/MAlexGG/ITAcademy-React-React-III.git"
+            "repository": "https://github.com/MAlexGG/ITAcademy-React-React-III.git",
+            "category": "pedagogical"
         },
         {
             "id": "9",
@@ -96,7 +104,8 @@
             "img": "dessertScrapbook.webp",
             "prototype": "https://www.figma.com/proto/nEvMl3KWakESDPQ0i69Ykl/DessertApp?node-id=2%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A2",
             "website": "",
-            "repository": "https://github.com/MAlexGG/ITAcademy-React-DessertsScrapbook.git"
+            "repository": "https://github.com/MAlexGG/ITAcademy-React-DessertsScrapbook.git",
+            "category": "pedagogical"
         },
         {
             "id": "10",
@@ -107,7 +116,8 @@
             "img": "movieapp.webp",
             "prototype": "https://www.figma.com/proto/UKuVD1xhQ4EiD7yxBg9aF4/Movie-App?node-id=61%3A1435&scaling=scale-down&page-id=47%3A440&starting-point-node-id=61%3A1435",
             "website": "",
-            "repository": "https://docs.google.com/presentation/d/1GzHR5MK-Za-Co2ngxc_soby7Np9zY0lYa-Age-kxqTQ/edit?usp=sharing"
+            "repository": "https://docs.google.com/presentation/d/1GzHR5MK-Za-Co2ngxc_soby7Np9zY0lYa-Age-kxqTQ/edit?usp=sharing",
+            "category": "pedagogical"
         },
         {
             "id": "11",
@@ -118,7 +128,8 @@
             "img": "petAdoption.webp",
             "prototype": "https://www.figma.com/proto/98KeYjTuJGpUsct8apzwm8/Pet-Adoption-App?node-id=111%3A1468&scaling=scale-down&page-id=109%3A77&starting-point-node-id=111%3A1468",
             "website": "",
-            "repository": "https://docs.google.com/presentation/d/1fGQtc-W2v8xYD6SFPo9gUEsoQGF3enzf4Xc4ngZ_Hn4/edit?usp=sharing"
+            "repository": "https://docs.google.com/presentation/d/1fGQtc-W2v8xYD6SFPo9gUEsoQGF3enzf4Xc4ngZ_Hn4/edit?usp=sharing",
+            "category": "pedagogical"
         },
         {
             "id": "13",
@@ -129,7 +140,8 @@
             "img": "cityShelter.webp",
             "prototype": "https://www.figma.com/proto/vo4TLp4h0pgdWbK1YS8UrS/City-Shelter-App?node-id=43%3A2033&scaling=scale-down&page-id=43%3A2032&starting-point-node-id=43%3A2033",
             "website": "",
-            "repository": "https://docs.google.com/presentation/d/1TX0GH4p7DPEmEpFTVSpdP58_pk13y62ojnKOYWtqsIM/edit?usp=sharing"
+            "repository": "https://docs.google.com/presentation/d/1TX0GH4p7DPEmEpFTVSpdP58_pk13y62ojnKOYWtqsIM/edit?usp=sharing",
+            "category": "pedagogical"
         },
         {
             "id": "14",
@@ -140,7 +152,8 @@
             "img": "green_skills.webp",
             "prototype": "https://docs.google.com/presentation/d/1Ofdi9F7jCz8dKBSnw0UEpIt-gZ_YAoBSuZ6_t-FdUSM/edit?usp=sharing",
             "website": "https://malexgg.github.io/green-analysis-factoriaf5/",
-            "repository": "https://github.com/MAlexGG/green-analysis-factoriaf5.git"
+            "repository": "https://github.com/MAlexGG/green-analysis-factoriaf5.git",
+            "category": "pedagogical"
         }
     ]
 }
