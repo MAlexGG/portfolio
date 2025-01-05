@@ -1,0 +1,11 @@
+.ctNotFound{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.txtTitle{
+    color: var(--color-main);
+    font-size: var(--font-xsmall);
+}

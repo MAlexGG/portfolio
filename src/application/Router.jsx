@@ -7,6 +7,7 @@ import Sustainability from "../pages/sustainability/Sustainability"
 import Pedagogical from "../pages/pedagogical/Pedagogical"
 import Project from "../pages/project/Project"
 import Professional from "../pages/professional/Professional"
+import NotFound from "../pages/notfound/NotFound"
 
 const router = createHashRouter([
   { path:"/", element:<App/> },
@@ -16,7 +17,8 @@ const router = createHashRouter([
   { path:"/professional-personal", element:<Professional/> },
   { path:"/project/:id", element:<Project/> },
   { path:"/tools", element:<Tools/> },
-  { path:"/sustainability", element:<Sustainability/>}  
+  { path:"/sustainability", element:<Sustainability/>},
+  { path:"*", element:<NotFound/> }
 ])
  
 export default router
