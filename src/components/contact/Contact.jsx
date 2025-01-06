@@ -1,11 +1,11 @@
 import styles from './Contact.module.css'
 import ExternalLink from '../externalLink/ExternalLink'
 import pdf from '../../assets/pdf/CV_Galarza_Gallardo_EN.pdf'
-import refresh from '../../assets/img/refresh.svg'
-import contact from '../../assets/img/contact.svg'
-import linkedin from '../../assets/img/linkedin.svg'
-import cv from '../../assets/img/cv.svg'
-import github from '../../assets/img/github.svg'
+import refresh from '/img/icons/refresh.svg'
+import contact from '/img/icons/contact.svg'
+import linkedin from '/img/icons/linkedin.svg'
+import cv from '/img/icons/cv.svg'
+import github from '/img/icons/github.svg'
 import { useNavigate } from 'react-router'
 
 function Contact() {

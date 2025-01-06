@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
-import home from '../../assets/img/home.svg'
-import tools from "../../assets/img/tools.svg";
-import projects from "../../assets/img/projects.svg";
-import green from "../../assets/img/green.svg";
+import home from '/img/icons/home.svg'
+import tools from "/img/icons/tools.svg";
+import projects from "/img/icons/projects.svg";
+import green from "/img/icons/green.svg";
 import styles from './Navbar.module.css'
 import InternalLink from '../internalLink/InternalLink';
 

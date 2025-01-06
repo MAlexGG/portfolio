@@ -1,10 +1,10 @@
 import Navbar from '../../components/navbar/Navbar'
 import styles from './Sustainability.module.css'
 import Divisor from '../../components/divisor/Divisor'
-import digitalBeacon from '../../assets/img/digitalBeacon.jpg'
-import pageSpeed from '../../assets/img/pageSpeed.jpg'
-import greenHost from '../../assets/img/green_host.png'
-import carbonCalculator from '../../assets/img/websiteCarbonCalculator.jpg'
+import digitalBeacon from '../../../public/img/icons/digitalBeacon.jpg'
+import pageSpeed from '../../../public/img/icons/pageSpeed.jpg'
+import greenHost from '../../../public/img/icons/green_host.png'
+import carbonCalculator from '../../../public/img/icons/websiteCarbonCalculator.jpg'
 
 function Sustainability() {
   return (
