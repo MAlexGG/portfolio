@@ -262,6 +262,18 @@
             "website": "",
             "repository": "https://github.com/MAlexGG/newspaper",
             "category": "professional-personal"
+        },
+        {
+            "id": "23",
+            "title": "Cookeria",
+            "subtitle": "cooking events social network",
+            "description": "Cookeria is an API created with Spring Boot with authentication and autorization using Spring Security and JWT. It's developed with a MVC architecture pattern and a 3 layer architecture. It's tested wit JUnit and mockito. The front-end is developed with react using a component architecture. It's a web that a register user can be both user and chef, the chef can offer how to cook events and users can enrolled to that courses. It's responsive and I designed with Figma applying atomic design and accessibility principles. It's under construction.",
+            "team": "María Alexandra Galarza",
+            "img": "cookeria.webp",
+            "prototype": "https://www.figma.com/proto/lJLwlFPuqGRLq6kSSC4yGe/Cookeria?node-id=18-2&p=f&t=9MnizfbFZcllyB5a-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=18%3A2",
+            "website": "",
+            "repository": "https://github.com/MAlexGG/cookeria-front.git",
+            "category": "professional-personal"
         }
     ]
 }
