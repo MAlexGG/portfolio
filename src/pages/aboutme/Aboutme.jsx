@@ -26,7 +26,7 @@ function Aboutme() {
           <p className={styles.txtParagraph}>Curious and continuous learner, I&apos;m passionate about technology that improves people&apos;s lives. I aim to contribute what I&apos;ve learned both technically and personally to build meaningful, efficient, and sustainable digital products.</p>
           <p className={styles.txtParagraph}>With these knowledge, skills and the <button className={styles.btTools} onClick={goTools}><strong>tools</strong></button> I handle I feel that I can contribute to the needs of society through development.</p>
           <Button text="PROJECTS" style="btStroke" onclick={handleClick}/>
-          <h1 className={styles.txtMain}>María Alexandra Galarza Gallardo&apos;s Porfolio</h1>
+          <h1 className={styles.txtMain}>María Alexandra Galarza Gallardo&apos;s Portfolio</h1>
         </div >
       <Divisor position="down"/>
     </main>
