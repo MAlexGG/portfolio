@@ -36,6 +36,7 @@
     font-family: var(--font-secondary);
     font-size: var(--font-xxsmall);
     text-align: center;
+    margin-top: 2vh;
 }
 
 /* Media Queries */

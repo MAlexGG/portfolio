@@ -6,7 +6,7 @@
   --font-main: 'Bebas Neue', cursive;
   --font-secondary: 'Anaheim', sans-serif;
   /* Font size */
-  --font-xxxsmall: 0.8rem;
+  --font-xxxsmall: 1rem;
   --font-xxsmall: 1.2rem;
   --font-xsmall: 2rem;
   --font-small: 3rem;
@@ -49,5 +49,4 @@ body{
 a, a:visited, a:active{
   color: var(--color-secondary);
   text-decoration: none;
-  width: 50px;
 }

@@ -31,6 +31,16 @@
     font-family: var(--font-secondary);
     font-size: var(--font-xxsmall);
     text-align: center;
+    margin-top: 2vh;
+}
+
+.txtMain{
+    font-family: var(--font-secondary);
+    font-size: var(--font-xxxsmall);
+    font-weight: lighter;
+    position: absolute;
+    bottom: 0;
+    margin: 4vh;
 }
 
 .btTools{
@@ -56,6 +66,9 @@
     }
     .txtParagraph, .btTools{
         font-size: var(--font-xxxsmall);
+    }
+    .txtMain{
+        color: var(--color-main);
     }
 }
 

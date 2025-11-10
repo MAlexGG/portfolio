@@ -15,8 +15,9 @@ function Sustainability() {
       </div>
       <div className={styles.ctContent}>
         <p className={styles.txtTitle}>Green Software</p>
-        <p className={styles.txtParagraph}>For me it&apos;s important to be on this planet and take care of it, with all the complexity it has, seeing my life as a whole and being in harmony with everything that surrounds us. We know that reaching this level in the system in which we live is very difficult but not impossible, steps can be taken and change the way we relate to our environment. Technologies and internet are very polluting and I want to prove to myself that it&apos;s possible to generate a minimum impact with the software we develop.</p>
-        <p className={styles.txtParagraph}>I have calculated this page with different tools that measure the carbon footprint of web pages and the results of my portfolio are the following:</p>
+        <p className={styles.txtParagraph}>For me, it&apos;s essential to live consciously on this planet and take care of it, embracing all its complexity and seeking harmony with everything that surrounds us. I know that achieving this balance within today&apos;s system is challenging, but not impossible. Every small step counts and can transform how we relate to our environment.</p>
+        <p className={styles.txtParagraph}>Technology and the internet are highly polluting, and I want to challenge myself to prove that it&apos;s possible to develop software with minimal environmental impact.</p>
+        <p className={styles.txtParagraph}>I have analyzed this website using several tools that measure the carbon footprint of web pages. According to Digital Beacon, this portfolio performs amazingly well in terms of its environmental impact.</p>
         <div className={styles.ctGreen}>
           <img className={styles.imgFootprint} src={digitalBeacon} alt="Digital Beacon rate is that this website is amazing when it comes to its carbon footprint" />
           <img className={styles.imgFootprint} src={pageSpeed} alt="page speed insights result" />
