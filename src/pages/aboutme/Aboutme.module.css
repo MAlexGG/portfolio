@@ -57,7 +57,7 @@
 }
 
 /* Media Queries */
-@media (max-width: 576px) {
+@media (max-width: 576px) and (orientation: portrait) {
     .ctContentAbout{
         width: 90%;
     }
@@ -81,6 +81,22 @@
     }
     .btTools{
         font-size: var(--font-xxxsmall);
+    }
+}
+
+
+@media (max-width: 992px) and (orientation: landscape) {
+    .ctAboutme{
+        height: auto;
+    }
+
+    .ctContentAbout{
+        width: 90%;
+    }
+
+    .txtMain{
+        color: var(--color-main);
+        position: static;
     }
 }
 

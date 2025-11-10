@@ -97,6 +97,13 @@
     }
 }
 
+@media (max-width: 992px) and (orientation: landscape) {
+    .ctContent{
+        width: 90%;
+        margin-top: 30px;
+    }
+}
+
 /* Fade in effect */
 @keyframes fadeIn {
     0% {
