@@ -13,10 +13,6 @@
     -ms-animation: fadeIn 5s;
 }
 
-.ctNavbar{
-    width: 100vw;
-}
-
 .ctContent{
     display: flex;
     flex-direction: column;
@@ -43,8 +39,6 @@
 @media (max-width: 576px) {
     .ctContent{
         width: 90%;
-    }
-    .ctNavbar{
         margin-top: 50px;
     }
     .txtTitle{
@@ -67,6 +61,7 @@
 @media (max-width: 992px) and (orientation: landscape) {
     .ctContent{
         width: 90%;
+        margin: 50px 0;
     }
 }
 

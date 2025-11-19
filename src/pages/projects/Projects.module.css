@@ -13,12 +13,6 @@
     -ms-animation: fadeIn 5s;
 }
 
-.ctNavbar{
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-}
-
 .ctProjectType{
     display: flex;
     justify-content: center;
@@ -47,13 +41,9 @@
 
 /* Media Queries */
 @media (max-width: 576px) {
-    .ctNavbar{
-        justify-content: center;
-        margin-top: 50px;
-    }
     .ctProjectType{
         flex-direction: column;
-        padding-bottom: 25px;
+        margin-top: 50px;
     }
     .btProjects, .btProjects:visited, .btProjects:active{
         width: 220px;
@@ -67,6 +57,12 @@
         width: 260px;
         height: 260px;
         font-size: var(--font-xsmall);
+    }
+}
+
+@media (max-width: 992px) and (orientation: landscape) {
+    .ctProjectType{
+        margin-top: 20px;
     }
 }
 

@@ -21,12 +21,12 @@ function Professional() {
         :
         <div className={styles.ctContent}>
           <Navbar background="dark"/>
-          <div className={styles.ctCards}>
+          <main className={styles.ctCards}>
             <EmptyCard/>
             {data?.map((card, index) => (
               <Card key={index} card={card}/>
             )).reverse()}
-          </div>
+          </main>
         </div>
       }
     </div>

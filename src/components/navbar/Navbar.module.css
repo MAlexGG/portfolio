@@ -4,6 +4,7 @@
     align-items: center;
     width: 100vw;
     padding: 10px;
+    background-color: var(--color-main);
     position: fixed;
     z-index: 1;
 }
@@ -15,5 +16,6 @@
 @media (max-width: 576px) {
     .ctNav{
         justify-content: center;
+        padding-top: 50px;
     }
 }

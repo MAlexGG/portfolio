@@ -7,13 +7,11 @@ function Projects() {
   return (
     <div className={styles.ctProjects}>
       <Divisor position="up"/>
-      <div className={styles.ctNavbar}>
-        <Navbar/>
-      </div>
-      <div className={styles.ctProjectType}>
+      <Navbar/>
+      <main className={styles.ctProjectType}>
           <Link to={"/pedagogical"} state={true} className={styles.btProjects}>Pedagogical Projects</Link>
           <Link to={"/professional-personal"} state={true} className={styles.btProjects}>Professional & Personal Projects</Link>
-      </div>
+      </main>
       <Divisor position="down"/>
     </div>
   )

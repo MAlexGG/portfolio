@@ -27,15 +27,22 @@
     -ms-animation: fadeIn 5s;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1200px) {
     .ctCards{
         grid-template-columns: 343px 343px;
     }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
     .ctCards{
         grid-template-columns: 343px;
+        margin: 120px 0;
+    }
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+    .ctCards{
+        margin: 80px 0;
     }
 }
 

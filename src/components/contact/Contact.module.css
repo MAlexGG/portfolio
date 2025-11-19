@@ -1,4 +1,4 @@
-.ctMain{
+.ctHeader{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,8 +33,15 @@
 
 
 @media (max-width: 576px) {
-    .ctMain{
+    .ctHeader{
         justify-content: center;
         margin-top: 8%;
+    }
+}
+
+@media (max-width: 992px) and (orientation: landscape) {
+    .ctHeader{
+        background-color: var(--color-main);
+        position: fixed;
     }
 }

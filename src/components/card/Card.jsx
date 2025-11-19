@@ -16,19 +16,18 @@ function Card({card}) {
   return (
     <div className={flip ? styles.flipContainer : `${styles.flipContainer} ${styles.clicked}`} onClick={handleFlip}>
         <div className={styles.flipper}>
-            <div className={styles.front}>
+            <section className={styles.front}>
                 <h3 className={styles.txtTitle}>{title}</h3>
                 <p className={styles.txtSubtitle}>{subtitle}</p>
-            </div>
-            <div className={styles.back}>
+            </section>
+            <section className={styles.back}>
                 <Link to={`/project/${id}`} state={card}>
                     <button className={styles.btInfo}>i</button>
                 </Link>
                 <ButtonProject link={prototype} text="PROTOTYPE" btStyle="btStroke"/>
                 <ButtonProject link={website} text="WEBSITE" btStyle="btFill"/>
                 <ButtonProject link={repository} text="REPOSITORY" btStyle="btStroke"/>
-            </div>
-
+            </section>
         </div>
     </div>
   )
