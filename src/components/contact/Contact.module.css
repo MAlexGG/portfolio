@@ -6,6 +6,13 @@
     padding: 10px;
 }
 
+.ctStates{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--font-xxxsmall);
+}
+
 .ctLinks{
     display: flex;
 }

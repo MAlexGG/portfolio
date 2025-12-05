@@ -1,0 +1,37 @@
+{
+    "home": {
+        "title": ""
+    },
+    "aboutme": {
+        "title": "",
+        "paragraph_one": "",
+        "paragraph_two": "",
+        "paragraph_three": "",
+        "tools_button": "",
+        "paragraph_four": "",
+        "h1": ""
+    },
+    "tools": {
+        "title": "",
+        "paragraph_one": "",
+        "paragraph_two": "",
+        "paragraph_three": ""
+    },
+    "green": {
+        "title": "",
+        "paragraph_one": "",
+        "paragraph_two": "",
+        "paragraph_three": "",
+        "alt_digital_beacon": "",
+        "alt_page_speed": "",
+        "alt_green_host": "",
+        "alt_carbon_calculator": ""
+    },
+    "projects": {
+        "pedagogical": "",
+        "professional": ""
+    },
+    "notfound": {
+        "title": ""
+    }
+}

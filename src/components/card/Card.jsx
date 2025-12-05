@@ -14,7 +14,7 @@ function Card({card}) {
     }
 
   return (
-    <div className={flip ? styles.flipContainer : `${styles.flipContainer} ${styles.clicked}`} onClick={handleFlip}>
+    <div className={flip ? styles.flipContainer : `${styles.flipContainer} ${styles.clicked}`} onClick={handleFlip} tabIndex="0">
         <div className={styles.flipper}>
             <section className={styles.front}>
                 <h3 className={styles.txtTitle}>{title}</h3>

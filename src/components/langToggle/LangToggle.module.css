@@ -1,0 +1,60 @@
+.ctLangToggle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctToggle{
+    display: flex;
+    align-items: center;
+    width: 60px;
+    height: 30px;
+    background: var(--color-secondary);
+    border-radius: 30px;
+    padding: 2px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    border: 2px solid var(--color-secondary);
+}
+
+.ctToggle.es{
+    background: var(--color-main);
+}
+
+.btToggle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    background: var(--color-main);
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    transform: translateX(0);
+}
+
+.btToggle.en{
+     background: var(--color-secondary);
+     color: var(--color-main);
+}
+
+.es .btToggle {
+  transform: translateX(27px);
+}
+
+.txtToggle{
+    font-size: var(--font-xxxsmall);
+}
+
+.btLabel{
+    visibility: hidden;
+    margin: 0px;
+    font-family: var(--font-secondary);
+    font-size: var(--font-xxxsmall);
+    color: var(--color-secondary);
+}
+
+.ctLangToggle:hover .btLabel{
+    visibility: visible;
+}
