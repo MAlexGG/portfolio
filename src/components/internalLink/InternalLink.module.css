@@ -40,3 +40,9 @@
         width: 40px;
     }
 }
+
+@media (max-width: 992px) {
+    .txtLabel{
+        visibility: visible;
+    }
+}

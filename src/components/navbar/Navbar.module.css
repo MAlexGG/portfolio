@@ -23,5 +23,12 @@
     .ctNav{
         justify-content: center;
         padding-top: 50px;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    .ctNav{
+        gap: 30px;
     }
 }

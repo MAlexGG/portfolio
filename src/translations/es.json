@@ -2,6 +2,13 @@
     "home": {
         "title": ""
     },
+    "nav": {
+        "home": "inicio",
+        "projects": "proyectos",
+        "tools": "tic",
+        "green": "verde"
+
+    },
     "aboutme": {
         "title": "ACERCA DE MÍ",
         "paragraph_one": "¡Hola! Soy Alexandra y soy desarrolladora full-stack con una sólida formación en arquitectura y gestión de proyectos. Mi trayectoria, desde el diseño de espacios físicos hasta la creación de productos digitales, ha fortalecido mi pensamiento analítico, mi creatividad y mi mentalidad centrada en el usuario. Disfruto creando aplicaciones web limpias y fáciles de mantener con tecnologías modernas.",

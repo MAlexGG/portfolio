@@ -2,6 +2,13 @@
     "home": {
         "title": ""
     },
+    "nav": {
+        "home": "home",
+        "projects": "projects",
+        "tools": "tools",
+        "green": "green"
+
+    },
     "aboutme": {
         "title": "ABOUT ME",
         "paragraph_one": "Hi! I'm Alexandra and I'm a Full-Stack Developer with a strong foundation in architecture and project management. My journey from designing physical spaces to creating digital products has strengthened my analytical thinking, creativity, and user-centered mindset. I enjoy building clean, maintainable web applications using modern technologies.",
