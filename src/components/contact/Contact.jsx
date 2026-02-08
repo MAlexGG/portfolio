@@ -18,6 +18,12 @@ function Contact() {
 
   return (
     <header className={styles.ctHeader}>
+        <nav className={styles.ctLinks}>
+            <ExternalLink href="mailto:alexandragalarzag@gmail.com" image={contact} text="e-mail" alt="link to contact via email"/>
+            <ExternalLink href="http://www.linkedin.com/in/magalarza" image={linkedin} text="linkedIn" alt="link to linkedin profile"/>
+            <ExternalLink href={pdf} image={cv} text="cv" alt="link to download curriculum vitae"/>
+            <ExternalLink href="https://github.com/MAlexGG" image={github} text="github" alt="link to github profile"/>
+        </nav>
         <div className={styles.ctStates}>
             <button className={styles.btRefresh} onClick={handleRefresh}>
                 <img className="img-refresh" src={refresh} alt="refresh button" />
@@ -25,12 +31,6 @@ function Contact() {
             </button>
             <LangToggle/>
         </div>
-        <nav className={styles.ctLinks}>
-            <ExternalLink href="mailto:alexandragalarzag@gmail.com" image={contact} text="e-mail" alt="link to contact via email"/>
-            <ExternalLink href="http://www.linkedin.com/in/magalarza" image={linkedin} text="linkedIn" alt="link to linkedin profile"/>
-            <ExternalLink href={pdf} image={cv} text="cv" alt="link to download curriculum vitae"/>
-            <ExternalLink href="https://github.com/MAlexGG" image={github} text="github" alt="link to github profile"/>
-        </nav>
     </header>
   )
 }

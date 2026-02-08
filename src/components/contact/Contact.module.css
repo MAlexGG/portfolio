@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 95%;
+    width: 100%;
     padding: 10px;
 }
 
@@ -44,11 +44,26 @@
         justify-content: center;
         margin-top: 8%;
     }
+
+    .ctStates{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    .btRefresh{
+        display: none;
+    }
+
 }
 
 @media (max-width: 992px) and (orientation: landscape) {
     .ctHeader{
         background-color: var(--color-main);
         position: fixed;
+    }
+
+    .btRefresh{
+        display: none;
     }
 }

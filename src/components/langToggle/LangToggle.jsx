@@ -10,7 +10,7 @@ const LangToggle = () => {
         <div className={styles.ctLangToggle}>
             <div className={`${styles.ctToggle} ${language === "es" ? styles.es : ""}`} onClick={toggleLanguage}>
                 <div className={`${styles.btToggle} ${language === "es" ? styles.en : ""}`}>
-                    <p className={styles.txtToggle}>{language === "en" ? "EN": "ES"}</p>
+                    <p className={styles.txtToggle}>{language === "en" ? "ES": "EN"}</p>
                 </div>
             </div>
             <p className={styles.btLabel}>language</p>
