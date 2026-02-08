@@ -8,6 +8,8 @@ import cv from '/img/icons/cv.svg'
 import github from '/img/icons/github.svg'
 import { useNavigate } from 'react-router'
 import LangToggle from '../langToggle/LangToggle'
+import { useLanguage } from '../../context/LanguageContext'
+import { translations } from '../../translations'
 
 function Contact() {
     
@@ -15,6 +17,9 @@ function Contact() {
     const handleRefresh = () => {
         navigate("/");
     }
+
+    const { language } = useLanguage();
+    const t = translations[language].nav;
 
   return (
     <header className={styles.ctHeader}>
@@ -27,7 +32,7 @@ function Contact() {
         <div className={styles.ctStates}>
             <button className={styles.btRefresh} onClick={handleRefresh}>
                 <img className="img-refresh" src={refresh} alt="refresh button" />
-                <p className={styles.btLabel}>refresh</p>
+                <p className={styles.btLabel}>{t.refresh}</p>
             </button>
             <LangToggle/>
         </div>

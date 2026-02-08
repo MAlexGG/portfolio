@@ -2,12 +2,15 @@
     "home": {
         "title": ""
     },
+    "lang": {
+        "language": "idioma" 
+    },
     "nav": {
         "home": "inicio",
         "projects": "proyectos",
         "tools": "tic",
-        "green": "verde"
-
+        "green": "verde",
+        "refresh": "refrescar"
     },
     "aboutme": {
         "title": "ACERCA DE MÍ",
@@ -36,8 +39,8 @@
         "alt_carbon_calculator": "Website carbon calculator califica esta página como más limpia que el 97% de las páginas web probadas."
     },
     "projects": {
-        "pedagogical": "",
-        "professional": ""
+        "pedagogical": "Proyectos educativos",
+        "professional": "Proyectos personales y profesionales"
     },
     "notfound": {
         "title": "Página no encontrada"

@@ -1,10 +1,11 @@
 import { useLanguage } from "../../context/LanguageContext";
 import styles from './LangToggle.module.css'
-
+import { translations } from '../../translations'
 
 const LangToggle = () => {
 
     const { language, toggleLanguage } = useLanguage();
+    const t = translations[language].lang;
     
     return (
         <div className={styles.ctLangToggle}>
@@ -13,7 +14,7 @@ const LangToggle = () => {
                     <p className={styles.txtToggle}>{language === "en" ? "ES": "EN"}</p>
                 </div>
             </div>
-            <p className={styles.btLabel}>language</p>
+            <p className={styles.btLabel}>{t.language}</p>
         </div>
     )
 
