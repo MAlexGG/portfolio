@@ -13,10 +13,10 @@
         "h1": "María Alexandra Galarza Gallardo - Portafolio"
     },
     "tools": {
-        "title": "",
-        "paragraph_one": "",
-        "paragraph_two": "",
-        "paragraph_three": ""
+        "title": "TECNOLOGÍAS Y HERRAMIENTAS",
+        "paragraph_one": "He completado varios bootcamps y cursos donde aprendí a gestionar proyectos con metodologías ágiles y a aplicar los principios SOLID, desarrollar con TDD y realizar pruebas unitarias y de integración. También obtuve un certificado en Diseño UX y tengo credenciales en Green Software, ya que el desarrollo y la programación sostenible son áreas que me apasionan.",
+        "paragraph_two": "Para el diseño de interfaz de usuario, utilizo herramientas como Adobe Illustrator, Photoshop y Figma. En flujos de trabajo ágiles, utilizo Jira y Trello. Mi stack de desarrollo incluye HTML5, CSS3, JavaScript, React, Next.js, PHP, Laravel, Java, Spring Boot, Python, MySQL, PostgreSQL, Node.js, JWT y más. Para tests, utilizo Jest, React Testing Library, Vitest, PHPUnit y JUnit, y la mayoría de mis proyectos están disponibles en GitHub.",
+        "paragraph_three": "Para evaluar la accesibilidad, uso Axe DevTools y PageSpeed Insights, y para evaluar la sostenibilidad, confío en Digital Beacon y Website Carbon Calculator."
     },
     "green": {
         "title": "",

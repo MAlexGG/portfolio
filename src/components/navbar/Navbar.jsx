@@ -5,6 +5,7 @@ import projects from "/img/icons/projects.svg";
 import green from "/img/icons/green.svg";
 import styles from './Navbar.module.css'
 import InternalLink from '../internalLink/InternalLink';
+import LangToggle from '../langToggle/LangToggle';
 
 function Navbar({background}) {
 
@@ -14,6 +15,10 @@ function Navbar({background}) {
         <InternalLink link="/projects" image={projects} alt="navigation to projects page" text="projects" background={background}/>
         <InternalLink link="/tools" image={tools} alt="navigation to tools page" text="tools" background={background}/>
         <InternalLink link="/sustainability" image={green} alt="navigation to green page" text="green" background={background}/>
+        <div className={styles.ctLangToggle}>
+          <LangToggle/>
+        </div>
+        
     </nav>
   )
 }

@@ -4,7 +4,7 @@ import Divisor from "../../components/divisor/Divisor"
 import Button from '../../components/button/Button'
 import { useNavigate } from 'react-router'
 import { useLanguage } from '../../context/LanguageContext'
-import {translations} from '../../translations';
+import { translations } from '../../translations'
 
 function Aboutme() {
 
@@ -18,7 +18,7 @@ function Aboutme() {
     navigate("/tools")
   }
 
-  const {language} = useLanguage();
+  const { language } = useLanguage();
   const t = translations[language].aboutme;
 
   return (
