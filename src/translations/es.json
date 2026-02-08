@@ -19,14 +19,14 @@
         "paragraph_three": "Para evaluar la accesibilidad, uso Axe DevTools y PageSpeed Insights, y para evaluar la sostenibilidad, confío en Digital Beacon y Website Carbon Calculator."
     },
     "green": {
-        "title": "",
-        "paragraph_one": "",
-        "paragraph_two": "",
-        "paragraph_three": "",
-        "alt_digital_beacon": "",
-        "alt_page_speed": "",
-        "alt_green_host": "",
-        "alt_carbon_calculator": ""
+        "title": "SOFTWARE VERDE",
+        "paragraph_one": "Para mí, es esencial vivir conscientemente en este planeta y cuidarlo, aceptando toda su complejidad y buscando la armonía con todo lo que nos rodea. Sé que lograr este equilibrio en el sistema actual es un reto, pero no imposible. Cada pequeño paso cuenta y puede transformar nuestra relación con nuestro entorno.",
+        "paragraph_two": "La tecnología e Internet son altamente contaminantes y quiero desafiarme a mí mismo para demostrar que es posible desarrollar buen software con un impacto ambiental mínimo.",
+        "paragraph_three": "He analizado este sitio web con varias herramientas que miden la huella de carbono de las páginas web. Según Digital Beacon, este portafolio tiene un rendimiento excepcional en cuanto a su impacto ambiental.",
+        "alt_digital_beacon": "La calificación de Digital Beacon de este sitio web es increíble en lo que respecta a su huella de carbono.",
+        "alt_page_speed": "Resultados de Page Speed Insights para este sitio web: 97% en rendimiento, 100% en accesibilidad, 100% en prácticas recomendadas, 100% en SEO.",
+        "alt_green_host": "Este sitio web está alojado en un servidor que usa energía verde, revisado por thegreenwebfoundation.org",
+        "alt_carbon_calculator": "Website carbon calculator califica esta página como más limpia que el 97% de las páginas web probadas."
     },
     "projects": {
         "pedagogical": "",
