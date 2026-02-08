@@ -4,12 +4,13 @@
     },
     "aboutme": {
         "title": "ABOUT ME",
-        "paragraph_one": "",
-        "paragraph_two": "",
-        "paragraph_three": "",
-        "tools_button": "",
-        "paragraph_four": "",
-        "h1": ""
+        "paragraph_one": "Hi! I'm Alexandra and I'm a Full-Stack Developer with a strong foundation in architecture and project management. My journey from designing physical spaces to creating digital products has strengthened my analytical thinking, creativity, and user-centered mindset. I enjoy building clean, maintainable web applications using modern technologies.",
+        "paragraph_two": "Curious and continuous learner, I'm passionate about technology that improves people's lives. I aim to contribute what I've learned both technically and personally to build meaningful, efficient, and sustainable digital products.",
+        "paragraph_three_start": "With these knowledge, skills and the ",
+        "tools_button": "tools",
+        "paragraph_three_end": " I handle I feel that I can contribute to the needs of society through development.",
+        "projects_button": "PROJECTS",
+        "h1": "María Alexandra Galarza Gallardo's Portfolio"
     },
     "tools": {
         "title": "",

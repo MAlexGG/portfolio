@@ -4,12 +4,13 @@
     },
     "aboutme": {
         "title": "ACERCA DE MÍ",
-        "paragraph_one": "",
-        "paragraph_two": "",
-        "paragraph_three": "",
-        "tools_button": "",
-        "paragraph_four": "",
-        "h1": ""
+        "paragraph_one": "¡Hola! Soy Alexandra y soy desarrolladora full-stack con una sólida formación en arquitectura y gestión de proyectos. Mi trayectoria, desde el diseño de espacios físicos hasta la creación de productos digitales, ha fortalecido mi pensamiento analítico, mi creatividad y mi mentalidad centrada en el usuario. Disfruto creando aplicaciones web limpias y fáciles de mantener con tecnologías modernas.",
+        "paragraph_two": "Curiosa y en constante aprendizaje, me apasiona la tecnología que mejora la vida de las personas. Mi objetivo es aportar lo aprendido, tanto a nivel técnico como personal, para crear productos digitales significativos, eficientes y sostenibles.",
+        "paragraph_three_start": "Con estos conocimientos, habilidades y las ",
+        "tools_button": "herramientas",
+        "paragraph_three_end": " que manejo, siento que puedo aportar a las necesidades de la sociedad a través del desarrollo.",
+        "projects_button": "PROYECTOS",
+        "h1": "María Alexandra Galarza Gallardo - Portafolio"
     },
     "tools": {
         "title": "",
