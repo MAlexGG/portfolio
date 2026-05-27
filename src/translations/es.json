@@ -42,17 +42,61 @@
         "title": "Página no encontrada"
     },
     "projects": {
-        "title": "Projects",
+        "title": "Proyectos",
         "pedagogical": {
             "title": "Proyectos educativos",
             "projects":{
                 "1": {
-                "subtitle": "Landing page del grupo klik",
+                "subtitle": "landing page del grupo klik",
                 "description": "Este es un diseño web estático, solo para ordenadores de escritorio. No es adaptable a dispositivos móviles. Sirve como introducción a nuestro equipo y nuestra filosofía. El objetivo es aprender a usar HTML5 y CSS3 sin JavaScript. Buscamos un diseño sencillo y elegante, creado en Figma a partir de una plantilla."
                 },
                 "2": {
-                "subtitle": "Catálogo online de un comercio",
+                "subtitle": "catálogo online de un comercio",
                 "description": "Esta es una página web estática, un catálogo de sombreros para hombre y mujer. Pertenece a una tienda de antigüedades y artículos tradicionales en Barcelona. Está desarrollada con HTML5, CSS3 y JavaScript. La página no está terminada y falta la versión adaptable; solo funciona correctamente en dispositivos con una resolución de 375 x 812 píxeles."
+                },
+                "3": {
+                "subtitle": "web de selección de sacrificio aleatorio",
+                "description": "El objetivo de Wheel of Doom es crear un sistema justo y aleatorio para seleccionar a los programadores que serán sacrificados, como en un videojuego. Su propósito es eliminar jugadores. Es adaptable a dispositivos móviles y está desarrollada con HTML5, CSS3 y JavaScript, incluyendo audio y animación."
+                },
+                "4": {
+                "subtitle": "web para programar citas",
+                "description": "Handy App permite a los empleados de la empresa solicitar una cita con el CTO para resolver problemas técnicos dentro del equipo de desarrollo. El CTO puede ver todas las citas solicitadas por los programadores, quienes pueden modificar la información de sus solicitudes. Aún no se han implementado las funciones de seguridad para el usuario. Se desarrolló con HTML5, CSS3, Sass, PHP, Figma, MySQL y PHPMyAdmin-PDO."
+                },
+                "5": {
+                "subtitle": "web de gestión de eventos en línea",
+                "description": "Esta aplicación se creó para gestionar eventos en línea como talleres, clases magistrales o seminarios web. Los usuarios pueden ver las descripciones de los eventos, registrarse y darse de baja. También pueden consultar la lista de eventos a los que se han inscrito. El administrador puede crear, editar y eliminar eventos, que se guardan en un historial. Sigue una arquitectura MVC y se desarrolló con PHP 7.4, Laravel 8.0, Auth, Blade, Bootstrap y MySQL."
+                },
+                "6": {
+                "subtitle": "web para artículos donados",
+                "description": "Esta es una aplicación de donaciones que funciona como una plataforma de comercio electrónico, pero sin pasarela de pago. Los usuarios pueden donar cualquier tipo de artículo y reservar aquellos que deseen recibir. Ganan Klikcoins por sus donaciones, los cuales pueden acumularse e intercambiarse por recompensas. La aplicación cuenta con dos repositorios: uno para el front-end y otro para el back-end conectados entre sí mediante APIRest, usa tokens para validar a los usuarios. Sigue una arquitectura MVC y utiliza PHP 7.4, Laravel 8.0, MySQL, Bootstrap y Vue."
+                },
+                "7": {
+                "subtitle": "e-commerce de una tienda de comics",
+                "description": "Web creada para satisfacer la creciente demanda de una tienda de cómics ubicada en Oviedo, España, cuyas ventas aumentaron significativamente durante la pandemia. La empresa necesitaba una aplicación sólida y escalable, inicialmente para cubrir la funcionalidad de su tienda online y, en el futuro, para complementar los demás servicios online que ofrece Hangar Rebelde. La arquitectura MVC y las tecnologías utilizadas fueron PHP 7.4, Laravel 8.0, Auth, Blade, Bootstrap, Sass, Stripe (API), MySQL y PHPUnit para TDD y pruebas unitarias."
+                },
+                "8": {
+                "subtitle": "web de búsqueda de naves de Star Wars",
+                "description": "Este sitio web permite encontrar una lista de naves pertenecientes a la saga Star Wars. Está desarrollado con React y consume la API de Star Wars (https://swapi.dev/api/starships) mediante solicitudes Axios desde un servicio. También incluye paginación. Existen dos roles de usuario: un usuario regular, que puede acceder a la página de inicio, y un usuario premium, que puede acceder a la lista de naves y páginas detalladas, incluyendo películas y episodios piloto. La autorización actualmente utiliza localStorage."
+                },
+                "9": {
+                "subtitle": "web de búsqueda de recetas",
+                "description": "Este sitio web permite buscar recetas de postres. Está desarrollado con React y consume la API de Edamam (https://www.edamam.com/) mediante solicitudes Axios desde un servicio. Utiliza react-router-dom v6 para la navegación entre páginas. Existen dos roles de usuario: un usuario regular, que puede buscar recetas, y un usuario premium, que puede acceder a postres específicos y enlaces a recetas completas. La autorización actualmente utiliza localStorage. La aplicación está basada en componentes y estilizada con styled-components. Es responsiva."
+                },
+                "10": {
+                "subtitle": "diseño ux para la venta de entradas en un cine",
+                "description": "Es una web diseñada mobile first, que permite comprar entradas para un cine específico en Barcelona y ofrece packs de snacks y bebidas con descuento. Se trata de un diseño de experiencia de usuario (UX) completo, que incluye investigación de usuarios y diseño de wireframes, mockups y prototipos. El botón Repositorio contiene el estudio de caso que muestra todo el proceso de investigación y diseño. El proyecto se realizó para el curso de Certificado Profesional en Diseño de Experiencia de Usuario (UX) de Google."
+                },
+                "11": {
+                "subtitle": "diseño ux para web de adopción de mascotas",
+                "description": "Es una web responsiva que permite a los usuarios ver, elegir, adoptar o apadrinar una mascota de un refugio de animales. Se trata de un diseño de experiencia de usuario (UX) completo que incluye investigación de usuarios, wireframes, maquetas y prototipos. Está diseñada con una filosofía de degradación gradual. El botón Repositorio contiene el estudio de caso que muestra todo el proceso de investigación y diseño. Este proyecto se realizó para el curso de Certificación Profesional en Diseño de Experiencia de Usuario (UX) de Google."
+                },
+                "12": {
+                "subtitle": "diseño ux para un refugio de la ciudad",
+                "description": "City Shelter es una web responsiva que permite buscar albergues para personas necesitadas en Barcelona, consultar información sobre el albergue, su capacidad, ocupación y plazas disponibles, así como registrar a una persona y reservar su plaza. Se trata de un diseño integral de experiencia de usuario (UX), que incluye investigación de usuarios y diseño de wireframes, mockups y prototipos. Está diseñada con una filosofía de mejora progresiva (mobile first). El botón Repositorio contiene el estudio de caso que muestra todo el proceso de investigación y diseño. Este proyecto se realizó para el curso de Certificado Profesional en Diseño de Experiencia de Usuario (UX) de Google."
+                },
+                "13": {
+                "subtitle": "eco-mejora para la web de Factoría F5",
+                "description": "Este proyecto se realizó como trabajo final del Certificado de Habilidades Digitales Verdes. El objetivo de este estudio es medir la página de inicio de la organización Factoría F5, generar un plan de mejora y desarrollar una réplica de la página original (a nivel educativo) para comparar la huella de carbono inicial y final, tras seguir algunas recomendaciones, sin comprometer su diseño ni calidad. La página original está desarrollada en WordPress y la réplica en React, por lo que también será posible realizar una comparación entre tecnologías. La medición se realizará únicamente en la versión de escritorio. El análisis completo se puede consultar en el enlace del prototipo."
                 }
             }
         },

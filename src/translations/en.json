@@ -42,7 +42,7 @@
         "title": "Page not found"
     },
     "projects":{
-        "title": "Proyectos",
+        "title": "Projects",
         "pedagogical": {
             "title": "Pedagogical Projects",
             "projects": {
@@ -53,6 +53,50 @@
                 "2": {
                 "subtitle": "oline catalog for a hat store",
                 "description": "This is a static web page, a catalogue that sells hats for both women and men. It is for a traditional and antique store in Barcelona. It is made with HTML5, CSS3 and JavaScript. The page is not finished and the responsive version is missing; it only works well on devices with a resolution of 375 x 812 pixels."
+                },
+                "3": {
+                "subtitle": "random sacrifice selection app",
+                "description": "The goal of the Wheel of Doom is to create a fair and random system for selecting sacrifices among coders, like a video game. It is intended to eliminate players. It is responsive and made with HTML5, CSS3 and at least four JavaScript functions, including audio and animation."
+                },
+                "4": {
+                "subtitle": "appointment scheduling app",
+                "description": "Handy App allows company workers to request an appointment with the CTO to solve technical problems within the development team. The CTO can see all the appointments requested by the coders, and the coders can modify their request information. User security features are not implemented yet. It was made with HTML5, CSS3, Sass, PHP, Figma, MySQL, and PHPMyAdmin-PDO."
+                },
+                "5": {
+                "subtitle": "online events management app",
+                "description": "This app was created to manage online events such as workshops, masterclasses, or webinars. Users can view event descriptions, sign up, and unsubscribe. They can also see the list of events they have registered for. The administrator can create, edit, and delete events, which are saved on a history page. It follows an MVC architecture and was built using PHP 7.4, Laravel 8.0, Auth, Blade, Bootstrap, and MySQL."
+                },
+                "6": {
+                "subtitle": "all-purpose donation app",
+                "description": "This is a donation app that works like an e-commerce platform but without a payment gateway. People can donate any kind of items and also reserve those they wish to receive. Users earn Klikcoins for the donations they make, which can be accumulated and exchanged for rewards. This app has two repositories: one for the front end and one for the back end. It is not deployed yet, and the front end consumes the back end through the API using tokens to validate users. It follows an MVC architecture and uses PHP 7.4, Laravel 8.0, MySQL, Bootstrap, and Vue."
+                },
+                "7": {
+                "subtitle": "e-commerce for a comic store",
+                "description": "Application created to meet the growing sales demand of a comics store located in Oviedo - Spain, which saw its sales increase significantly during the pandemic. The company needed to create a solid and scalable application, initially to cover its online store functionality and in the future to complement the other online services that Hangar Rebelde offers. MVC architecture and technologies used were PHP 7.4, Laravel 8.0, Auth, Blade, Bootstrap, Sass, Stripe (API), MySql, PHPUnit for TDD and unit tests."
+                },
+                "8": {
+                "subtitle": "star wars spaceship search website",
+                "description": "This is a website that lets you find a list of ships belonging to the Star Wars saga. It is developed with React and consumes the Star Wars API (https://swapi.dev/api/starships) using Axios requests from a service. It also includes pagination. There are two user roles: a regular user, who can access the home page, and a premium user, who can access the list of ships and detailed pages including films and pilots. Authorization currently uses localStorage."
+                },
+                "9": {
+                "subtitle": "recipe search website",
+                "description": "This is a website that lets you search for dessert recipes. It is developed with React and consumes the Edamam API (https://www.edamam.com/) using Axios requests from a service. It uses react-router-dom v6 to navigate between pages. There are two user roles: a regular user, who can search for recipes, and a premium user, who can access specific desserts and full recipe links. Authorization currently uses localStorage. The app is component-based and styled with styled-components. It's responsive."
+                },
+                "10": {
+                "subtitle": "ux design for a mobile ticketing web",
+                "description": "Movie theater app is a web that allows you to buy movie tickets for a specific cinema in the city of Barcelona and offers snack and drink packs with discounts. It's a complete user experience (UX) design including user research and design of wireframes, mockups and prototypes. The 'repository' button contains the case study that shows the entire research and design process. The project was carried out for the course of Google User Experience (UX) Design, Professional Certificate."
+                },
+                "11": {
+                "subtitle": "ux design for a pet shelter web",
+                "description": "Pet Adoption App is a responsive application that allows users to view, choose, adopt, or sponsor a pet from an animal shelter. It is a complete user experience (UX) design including user research, wireframes, mockups, and prototypes. It is designed with a graceful degradation philosophy. The 'repository' button contains the case study that shows the entire research and design process. The project was carried out for the Google User Experience (UX) Design Professional Certificate course."
+                },
+                "12": {
+                "subtitle": "ux design for a city shelter web",
+                "description": "City Shelter App is a responsive web application that allows you to search for a shelter for people who need it in the city of Barcelona, view information about the shelter, its capacity, occupation and vacant spaces, as well as being able to register a person and reserve their space. It's a total design of user experience (UX) including user research and design of wireframes, mockups and prototypes. It's designed with a progressive enhancement philosophy (mobile first). The 'repository' button contains the case study that shows the entire research and design process. The project was carried out for the course of Google User Experience (UX) Design, Professional Certificate."
+                },
+                "13": {
+                "subtitle": "green improvement of Factoría F5 website",
+                "description": "This project was carried out as the final work of the Green Digital Skills Certificate, the objective of this study is to measure Factoría F5 organization's landing page, generate an improvement plan and develop a replica from the original page (at an educational level) to compare the initial and final carbon footprint, after following some recommendations, without compromising its design and quality. The original page is developed in Wordpress and the replica in React, so it will also be possible to have a comparison between technologies, it will only be measured in desktop version. The full analysis can be found at the prototype link."
                 }
             }
         },
@@ -66,6 +110,54 @@
                 "2": {
                 "subtitle": "online catalog for a macrame store",
                 "description": "This is a product catalogue with a payment gateway (Stripe consumed through an API) and chat (WhatsApp consumed through an API), made with HTML5, CSS3 and vanilla JavaScript. I made the UX/UI design in Figma for both desktop and mobile, and the development was done as a team. It's responsive."
+                },
+                "3": {
+                "subtitle": "",
+                "description": ""
+                },
+                "4": {
+                "subtitle": "",
+                "description": ""
+                },
+                "5": {
+                "subtitle": "",
+                "description": ""
+                },
+                "6": {
+                "subtitle": "",
+                "description": ""
+                },
+                "7": {
+                "subtitle": "",
+                "description": ""
+                },
+                "8": {
+                "subtitle": "",
+                "description": ""
+                },
+                "9": {
+                "subtitle": "",
+                "description": ""
+                },
+                "10": {
+                "subtitle": "",
+                "description": ""
+                },
+                "11": {
+                "subtitle": "",
+                "description": ""
+                },
+                "12": {
+                "subtitle": "",
+                "description": ""
+                },
+                "13": {
+                "subtitle": "",
+                "description": ""
+                },
+                "14": {
+                "subtitle": "",
+                "description": ""
                 }
             }
         }
