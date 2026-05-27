@@ -1,7 +1,12 @@
 /* eslint-disable react/prop-types */
+import { useLanguage } from '../../context/LanguageContext'
+import { translations } from '../../translations';
 import styles from './ButtonProject.module.css'
 
 function ButtonProject({text, link, btStyle}) {
+
+  const { language } = useLanguage();
+  const t = translations[language].lang.code;
 
   return (
     <>
@@ -10,7 +15,7 @@ function ButtonProject({text, link, btStyle}) {
         ? 
         <a className={styles[btStyle]} href={link} rel="noreferrer" target="_blank">{text}</a> 
         :
-        <button disabled className={`${styles[btStyle]} ${styles.btNotReady}`}>{text} NOT READY</button>
+        <button disabled className={`${styles[btStyle]} ${styles.btNotReady}`}>{`${text} ${t === "en" ? "NOT READY" : "NO LISTO"}`}</button>
     }
     </>
     

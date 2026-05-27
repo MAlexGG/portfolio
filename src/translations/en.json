@@ -3,7 +3,8 @@
         "title": ""
     },
     "lang": {
-        "language": "language" 
+        "language": "language",
+        "code": "en" 
     },
     "nav": {
         "home": "home",
@@ -40,6 +41,10 @@
     },
     "notfound": {
         "title": "Page not found"
+    },
+    "emptyCard": {
+        "title": "SOON...",
+        "text": "happy to find my next project..."
     },
     "projects":{
         "title": "Projects",

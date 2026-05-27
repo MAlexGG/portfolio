@@ -4,7 +4,7 @@ import styles from './Card.module.css'
 import ButtonProject from '../buttonProject/ButtonProject';
 import { Link } from 'react-router-dom';
 
-function Card({card}) {
+function Card({card, lang}) {
 
     const {id, title, subtitle, prototype, website, repository} = card;
     const [flip, setFlip] = useState(true);
@@ -21,12 +21,12 @@ function Card({card}) {
                 <p className={styles.txtSubtitle}>{subtitle}</p>
             </section>
             <section className={styles.back}>
-                <Link to={`/project/${id}`} state={card}>
+                <Link to={`/project/${id}`} state={{ info:card, language:lang }}>
                     <button className={styles.btInfo}>i</button>
                 </Link>
-                <ButtonProject link={prototype} text="PROTOTYPE" btStyle="btStroke"/>
-                <ButtonProject link={website} text="WEBSITE" btStyle="btFill"/>
-                <ButtonProject link={repository} text="REPOSITORY" btStyle="btStroke"/>
+                <ButtonProject link={prototype} text={lang === "Projects" ? "PROTOTYPE" : "PROTOTIPO"} btStyle="btStroke"/>
+                <ButtonProject link={website} text={lang === "Projects" ? "WEBSITE" : "SITIO WEB"} btStyle="btFill"/>
+                <ButtonProject link={repository} text={lang === "Projects" ? "REPOSITORY" : "REPOSITORIO"} btStyle="btStroke"/>
             </section>
         </div>
     </div>

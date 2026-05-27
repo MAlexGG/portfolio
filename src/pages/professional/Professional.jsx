@@ -14,25 +14,25 @@ function Professional() {
     const location = useLocation();
     const [visible, setVisible] = useState(location.state);
     const { language } = useLanguage();
-    const t = translations[language].projects.professional.projects;
+    const t = translations[language].projects.professional;
 
      const data = professionalList.projects.map(project => ({
       ...project,
-      ...t[project.id]
+      ...t.projects[project.id]
     }))
 
   return (
     <div className={styles.ctProfessional}>
        {
        visible ? 
-       <Title titleList="PROFESSIONAL PERSONAL PROJECTS" setVisible={setVisible}/>
+       <Title titleList={t.title.toLowerCase()} setVisible={setVisible}/>
         :
         <div className={styles.ctContent}>
           <Navbar background="dark"/>
           <main className={styles.ctCards}>
             <EmptyCard/>
             {data?.map((card, index) => (
-              <Card key={index} card={card}/>
+              <Card key={index} card={card} lang={translations[language].projects.title}/>
             )).reverse()}
           </main>
         </div>
