@@ -112,52 +112,88 @@
                 "description": "This is a product catalogue with a payment gateway (Stripe consumed through an API) and chat (WhatsApp consumed through an API), made with HTML5, CSS3 and vanilla JavaScript. I made the UX/UI design in Figma for both desktop and mobile, and the development was done as a team. It's responsive."
                 },
                 "3": {
-                "subtitle": "",
-                "description": ""
+                "subtitle": "architecture studio",
+                "description": "Website for an architecture company that wants to show their projects and publications. It was developed with WordPress using the Elementor plugin and doesn't have a UI design, since the elements provided by the software were used. It also doesn't have a repository on github."
                 },
                 "4": {
-                "subtitle": "",
-                "description": ""
+                "subtitle": "bike route business",
+                "description": "This is the website for a local bike rental business located in the French north-Alpine region. All the development was done by Sergio Corcuera, and I collaborated on the UI design, improving the previous design for a better user experience."
                 },
                 "5": {
-                "subtitle": "",
-                "description": ""
+                "subtitle": "my personal portfolio website",
+                "description": "This is my personal portfolio website to showcase my pedagogical, professional, and personal projects that I completed alone or in teams. It's developed with React and consumes data from JSON files. The site is responsive and uses CSS modules instead of a library. It's deployed on GitHub Pages, and the workflow is automated with GitHub Actions for continuous delivery. It underwent a complete update of the React version where class components were changed to functional ones."
                 },
                 "6": {
-                "subtitle": "",
-                "description": ""
+                "subtitle": "pedagogical responsive website",
+                "description": "This is a website for pedagogical purposes for fullstack bootcamp students, developed in React and Laravel, it shows how to read a json file, how to make a fake CRUD using the browser memory, how to make a CRUD with JSON-Server using Fetch API and another using Axios Library and hooks, and a last one consumes a PHP API with auth and tokens."
                 },
                 "7": {
-                "subtitle": "",
-                "description": ""
+                "subtitle": "mobile virtual zoo",
+                "description": "This is a simple mobile app that works as a virtual zoo. It's developed with React and consumes the Zoo Animal API (https://zoo-animal-api.herokuapp.com) with Axios requests. It uses the Styled Components library and react-router-dom v6 to navigate between pages. It's not responsive yet and is designed for mobile only."
                 },
                 "8": {
-                "subtitle": "",
-                "description": ""
+                "subtitle": "past, present and future tarot",
+                "description": "This is a tarot project that uses the Sakura Cards from the API https://{API.KEY}.mockapi.io/sakura-cards/ Sakura Tarot uses the cards from the manga series Cardcaptor Sakura. You can get a past, present, and future reading from the cards you choose. It's developed with React, routes with react-router-dom, and styles with the Styled Components library. The UI was designed in Figma."
                 },
                 "9": {
-                "subtitle": "",
-                "description": ""
+                "subtitle": "TDD of a basic JS calculator",
+                "description": "This is an application that has the 4 basic functions of a calculator (addition, subtraction, multiplication and division). The calculator has a screen that displays operations and results. It starts at 0 and includes a button to reset (C) and another with an equal sign to show results. It can perform operations with immediate results. It was developed with HTML, CSS and javascript. The Test-Driven Development methodology was used and the library Jest v.29.3.1 with ESModules was used with babel v.7.20.2 as compiler."
                 },
                 "10": {
-                "subtitle": "",
-                "description": ""
+                "subtitle": "simple to-do crud",
+                "description": "This is an educational exercise to understand how to do a simple CRUD with React using axios and JSON-server for data persistence. Styled Components are used for CSS. You can create, read, edit, and delete tasks, all with UX validations — you can't create empty tasks, and you can search for existing ones. The UI was made after the functionality and was done directly on development without previous design. All services are tested with Mock Service Worker library. It's responsive."
                 },
                 "11": {
-                "subtitle": "",
-                "description": ""
+                "subtitle": "library manager",
+                "description": "This is a simple CRUD project whose objective is to show, edit, delete and update books, it's developed in vanilla PHP, with an MVC architecture and with object-oriented programming, bootstrap is partially used for the styles and it's responsive. It has a MySQL database. The UI was made after the functionality and was done directly on development without previous design."
                 },
                 "12": {
-                "subtitle": "",
-                "description": ""
+                "subtitle": "website that capture your thoughts",
+                "description": "This is an web where registered users can create, edit, and delete cards with an interesting thought, image, and author. Anyone can see all thoughts, but you have to be registered to like others' thoughts (the heart icon). It's developed with Laravel following an MVC architecture, using Blade and Bootstrap for styling, and it's responsive. It includes a MySQL database and feature tests."
                 },
                 "13": {
-                "subtitle": "",
-                "description": ""
+                "subtitle": "do you know that?",
+                "description": "This is a single-page responsive application that calls the API https://uselessfacts.jsph.pl and gets random curious facts, which are displayed on screen. If you want you can save your favorites facts and also you can delete the last one. It's tested with jest, globals for mocking and jsdom."
                 },
                 "14": {
-                "subtitle": "",
-                "description": ""
+                "subtitle": "travel photo album",
+                "description": "This is a website for personal use, it's a photo album that shows your photos classified by continent, country and city, you can upload an image, with a title and description, CRUD for cities and countries, you can register as a regular user, but an admin user validates your registration for using the web. The API is made with Laravel, MVC architecture developed with TDD and it's consumed by a React App."
+                },
+                "15": {
+                "subtitle": "Coloquio Geomateriales",
+                "description": "This is a responsive website to promote a PHI network colloquium in Ecuador, in which several universities participate, publicize the organizers, speakers and the schedule. It also has a registration page that redirects to an external payment gateway. It's designed in Figma using the atomic design methodology, and it's developed in React with Next following a component-based architecture. It's deployed on Vercel."
+                },
+                "16": {
+                "subtitle": "dreams of traveling",
+                "description": "This responsive website works as a social network where authorized users can create the trip of their dreams, all users will be able to see each user's trips and can give ratings. It's designed with Figma using atomic design methodology. There are two APIs that consumes the frontend developed with React and Next. The first one is developed with Laravel using Sanctum for authentication and authorization. The second one is developed in Spring Boot using Spring Security and JWT to provide tokens. It follows a MVC architecture with a repository pattern (three layered). Uses a PostgreSQL database. It uses DTO pattern and exceptions handlers."
+                },
+                "17": {
+                "subtitle": "japanese food cart",
+                "description": "Kamakura food started as a project for my coders to whom I teach and ended up being an exciting challenge for me, this project is made in vanilla javascript and carried out with functional programming, its objective is that  the information that comes from an array of objects can be rendered dynamically, in addition to being able to add the products to a shopping cart and calculate the subtotal according to the chosen quantity and the total that will be rendered in a receipt. It's tested with vitests and jsdom."
+                },
+                "18": {
+                "subtitle": "book managment software",
+                "description": "This is a simple book management software developed in Java 17. It uses the Scanner class to interact with users, follows an MVC architecture and DAO pattern, and uses a PostgreSQL database. It has one test of the create service method."
+                },
+                "19": {
+                "subtitle": "book managment API",
+                "description": "This is a simple book management API developed with Spring Boot. It follows an MVC three tier architecture and uses a PostgreSQL database."
+                },
+                "20": {
+                "subtitle": "website for the artist",
+                "description": "Estela Julia is a multidisciplinary artist born in Pamplona in 2000. She is a singer, cellist, composer and dancer with her own eclectic musical style that fuses genres such as jazz, pop, hip-hop, latin, flamenco and universal folklore. She had the need to show her work and advertise her tours and events. The website is developed with React + Vite and is made up of 2 parts, a public one where it shows her bio, her videos and her tours and another private one that would be a dashboard in which she can add or delete videos and tours. It's using mockAPI to manage the resources."
+                },
+                "21": {
+                "subtitle": "a digital newspaper API",
+                "description": "Newspaper is an simple API created with Spring Boot without authentication and authorization, passing the user id through the route, with a one to many relationship between articles and users. Has a Image entity for images file upload. It's developed with a MVC three tier architecture. It's tested with postman."
+                },
+                "22": {
+                "subtitle": "cooking events social network",
+                "description": "Cookeria is a web created with Spring Boot with authentication and authorization using Spring Security and JWT. It's developed with a MVC three tier architecture. It's tested with JUnit and mockito. The front-end is developed with React using a component architecture. It's a web that a registered user can be both user and chef, chefs can offer cooking events, and users can enroll in those workshops. It's responsive and I designed with Figma applying atomic design and accessibility principles. It's under construction."
+                },
+                "23": {
+                "subtitle": "covid-19 data charts",
+                "description": "Disease Report is a modern, interactive dashboard built with React that visualizes global COVID-19 data using maps, charts, and dynamic statistics. The project focuses on data visualization, accessibility, and responsive design. It uses the https://disease.sh/docs/ API and was designed with Stitch AI and Figma for fine-tuning and prototyping. The design was slightly modified during development. It utilizes React's MUI chart libraries and simple maps. It is developed using a component-based architecture, as the project is not intended to grow. It was conceived with accessibility principles in mind, particularly in the map visualization, which uses colors and patterns."
                 }
             }
         }
