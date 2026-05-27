@@ -6,12 +6,20 @@ import Navbar from '../../components/navbar/Navbar';
 import EmptyCard from '../../components/emptyCard/EmptyCard';
 import Card from '../../components/card/Card';
 import { useLocation } from 'react-router-dom';
+import { translations } from '../../translations';
+import { useLanguage } from '../../context/LanguageContext';
 
 function Professional() {
 
     const location = useLocation();
     const [visible, setVisible] = useState(location.state);
-    const data = professionalList.projects;
+    const { language } = useLanguage();
+    const t = translations[language].projects.professional.projects;
+
+     const data = professionalList.projects.map(project => ({
+      ...project,
+      ...t[project.id]
+    }))
 
   return (
     <div className={styles.ctProfessional}>

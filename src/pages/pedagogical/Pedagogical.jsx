@@ -6,13 +6,20 @@ import Card from '../../components/card/Card';
 import Navbar from '../../components/navbar/Navbar'
 import EmptyCard from '../../components/emptyCard/EmptyCard';
 import { useLocation } from 'react-router-dom';
+import { useLanguage } from '../../context/LanguageContext';
+import { translations } from '../../translations'
 
 function Pedagogical() {
 
   const location = useLocation();
   const [visible, setVisible] = useState(location.state);
-  const data = pedagogicalList.projects;
+  const { language } = useLanguage();
+  const t = translations[language].projects.pedagogical.projects;
 
+  const data = pedagogicalList.projects.map(project => ({
+    ...project,
+    ...t[project.id]
+  }))
 
   return (
     <div className={styles.ctPedagogical}>

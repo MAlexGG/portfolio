@@ -38,11 +38,39 @@
         "alt_green_host": "This website is hosted Green - checked by thegreenwebfoundation.org",
         "alt_carbon_calculator": "The website carbon calculator rate this page as cleaner than 97% of web pages tested. "
     },
-    "projects": {
-        "pedagogical": "Pedagogical Projects",
-        "professional": "Professional & Personal Projects"
-    },
     "notfound": {
         "title": "Page not found"
+    },
+    "projects":{
+        "title": "Proyectos",
+        "pedagogical": {
+            "title": "Pedagogical Projects",
+            "projects": {
+                "1": {
+                "subtitle": "klik group landing page",
+                "description": "This is a static website design only for desktop. It is not responsive. It serves as an introduction to our team and our state of mind. The goal is to learn how to use HTML5 and CSS3 without any JavaScript functions. We aimed for a simple and elegant design made in Figma based on a template."
+                },
+                "2": {
+                "subtitle": "oline catalog for a hat store",
+                "description": "This is a static web page, a catalogue that sells hats for both women and men. It is for a traditional and antique store in Barcelona. It is made with HTML5, CSS3 and JavaScript. The page is not finished and the responsive version is missing; it only works well on devices with a resolution of 375 x 812 pixels."
+                }
+            }
+        },
+        "professional": {
+            "title": "Professional & Personal Projects",
+            "projects": {
+                "1": {
+                "subtitle": "my personal resume website",
+                "description": "This is my resume made with HTML5, CSS3 and vanilla JavaScript. It has a flirtatious design where I show different information distributed in a lateral navigation bar. I added some CSS animations for a more dynamic experience. I made the UX/UI design in Figma for both desktop and mobile. It's responsive."
+                },
+                "2": {
+                "subtitle": "online catalog for a macrame store",
+                "description": "This is a product catalogue with a payment gateway (Stripe consumed through an API) and chat (WhatsApp consumed through an API), made with HTML5, CSS3 and vanilla JavaScript. I made the UX/UI design in Figma for both desktop and mobile, and the development was done as a team. It's responsive."
+                }
+            }
+        }
     }
+
 }
+
+

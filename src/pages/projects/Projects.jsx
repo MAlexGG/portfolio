@@ -15,8 +15,8 @@ function Projects() {
       <Divisor position="up"/>
       <Navbar/>
       <main className={styles.ctProjectType}>
-          <Link to={"/pedagogical"} state={true} className={styles.btProjects}>{t.pedagogical}</Link>
-          <Link to={"/professional-personal"} state={true} className={styles.btProjects}>{t.professional}</Link>
+          <Link to={"/pedagogical"} state={true} className={styles.btProjects}>{t.pedagogical.title}</Link>
+          <Link to={"/professional-personal"} state={true} className={styles.btProjects}>{t.professional.title}</Link>
       </main>
       <Divisor position="down"/>
     </div>

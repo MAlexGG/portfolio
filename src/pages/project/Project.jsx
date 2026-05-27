@@ -6,7 +6,7 @@ function Project() {
 
     const location = useLocation();
     const data = location.state; 
-
+    
   return (
     <main className={styles.ctProject}>
       <Link to={`/${data.category}`} className={styles.btProjectClose}><img src={close} alt="close button" /></Link>

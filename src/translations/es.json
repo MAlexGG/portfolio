@@ -38,11 +38,36 @@
         "alt_green_host": "Este sitio web está alojado en un servidor que usa energía verde, revisado por thegreenwebfoundation.org",
         "alt_carbon_calculator": "Website carbon calculator califica esta página como más limpia que el 97% de las páginas web probadas."
     },
-    "projects": {
-        "pedagogical": "Proyectos educativos",
-        "professional": "Proyectos personales y profesionales"
-    },
     "notfound": {
         "title": "Página no encontrada"
-    }
+    },
+    "projects": {
+        "title": "Projects",
+        "pedagogical": {
+            "title": "Proyectos educativos",
+            "projects":{
+                "1": {
+                "subtitle": "Landing page del grupo klik",
+                "description": "Este es un diseño web estático, solo para ordenadores de escritorio. No es adaptable a dispositivos móviles. Sirve como introducción a nuestro equipo y nuestra filosofía. El objetivo es aprender a usar HTML5 y CSS3 sin JavaScript. Buscamos un diseño sencillo y elegante, creado en Figma a partir de una plantilla."
+                },
+                "2": {
+                "subtitle": "Catálogo online de un comercio",
+                "description": "Esta es una página web estática, un catálogo de sombreros para hombre y mujer. Pertenece a una tienda de antigüedades y artículos tradicionales en Barcelona. Está desarrollada con HTML5, CSS3 y JavaScript. La página no está terminada y falta la versión adaptable; solo funciona correctamente en dispositivos con una resolución de 375 x 812 píxeles."
+                }
+            }
+        },
+        "professional": {
+            "title": "Proyectos personales y profesionales",
+            "projects":{
+                "1": {
+                "subtitle": "currículum personal",
+                "description": "Este es mi currículum, creado con HTML5, CSS3 y JavaScript puro. Tiene un diseño atractivo donde muestro información variada distribuida en una barra de navegación lateral. Añadí animaciones CSS para una experiencia más dinámica. El diseño UX/UI lo realicé en Figma para escritorio y dispositivos móviles. Es adaptable a diferentes dispositivos."
+                },
+                "2": {
+                "subtitle": "catálogo online de macrame",
+                "description": "Este es un catálogo de productos con pasarela de pago (Stripe, a través de una API) y chat (WhatsApp, también a través de una API), desarrollado con HTML5, CSS3 y JavaScript puro. Realicé el diseño UX/UI en Figma para escritorio y móvil, y el desarrollo se llevó a cabo en equipo. Es adaptable a diferentes dispositivos."
+                }
+            }
+        }}
+    
 }
